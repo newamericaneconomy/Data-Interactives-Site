@@ -1,0 +1,1191 @@
+html {
+  overflow: hidden !important;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#map {
+  top: 99px;
+  bottom: 0;
+  left: 395px;
+  position: absolute;
+  width:100%;
+}
+
+#map-switch-menu {
+  width: 360px;
+  position: absolute;
+  background-color: #fff;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  flex-direction: column;
+  top: 18px;
+  left: 18px;
+  padding-bottom: 50px;
+  padding-right: 0px;
+  padding-left: 76px;
+  padding-top: 53px;
+}
+
+.fa {
+  vertical-align: bottom;
+}
+
+.fa-hand-o-up {
+  vertical-align: unset;
+}
+
+.fa-filter {
+  vertical-align: text-top;
+}
+
+.fa-adjust {
+  vertical-align: baseline;
+}
+
+.sidebar-content::-webkit-scrollbar-track {
+    border-radius: 9px;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.sidebar-content::-webkit-scrollbar
+{
+    width: 9px;
+    max-height: 20px;
+    background-color: rgba(245, 245, 245, 0);
+}
+
+.sidebar-content::-webkit-scrollbar-thumb
+{
+    border-radius: 9px;
+    max-height: 20px;
+    background-color: rgba(226, 226, 226, 0.699);
+}
+
+.layer-legend-titles {
+  font-family: Foundersgrotesktext, sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  padding-bottom: 10px;
+  position: absolute;
+  bottom: 119px;
+  right: 119px;
+  width: 140px;
+}
+
+.layer-legend-titles a {
+  color: #21d279;
+}
+
+.see_more_button {
+  color: #000;
+  font-family: Foundersgrotesktext, sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  padding-top: 25px;
+}
+
+iframe {
+  width: 100%;
+  height: 78.8vh;
+  overflow: hidden;
+  border: 0;
+}
+
+.sidebar {
+  overflow-x: hidden;
+}
+
+.sidebar-begin {
+  font-family: Foundersgrotesk, sans-serif;
+  font-size: 2em;
+  font-weight: 500;
+  color: #05CE7C;
+  padding-left: 20px;
+}
+
+.radio {
+  /* secret sauce to styling radio buttons */
+  appearance: none;
+  -webkit-appearance: none;
+  -mozilla-appearance: none;
+  /* Aligning your label text and your radio */
+  vertical-align: text-bottom;
+}
+
+input[type="radio"]:checked+label {
+  font-family: Foundersgrotesktext, sans-serif;
+  font-weight: 800;
+  text-transform: uppercase;
+  /* font-weight: bold;  */
+}
+
+label {
+  font-family: Foundersgrotesktext, sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+label:hover {
+  font-weight: 800;
+  text-transform: uppercase;
+}
+
+/* United States Radio Button  */
+.ck7qjivpv195r1io3178901h5 {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #000;
+  position: relative;
+  left: -9px;
+  top: -10px;
+  transform: rotate(90deg);
+  z-index: 10;
+  cursor: pointer;
+}
+
+.ck7qjivpv195r1io3178901h5:focus {
+  outline: 0;
+}
+
+#ck7qjivpv195r1io3178901h5:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 32px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck7qjivpv195r1io3178901h5:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 30px solid #000;
+}
+
+
+/* creating the illusion of inner and outer elements with double borders */
+/* hover */
+.ck7qjivpv195r1io3178901h5:hover {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #000;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 10;
+}
+
+#ck7qjivpv195r1io3178901h5:hover:before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck7qjivpv195r1io3178901h5:hover:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #000;
+}
+
+/* clicked  */
+
+.ck7qjivpv195r1io3178901h5:checked {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #000;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 10;
+}
+
+#ck7qjivpv195r1io3178901h5:checked:before {
+  content: '';
+  position: absolute;
+  left: -12px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck7qjivpv195r1io3178901h5:checked:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #000;
+}
+
+/* State Radio Button  */
+.ck7qh0mxy0hpa1jo70wpzw08p {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #393745;
+  position: relative;
+  left: -10px;
+  top: -10px;
+  transform: rotate(90deg);
+  z-index: 9;
+  cursor: pointer;
+}
+
+.ck7qh0mxy0hpa1jo70wpzw08p:focus {
+  outline: 0;
+}
+
+#ck7qh0mxy0hpa1jo70wpzw08p:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 32px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+/* hover */
+.ck7qh0mxy0hpa1jo70wpzw08p:hover {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #393745;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 9;
+}
+
+#ck7qh0mxy0hpa1jo70wpzw08p:hover:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck7qh0mxy0hpa1jo70wpzw08p:hover:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #393745;
+}
+
+/* clicked  */
+
+#ck7qh0mxy0hpa1jo70wpzw08p:checked:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck7qh0mxy0hpa1jo70wpzw08p:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 30px solid #393745;
+}
+
+
+/* creating the illusion of inner and outer elements with double borders */
+.ck7qh0mxy0hpa1jo70wpzw08p:checked {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #393745;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 9;
+}
+
+#ck7qh0mxy0hpa1jo70wpzw08p:checked:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #393745;
+}
+
+/* District Radio Button  */
+.ck7xpp57900dg1ipj4r3kgadf {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #05CE7C;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  transform: rotate(90deg);
+  z-index: 8;
+  cursor: pointer;
+}
+
+.ck7xpp57900dg1ipj4r3kgadf:focus {
+  outline: 0;
+}
+
+#ck7xpp57900dg1ipj4r3kgadf:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 32px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+/* hover */
+.ck7xpp57900dg1ipj4r3kgadf:hover {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #05CE7C;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 8;
+}
+
+#ck7xpp57900dg1ipj4r3kgadf:hover:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck7xpp57900dg1ipj4r3kgadf:hover:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #05CE7C;
+}
+
+/* clicked  */
+
+#ck7xpp57900dg1ipj4r3kgadf:checked:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck7xpp57900dg1ipj4r3kgadf:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 30px solid #05CE7C;
+}
+
+
+/* creating the illusion of inner and outer elements with double borders */
+.ck7xpp57900dg1ipj4r3kgadf:checked {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #05CE7C;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 8;
+}
+
+#ck7xpp57900dg1ipj4r3kgadf:checked:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #05CE7C;
+}
+
+/* County Radio Button  */
+.ck17um4hj085y1cmmd90ooink {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #ffdb20;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  transform: rotate(90deg);
+  z-index: 7;
+  cursor: pointer;
+}
+
+.ck17um4hj085y1cmmd90ooink:focus {
+  outline: 0;
+}
+
+#ck17um4hj085y1cmmd90ooink:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 32px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+/* hover */
+.ck17um4hj085y1cmmd90ooink:hover {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #ffdb20;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 7;
+}
+
+#ck17um4hj085y1cmmd90ooink:hover:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck17um4hj085y1cmmd90ooink:hover:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #ffdb20;
+}
+
+/* clicked  */
+
+#ck17um4hj085y1cmmd90ooink:checked:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck17um4hj085y1cmmd90ooink:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 30px solid #ffdb20;
+}
+
+
+/* creating the illusion of inner and outer elements with double borders */
+.ck17um4hj085y1cmmd90ooink:checked {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #ffdb20;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 7;
+}
+
+#ck17um4hj085y1cmmd90ooink:checked:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #ffdb20;
+}
+
+/* MSA Radio Button  */
+.ck7qm5peo019v1imsllunq6gy {
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-bottom: 30px solid #FB594D;
+  position: relative;
+  top: -10px;
+  left: -10px;
+  transform: rotate(90deg);
+  z-index: 6;
+  cursor: pointer;
+}
+
+.ck7qm5peo019v1imsllunq6gy:focus {
+  outline: 0;
+}
+
+#ck7qm5peo019v1imsllunq6gy:before {
+  content: '';
+  position: absolute;
+  left: -7px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 32px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck7qm5peo019v1imsllunq6gy:after {
+  content: '';
+  position: absolute;
+  left: -10px;
+  top: 30px;
+  width: 0;
+  height: 0;
+  border: 10px solid transparent;
+  border-top: 30px solid #FB594D;
+}
+
+
+/* hover */
+.ck7qm5peo019v1imsllunq6gy:hover {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #FB594D;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 6;
+}
+
+#ck7qm5peo019v1imsllunq6gy:hover:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+
+#ck7qm5peo019v1imsllunq6gy:hover:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #FB594D;
+}
+
+/* clicked  */
+
+
+/* creating the illusion of inner and outer elements with double borders */
+.ck7qm5peo019v1imsllunq6gy:checked {
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom: 40px solid #FB594D;
+  position: relative;
+  top: -20px;
+  transform: rotate(90deg);
+  z-index: 6;
+}
+
+#ck7qm5peo019v1imsllunq6gy:checked:before {
+  content: '';
+  position: absolute;
+  left: -13px;
+  top: 40px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #fff;
+  /* border-bottom: 50px solid #fff; */
+}
+
+#ck7qm5peo019v1imsllunq6gy:checked:after {
+  content: '';
+  position: absolute;
+  left: -15px;
+  top: 39px;
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-top: 40px solid #FB594D;
+}
+
+.btn-outline-success {
+  width: 100%;
+}
+
+.header {
+  padding-top: 21px;
+  padding-bottom: 1px;
+  position: relative;
+  z-index: 99;
+  background: #fff;
+}
+
+.header_logo {
+  width: 250px;
+  margin-left: 40px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.header_nav-list-item {
+  margin-top: 10px;
+  margin-bottom: 15px;
+  display: inline-block;
+  padding-right: 25px;
+}
+
+.header_nav-link {
+  font-weight: 600;
+  text-decoration: none;
+  color: #000;
+  font-size: 18px;
+}
+
+.header_line {
+  height: 3px;
+  background-color: #000;
+  position: relative;
+  z-index: 99;
+}
+
+.display-4 {
+  font-size: 36px;
+}
+
+.btn-secondary {
+  background-color: #fff !important;
+  color: #05CE7C !important;
+  width: 100% !important;
+  text-align: center;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  font-size: 24px;
+  border-color: #05CE7C;
+  border-width: 3px;
+  margin: 3px;
+  border-radius: 0px;
+}
+
+.dropdown-menu {
+  width: 100%;
+  max-height: 250px;
+  overflow-y: scroll;
+}
+
+.dropdown-menu::-webkit-scrollbar {
+  width: 7px;
+  background-color: #fff;
+}
+
+
+.dropdown-menu::-webkit-scrollbar-track {
+  background-color: #fff;
+}
+
+.dropdown-menu::-webkit-scrollbar-thumb {
+  background-color: #05CE7C;
+  border-radius: 5px;
+}
+
+.mapboxgl-ctrl-top-right .mapboxgl-ctrl {
+  margin: 20px 10px 0px 20px;
+  float: right;
+}
+
+.mapboxgl-ctrl-group:not(:empty) {
+  position: absolute;
+  top: 0;
+  left: 1vw;
+}
+
+@media screen and (min-width: 640px) {
+  .mapboxgl-ctrl-geocoder {
+    width: 80%;
+    font-size: 15px;
+    line-height: 20px;
+    max-width: none;
+    left: 80px;
+  }
+}
+
+.mapboxgl-ctrl-top-right {
+  top: 0;
+  right: auto;
+  width: 50%;
+}
+
+.mapboxgl-popup-content {
+  width: 60vw;
+  min-width: 600px;
+  max-width: 800px;
+  border: 10px solid #fff;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 3px 3px 13px -3px rgba(0, 0, 0, 0.21);
+}
+
+.mapboxgl-ctrl-group button.mapboxgl-ctrl-compass {
+  height: 0;
+}
+
+/* .w-layout-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-auto-columns: 1fr;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: auto auto;
+  grid-template-rows: auto auto;
+  grid-row-gap: 16px;
+  grid-column-gap: 16px;
+} */
+
+.methodology {
+  top: 88px;
+  left: 25px;
+  position: absolute;
+  font-size: 16px;
+  font-weight: 600;
+  color: #000;
+  width: 300px;
+}
+
+.methodology a {
+  color: #000;
+}
+
+.methodology a:hover {
+  color: #21d279;
+}
+
+.filter {
+  top: 18px;
+  left: 25px;
+  position: absolute;
+  width: 300px;
+  font-weight: 600;
+  height: 10px;
+}
+
+.mti_tooltip_cont {
+  width: 100%;
+  border: 0px none #fff;
+  border-radius: 0px;
+  background-color: #393745;
+}
+
+.mti_tooltip_hed {
+  margin-top: 0em;
+  margin-bottom: 0em;
+  margin-left: 0em;
+  padding-bottom: 2.1em;
+  border-style: none;
+  border-width: 1px 1px 0px;
+  border-color: #000;
+  font-family: Foundersgrotesktext,Helvetica,Arial, sans-serif;
+  color: #000;
+  font-size: 1.4em;
+  line-height: 1em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.mti_tooltip_text_cont {
+  margin-top: 0em;
+  padding: 3em;
+  background-color: #ffdb20;
+  font-family: Foundersgrotesktext,Helvetica,Arial, sans-serif;
+  font-style: normal;
+}
+
+.grid_data {
+  max-width: 630px;
+  margin-top: 0.7em;
+  grid-auto-flow: row;
+  grid-column-gap: 0px;
+  grid-row-gap: 5px;
+  grid-template-areas: "stat-name-1 stat-1" "stat-name-2 stat-2" "stat-name-3 stat-3" "stat-name-4 stat-4" "stat-name-5 stat-5" "stat-name-6 stat-6" "stat-name-7 stat-7";
+  -ms-grid-columns: 1.75fr 2px 0.6fr;
+  grid-template-columns: 1.75fr 0.6fr;
+  -ms-grid-rows: 1.75em 5px 1.75em 5px 1.75em 5px 1.75em 5px 1.75em 5px 1.75em 5px 1.75em;
+  grid-template-rows: 2.4em;
+  border: 1px none #000;
+}
+
+.grid_stat_descr {
+  max-width: 472px;
+  padding-top: 11px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  color: #000;
+  font-size: 1.3em;
+  line-height: 0.9em;
+  font-weight: 300;
+}
+
+.grid_stat_descr.stat1 {
+  padding-left: 12px;
+  background-color: #ffe456;
+  font-weight: 300;
+  padding-bottom: 5px;
+  padding-top: 9px;
+}
+
+.grid_stat {
+  padding-top: 8px;
+  padding-right: 12px;
+  text-align: right;
+  color: #000;
+  font-size: 1.3em;
+  line-height: 1em;
+  font-weight: 500;
+}
+
+.grid_stat.stat1 {
+  background-color: #ffe456;
+  padding-top: 8px;
+}
+
+.heading {
+  width: 70px;
+  margin-top: 0px;
+  margin-bottom: 15px;
+  padding-bottom: 4px;
+  border-bottom: 3px solid #21d279;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 1.1em;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip {
+  border-bottom-color: rgba(0, 0, 0, 0) !important;
+}
+
+.mti_tooltip_cont {
+  width: 100%;
+  max-width: 800px;
+}
+
+.mti_tooltip_hed {
+  margin-top: 0em;
+  margin-bottom: 0.75em;
+  margin-left: 0em;
+  padding-bottom: 0em;
+  font-family: Foundersgrotesktext, Helvetica, Arial, sans-serif;
+  font-size: 1.6em;
+  color: #000;
+  line-height: 1em;
+  font-weight: 500;
+  letter-spacing: 0px;
+}
+
+.mti_tooltip_text_cont {
+  top: 155px;
+  position: absolute;
+  margin-top: 0em;
+  padding: 4%;
+  background-color: #ffdb20;
+  font-family: Foundersgrotesktext,Helvetica,Arial, sans-serif;
+  font-size: 0.89em;
+  font-style: normal;
+}
+
+/* .grid {
+  margin-top: 2em;
+  grid-auto-flow: row;
+  grid-template-areas: "stat-name-1 stat-1" "stat-name-2 stat-2" "stat-name-3 stat-3" "stat-name-4 stat-4" "stat-name-5 stat-5" "stat-name-6 stat-6" "stat-name-7 stat-7";
+  -ms-grid-columns: 2fr 0.6fr;
+  grid-template-columns: 2fr 0.6fr;
+  -ms-grid-rows: 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em;
+  grid-template-rows: 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em 3.5em;
+  border: 1px none #000;
+} */
+
+/* .grid_stat_descr {
+  font-size: 2.1em;
+  line-height: 0.9em;
+  font-weight: 500;
+}
+
+.grid_stat {
+  font-size: 2.3em;
+  line-height: 1em;
+  font-weight: 500;
+} */
+
+@font-face {
+  font-family: 'Lyondisplay web';
+  src: url('../counties/fonts/LyonDisplay-Regular-Web.woff2') format('woff2'), url('../counties/fonts/LyonDisplay-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../counties/fonts/LyonText-Regular-Web.woff2') format('woff2'), url('../counties/fonts/LyonText-Regular-Web.eot') format('embedded-opentype'), url('../counties/fonts/LyonText-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyondisplay web';
+  src: url('../counties/fonts/LyonDisplay-RegularItalic-Web.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../counties/fonts/LyonText-RegularItalic-Web.eot') format('embedded-opentype'), url('../counties/fonts/LyonText-RegularItalic-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../counties/fonts/LyonText-Bold-Web.eot') format('embedded-opentype'), url('../counties/fonts/LyonText-Bold-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../counties/fonts/LyonText-BoldItalic-Web.eot') format('embedded-opentype'), url('../counties/fonts/LyonText-BoldItalic-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Fa 400';
+  src: url('../counties/fonts/fa-regular-400.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Fa solid 900';
+  src: url('../counties/fonts/fa-solid-900.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../counties/fonts/FoundersGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../counties/fonts/FoundersGroteskText-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}

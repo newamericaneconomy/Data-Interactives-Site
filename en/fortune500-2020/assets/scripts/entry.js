@@ -1,0 +1,698 @@
+'use strict';
+
+if (!Array.prototype.find) {
+  Object.defineProperty(Array.prototype, 'find', {
+    value: function(predicate) {
+     // 1. Let O be ? ToObject(this value).
+      if (this == null) {
+        throw new TypeError('"this" is null or not defined');
+      }
+
+      var o = Object(this);
+
+      // 2. Let len be ? ToLength(? Get(O, "length")).
+      var len = o.length >>> 0;
+
+      // 3. If IsCallable(predicate) is false, throw a TypeError exception.
+      if (typeof predicate !== 'function') {
+        throw new TypeError('predicate must be a function');
+      }
+
+      // 4. If thisArg was supplied, let T be thisArg; else let T be undefined.
+      var thisArg = arguments[1];
+
+      // 5. Let k be 0.
+      var k = 0;
+
+      // 6. Repeat, while k < len
+      while (k < len) {
+        // a. Let Pk be ! ToString(k).
+        // b. Let kValue be ? Get(O, Pk).
+        // c. Let testResult be ToBoolean(? Call(predicate, T, « kValue, k, O »)).
+        // d. If testResult is true, return kValue.
+        var kValue = o[k];
+        if (predicate.call(thisArg, kValue, k, o)) {
+          return kValue;
+        }
+        // e. Increase k by 1.
+        k++;
+      }
+
+      // 7. Return undefined.
+      return undefined;
+    },
+    configurable: true,
+    writable: true
+  });
+}
+
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+
+
+//Start of D3 code
+
+var width = (window.innerWidth*.76), height = (window.innerHeight*.67)
+
+//sumByConstant is only used once for the initial line graph.
+var method = "sumByConstant"
+
+var fader = function(color) { return d3.interpolateRgb(color, "#fff")(.5); },
+    format = d3.format(",d");
+
+//I used three different types of three maps, but went the Squarify mostly.
+
+var treemap = d3.treemap()
+    .tile(d3.treemapDice)
+    .size([width, height])
+    .round(false)
+    .paddingInner(1);
+
+var treemap2 = d3.treemap()
+    .tile(d3.treemapResquarify)
+    .size([width, height])
+    .round(false)
+    .paddingInner(1);
+
+var treemap3 = d3.treemap()
+    .tile(d3.treemapSquarify)
+    .size([width, height])
+    .round(false)
+    .paddingInner(1);
+
+
+// var color = d3.scaleOrdinal().domain([0, 1]).range(['#FFDB21' ,'#21D177']);
+var color = d3.scaleOrdinal().domain([0, 1]).range(['#BCE5ED' ,'#21D177']);
+
+var color2 = d3.scaleOrdinal().domain([0, 1]).range(['#87D8F7' ,'#71E1A8']);
+// var color = d3.scaleOrdinal().domain([0, 1]).range(['#FFDB21' ,'#7B3CAB']);
+
+
+var svg4 = d3.select('.scroll__figure4')
+      .append("svg")
+      .attr("id", "svg4");
+
+
+// variables for scollamma
+// var container1 = d3.select('#scatter-scroll');
+var container1 = d3.select('#container-scroll1');
+var graphic1 = container1.select('.scroll__figure1');
+var chart1 = graphic1.select('.figure__chart1');
+var text1 = container1.select('.scroll__text1');
+var step1 = text1.selectAll('.step1');
+
+
+var container2 = d3.select('#container-scroll2');
+var graphic2 = container2.select('.scroll__figure2');
+var chart2 = graphic2.select('.figure__chart2');
+var text2 = container2.select('.scroll__text2');
+var step2 = text2.selectAll('.step2');
+
+var container3 = d3.select('#container-scroll3');
+var graphic3 = container3.select('.scroll__figure3');
+var chart3 = graphic3.select('.figure__chart3');
+var text3 = container3.select('.scroll__text3');
+var step3 = text3.selectAll('.step3');
+
+var container4 = d3.select('#container-scroll4');
+var graphic4 = container4.select('.scroll__figure4');
+var chart4 = graphic4.select('.figure__chart4');
+var text4 = container4.select('.scroll__text4');
+var step4 = text4.selectAll('.step4');
+
+// initialize the scrollama
+var scroller1 = scrollama();
+var scroller2 = scrollama();
+var scroller3 = scrollama();
+var scroller4 = scrollama();
+
+var stateSelect = ['',"All States","AL", "AZ", "AR", "CA", "CO", "CT", "DE", "FL", "GA", "ID", "IL", "IN", "IA", "KS", "KY", "LA", "MD", "MA", "MI", "MN", "MO", "NE", "NV", "NJ", "NY", "NC", "OH", "OK", "OR", "PA", "RI", "TN", "TX", "VA", "WA", "WI"]
+
+
+var state = "All States"
+
+
+// var skillData = d3.csv('assets/dataDB2.csv');
+
+// var div = d3.select(".scroll__figure4").append("div")
+//     .attr("class", "tooltip")
+//     .attr("id", "tooltipID")
+//     .style("opacity", 0)
+//     .style("background", "#fff")
+//     .style("position", "absolute")
+//     .style("z-index", "999")
+//     .style("visibility", "hidden");
+
+
+
+var dropdownButton = d3.select(".stateSelect")
+  .append('select')
+
+// add the options to the button
+dropdownButton // Add a button
+  .selectAll('myOptions') // Next 4 lines add 6 options = 6 colors
+  .data(stateSelect)
+  .enter()
+  .append('option')
+  .text(function (d) { return d; }) // text showed in the menu
+  .attr("value", function (d) { return d; })
+  // corresponding value returned by the button
+
+
+
+// Promise.all([skillData]).then(change);
+
+
+d3.json("assets/fortune5002020imm.json").then(function(data) {
+
+var mousemove = function(d) {
+
+  d3.select(this).attr(
+    "fill", function(d) { return color2(d.data.immigrant); }
+  );
+    var xPosition = d3.event.pageX-100;
+    var yPosition = d3.event.pageY-150;
+
+
+    d3.select("#tooltip").classed("hidden", false);
+
+    d3.select("#tooltip")
+      .style("left", xPosition + "px")
+      .style("top", yPosition + "px");
+
+    d3.select("#tooltip #tpTitle")
+      .text(d.data.companyName)
+      .attr('text-anchor', "start");
+
+    d3.select("#tooltip #tpRev")
+      .text("Revenue (Million): $" + format(d.data.revenue2020))
+
+    d3.select("#tooltip #tpEmpl")
+      .text("Employees: " + format(d.data.employees))
+
+    d3.select("#tooltip #tpRank")
+      .text('Rank: ' +d.data.rank)
+    // d3.select("#tooltip #heading")
+    //   .text(d["demographics"]["Group"] + " - " + d["demographics"]["Group description"]);
+    // d3.select("#tooltip #percentage")
+    //   .text(d["demographics"]["Type description"] + "\n" + d["percentage"] + "%");
+    // d3.select("#tooltip #revenue")
+    //   .text("£" + d["revenue"].toFixed(0));
+  }
+
+ var root = d3.hierarchy(data)
+      .eachBefore(function(d) { d.data.id = (d.parent ? d.parent.data.Name + "." : "") + d.data.index; })
+      // .sum(function(d){if (d.State==state){sumByConstant} else {return 0}})
+      .sum(sumByConstant)
+      // .sort(function(a, b) { return b.height - a.height || b.value - a.value; });
+      // .sort(function(d){d.data.rank;})
+
+  treemap(root);
+
+  var cell = svg4.selectAll("g")
+    .data(root.leaves())
+    .enter().append("g")
+      .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; });
+
+  cell.append("rect")
+      .attr("id", function(d) { return d.data.id; })
+      .attr("width", function(d) {return d.x1 - d.x0; })
+      .attr("height", function(d) { return d.y1 - d.y0; })
+      .attr("fill", function(d) { return color(d.data.immigrant); })
+      .on("mouseover", mousemove)
+      .on("mouseout", handleMouseOut);
+
+  cell.append("clipPath")
+      .attr("id", function(d) { return "clip-" + d.data.id; })
+      .append("use")
+      .attr("xlink:href", function(d) { return "#" + d.data.id; });
+
+  cell.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.data.id + ")"; })
+      .selectAll("tspan")
+      .data(function(d) {
+        return d.data.displayName.split(/(?=[A-Z][^A-Z][^A-Z])/g);
+        })
+      .enter()
+      .append("tspan")
+      .attr("x", 2)
+      .attr("y", function(d, i) { return 13 + i * 10; })
+      .text(function(d) { return d;})
+      .style("fill", '#4D4D4D')
+      .style('font-size', ".8em")
+      .attr('class', "boxText")
+      .on("mouseover", mousemove)
+      .on("mouseout", handleMouseOut);
+
+
+  d3.selectAll("input")
+      .data([sumBySize, sumByCount, sumByConstant], function(d) { return d ? d.name : this.value; })
+      .on("change", changed);
+
+  function handleMouseOut(d) {  // Add interactivity
+
+
+        d3.select("#tooltipID").classed("hidden", false)
+            // Use D3 to select element, change color and size
+            d3.select(this).attr(
+              "fill", function(d) { return color2(d.data.immigrant); }
+            );
+          }
+
+  function handleMouseOut(d) {
+
+        d3.select("#tooltip").classed("hidden", true)
+
+          d3.select(this).attr(
+              "fill", function(d) { return color(d.data.immigrant); }
+            );
+
+  }
+
+
+ function updateState(myState) {
+    state = myState
+
+    return(state)
+    // d3.select("#buttonDivs").node()
+    //   .attr("visibility", "visible");
+
+  }
+
+  dropdownButton.on("change", function(d) {
+
+    var selectedOption = d3.select(this).property("value")
+
+    updateState(selectedOption)
+
+    document.getElementById("radio-one").checked = true;
+    document.getElementById("radio-two").checked = false;
+
+    d3.select("input[value=\"sumBySize\"]")
+          .property("checked", true)
+          .dispatch("change");
+
+
+
+
+})
+
+  // d3.selectAll("option")
+  //     .data([sumBySize, sumByCount, sumByConstant], function(d) { return d ? d.name : this.value; })
+  //     .on("change", changed2);
+
+  if (method == "sumByConstant") {
+    svg4.append('text')
+        .text('44%')
+        .attr("x", width*.22)
+        .attr("y", height*.58)
+        .attr('fill', "white")
+        .attr('class', "percentText")
+        .attr("text-anchor", "middle")
+        // .style('font-size', "14em");
+
+  }
+
+  else {
+  d3.selectAll(".percentText").remove()
+}
+
+
+  function changed(sum) {
+    // timeout.stop();
+    d3.selectAll(".percentText").remove()
+
+    if (typeof this.value == 'undefined') {
+
+    method = "sumBySize"
+
+
+    treemap3(root.sum(sum));
+}
+
+      else if (this.value == "sumByCount" ) {
+
+      method = "sumByCount"
+
+
+      treemap3(root.sum(sum));
+
+      cell.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.data.id + ")"; })
+      .selectAll("tspan")
+      .data(function(d) {
+        if (state == "All States")
+          {return d.data.displayName.split(/(?=[A-Z][^A-Z][^A-Z])/g);}
+        else
+          {return d.data.companyName.split(/(?=[A-Z][^A-Z][^A-Z])/g);}
+        })
+      // .data(function(d) {
+      //   return d.data.displayName.split(/(?=[A-Z][^A-Z][^A-Z])/g);
+      //   })
+      .enter()
+      .append("tspan")
+      .attr("x", 2)
+      .attr("y", function(d, i) { return 13 + i * 10; })
+      // .text(function(d) { if (d.immigrant==1) {return d;}});
+      .text(function(d) { return d;})
+      .style("fill", '#4D4D4D')
+      .style('font-size', ".8em")
+      .attr('class', "boxText");
+    }
+
+    else {
+
+      method = "sumBySize"
+
+    treemap3(root.sum(sum));
+
+    cell.append("text")
+      .attr("clip-path", function(d) { return "url(#clip-" + d.data.id + ")"; })
+      .selectAll("tspan")
+      .data(function(d) {
+        if (state == "All States")
+          {return d.data.displayName.split(/(?=[A-Z][^A-Z][^A-Z])/g);}
+        else
+          {return d.data.companyName.split(/(?=[A-Z][^A-Z][^A-Z])/g);}
+        })
+      // .data(function(d) {
+      //   return d.data.displayName.split(/(?=[A-Z][^A-Z][^A-Z])/g);
+      //   })
+      .enter()
+      .append("tspan")
+      .attr("x", 2)
+      .attr("y", function(d, i) { return 13 + i * 10; })
+      // .text(function(d) { if (d.immigrant==1) {return d;}});
+      .text(function(d) { return d;})
+      .style("fill", '#4D4D4D')
+      .style('font-size', ".8em")
+      .attr('class', "boxText");
+    }
+
+    cell.transition()
+        .duration(500)
+        .attr("transform", function(d) { return "translate(" + d.x0 + "," + d.y0 + ")"; })
+        .select("rect")
+        .attr("width", function(d) {return d.x1 - d.x0;})
+        .attr("height", function(d) {return d.y1 - d.y0; });
+
+
+  }
+
+
+//This establishes when the user will select by number of employees or revenue.
+
+
+
+function sumByCount(d) {
+  //   if (immigrant==1) {
+  // return d.employees;
+  //   }
+  if (state == "All States") {
+  return d.employees;
+}
+  else if (d.State == state){
+  return d.employees
+  }
+
+  else {
+    return 0.00001}
+}
+
+function sumBySize(d) {
+  // if (d.immigrant==1) {
+  // return d.revenue2019;
+  //   }
+  if (state ==  "All States") {
+  return d.revenue2020;
+}
+  else if (d.State == state){
+  return d.revenue2020
+  }
+
+  else {
+    return 0.00001}
+}
+
+function sumByConstant(d) {
+
+  if (d.State == state) {
+  return d.Constant;
+}
+  else {return 0.00001}
+}
+
+
+
+ //The following code makse the scolling work
+
+
+function handleResize1() {
+
+
+
+  // 1. update height of step elements
+  var stepHeight1 = Math.floor(window.innerHeight * 0.75);
+  step1.style('height', stepHeight1 + 'px');
+
+
+  // 2. update width/height of graphic element
+  var bodyWidth = d3.select('body').node().offsetWidth;
+
+  graphic1.style('width', bodyWidth + 'px').style('height', window.innerHeight + 'px');
+
+  var chartMargin1 = 32;
+  var textWidth1 = text1.node().offsetWidth;
+  var chartWidth1 = graphic1.node().offsetWidth - textWidth1 - chartMargin1;
+
+  chart1.style('width', chartWidth1 + 'px').style('height', Math.floor(window.innerHeight / 2) + 'px');
+
+
+  // 3. tell scrollama to update new element dimensions
+  scroller1.resize();
+
+}//end of handleResize
+
+
+function handleStepEnter1(response) {
+
+  step1.classed('is-active', function (d, j) {
+    return j === response.index;
+  });
+
+  // update graphic based on step
+  chart1.select('p').text(response.index + 1);
+  // var someData = d3.csv("<LINK TO DATA HERE>");
+  // var otherData = d3.json("<LINK TO DATA HERE>");
+
+  // Promise.all([someData, otherData).then(next);
+
+  // // update graphic1 based on step 1
+
+
+  }//end of handleStepEnter2
+
+
+  function handleContainerEnter1(response) {
+  // response = { direction }
+
+  // sticky the graphic (old school)
+  graphic.classed('is-fixed', true);
+  graphic.classed('is-bottom', false);
+}
+
+function handleContainerExit1(response) {
+  // response = { direction }
+
+  // un-sticky the graphic, and pin to top/bottom of container
+  graphic.classed('is-fixed', false);
+  graphic.classed('is-bottom', response.direction === 'down');
+}
+
+
+
+function handleResize2() {
+
+  // 1. update height of step elements
+  var stepHeight2 = Math.floor(window.innerHeight * 0.75);
+  step2.style('height', stepHeight2 + 'px');
+
+  // 2. update width/height of graphic element
+  var bodyWidth2 = d3.select('body').node().offsetWidth;
+
+  graphic2.style('width', bodyWidth2 + 'px').style('height', window.innerHeight + 'px');
+
+  var chartMargin2 = 32;
+  var textWidth2 = text2.node().offsetWidth;
+  var chartWidth2 = graphic2.node().offsetWidth - textWidth2 - chartMargin2;
+
+  chart2.style('width', chartWidth2 + 'px').style('height', Math.floor(window.innerHeight / 2) + 'px');
+
+
+  // 3. tell scrollama to update new element dimensions
+  scroller2.resize();
+}
+
+
+function handleStepEnter2(response) {
+
+  step2.classed('is-active', function (d, j) {
+    return j === response.index;
+  });
+
+  // update graphic based on step
+  chart2.select('p').text(response.index + 1);
+  // var someData = d3.csv("<LINK TO DATA HERE>");
+  // var otherData = d3.json("<LINK TO DATA HERE>");
+
+  // Promise.all([someData, otherData).then(next);
+
+  // // update graphic1 based on step
+
+  }//end of handleStepEnter2
+
+
+  function handleContainerEnter2(response) {
+  // response = { direction }
+
+  // sticky the graphic (old school)
+  graphic.classed('is-fixed', true);
+  graphic.classed('is-bottom', false);
+}
+
+function handleContainerExit2(response) {
+  // response = { direction }
+
+  // un-sticky the graphic, and pin to top/bottom of container
+  graphic.classed('is-fixed', false);
+  graphic.classed('is-bottom', response.direction === 'down');
+
+
+}
+
+
+function handleResize3() {
+
+  // 1. update height of step elements
+  var stepHeight1 = Math.floor(window.innerHeight * 0.75);
+
+  step3.style('height', stepHeight1 + 'px');
+
+  // 2. update width/height of graphic element
+  var bodyWidth1 = d3.select('body').node().offsetWidth;
+
+
+  graphic3.style('width', bodyWidth1 + 'px').style('height', window.innerHeight + 'px');
+
+  var chartMargin1 = 32;
+  var textWidth1 = text1.node().offsetWidth;
+  var chartWidth1 = graphic1.node().offsetWidth - textWidth1 - chartMargin1
+
+
+  chart3.style('width', chartWidth1 + 'px').style('height', Math.floor(window.innerHeight / 2) + 'px');
+
+  // 3. tell scrollama to update new element dimensions
+
+  scroller3.resize();
+}//end of handleResize
+
+
+function handleStepEnter3(response) {
+
+  step3.classed('is-active', function (d, j) {
+    return j === response.index;
+  });
+
+  // update graphic based on step
+  chart3.select('p').text(response.index + 1);
+  // var someData = d3.csv("<LINK TO DATA HERE>");
+  // var otherData = d3.json("<LINK TO DATA HERE>");
+
+  // Promise.all([someData, otherData).then(next);
+
+  // // update graphic1 based on step
+
+  }//end of handleStepEnter2
+
+
+  function handleContainerEnter3(response) {
+  // response = { direction }
+
+  // sticky the graphic (old school)
+  graphic.classed('is-fixed', true);
+  graphic.classed('is-bottom', false);
+}
+
+function handleContainerExit3(response) {
+  // response = { direction }
+
+  // un-sticky the graphic, and pin to top/bottom of container
+  graphic.classed('is-fixed', false);
+  graphic.classed('is-bottom', response.direction === 'down');
+
+
+}
+
+
+
+
+
+
+function init() {
+  // 1. force a resize on load to ensure proper dimensions are sent to scrollama
+
+  scroller1.setup({
+
+
+
+    // container: '#flipped-scroll',
+    // graphic: '.scroll__figure1',
+    // text: '.scroll__text1',
+    step: '.scroll__text1 .step1',
+    offset: 0.75,
+    debug: false
+  }).onStepEnter(handleStepEnter1)
+  // .OnStepExit(handleStepExit2)
+  .onContainerEnter(handleContainerEnter1).onContainerExit(handleContainerExit1);
+
+scroller2.setup({
+    // container: '#flipped-scroll',
+    // graphic: '.scroll__figure2',
+    // text: '.scroll__text3',
+    step: '.scroll__text2 .step2',
+    offset: 0.75,
+    debug: false
+  }).onStepEnter(handleStepEnter2)
+  // .OnStepExit(handleStepExit2)
+  .onContainerEnter(handleContainerEnter2).onContainerExit(handleContainerExit2);
+
+
+  scroller3.setup({
+    // container: '#flipped-scroll',
+    // graphic: '.scroll__figure3',
+    // text: '.scroll__text3',
+    step: '.scroll__text3 .step3',
+    offset: 0.75,
+    debug: false
+  }).onStepEnter(handleStepEnter3)
+  // .OnStepExit(handleStepExit2)
+  .onContainerEnter(handleContainerEnter3).onContainerExit(handleContainerExit3);
+
+
+
+
+
+
+
+}
+
+
+
+init();
+
+
+
+
+  }
+  );
+
+   // change()//END of CHANGE

@@ -1,0 +1,423 @@
+/* This contains all styles for the new header & footer created for the AIC <> NAE merger.  */
+
+/* CUSTOM VARIABLES */
+:root {
+  --c-grey: #4c5467;
+  --c-grey-1: #efefef;
+  --c-grey-2: #9c9da1;
+  --c-grey-3: #e6e6e6;
+  --c-orange: #fa5e00;
+
+  --c-blue: #407cca;
+}
+
+/* RESET STYLING */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 1rem !important;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  -moz-osx-font-smoothing: unset;
+}
+
+.row::before {
+  content: none !important;
+}
+
+/* UTILITY CLASSES */
+.d-flex {
+  display: flex;
+}
+
+.j-flex-end {
+  justify-content: flex-end;
+}
+
+.btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: white;
+  font-size: 19px;
+  font-family: "Open Sans";
+  padding: 8px 32px;
+  border-radius: 2px;
+  font-weight: bold;
+}
+
+.btn--primary {
+  background: var(--c-orange);
+  border-color: var(--c-orange);
+}
+
+.btn--primary:hover {
+  background-color: #ff9309 !important;
+  border-color: #ff9309;
+}
+
+.btn--secondary {
+  background: var(--c-grey);
+  border-color: var(--c-grey);
+}
+
+.btn--secondary:hover {
+  background-color: var(--c-grey-2) !important;
+  border-color: var(--c-grey-2);
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+.col {
+  width: 50%;
+  /* padding-left: 15px;
+    padding-right: 15px; */
+  margin: 0;
+}
+
+.text-large {
+  font-size: 24px;
+  margin: 0;
+  line-height: 1.3;
+  position: relative;
+  top: -8px;
+}
+
+/* BACK TO TOP BUTTON STYLING */
+.col--backToTop {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: 5rem 0;
+}
+
+.btn--backToTop {
+  background-color: var(--c-grey);
+}
+
+.btn--backToTop:hover {
+  background-color: var(--c-grey-2);
+}
+
+/* HEADER STYLING */
+.header {
+  padding: 0;
+}
+.header {
+  margin-top: 20px;
+  /* margin-bottom: 30px; */
+  border-bottom: 3px solid black;
+  padding-bottom: 1rem;
+}
+
+.header .row {
+  position: relative;
+}
+
+.header--data-viz-page {
+  width: 96%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header--data-viz-page .row {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.header a:hover {
+  text-decoration: none;
+}
+
+.header a.social__link {
+  font-size: 21px;
+  display: flex;
+  color: white !important;
+}
+
+.header a.btn {
+  font-size: 19px;
+  padding: 8px 32px;
+}
+
+.header__backToHomeWrapper a {
+  font-size: 1rem;
+}
+
+.header__logo {
+  width: 240px;
+  max-width: unset;
+}
+
+.header__links {
+  width: 80%;
+}
+
+.header__backToHomeWrapper {
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.header__backToHomeLink {
+  text-decoration: none;
+  font-family: "Open Sans";
+  font-weight: bold;
+  color: var(--c-grey) !important;
+}
+
+.header__backToHomeLink:hover {
+  color: var(--c-blue) !important;
+}
+
+/* SOCIAL LINKS STYLING */
+.social__wrapper {
+  display: flex;
+  width: 128px;
+  justify-content: space-between;
+  margin-right: 1rem;
+  align-items: center;
+}
+
+.social__link {
+  align-items: center;
+  justify-content: center;
+  font-size: 21px;
+  color: #fff;
+  text-decoration: none;
+  width: 35px;
+  height: 35px;
+  flex: 0 0 35px;
+  border-radius: 50%;
+  display: flex;
+  background: blue;
+}
+
+.social__facebook {
+  background: #3b5998;
+}
+
+.social__twitter {
+  background: #55acee;
+}
+
+.social__linkedin {
+  background: #007ab9;
+}
+
+.header .btn {
+  margin-left: 1rem;
+  align-self: center;
+  line-height: normal;
+  color: white !important;
+  font-weight: 700;
+  border-radius: 2px;
+}
+
+/* FOOTER STYLING */
+.footer {
+  background-color: var(--c-grey);
+  color: white;
+  font-family: "Open Sans";
+  padding-top: 80px;
+}
+
+.footer__links {
+  display: flex;
+}
+
+.footer__linksList {
+  border-right: 1px solid white;
+  padding-right: 1rem;
+  margin: 0;
+}
+
+.footer__linksList:first-child {
+  padding-left: 0;
+}
+
+.footer__linksList:last-child {
+  border-right: none;
+}
+
+.footer__linksListItem {
+  list-style: none;
+  color: white;
+}
+
+.footer__linksListLink {
+  color: white !important;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Open Sans";
+  font-size: 15px;
+  font-weight: 400;
+}
+
+.footer__linksListLink:hover {
+  text-decoration: underline;
+}
+
+.footer__about:last-child {
+  font-size: 13.5px;
+  margin-top: 5px;
+}
+
+.footer__contactInfo {
+  font-size: 12px;
+  margin: 2rem auto 0 auto;
+  text-align: center;
+  display: block;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+/* MOBILE MENU STYLING */
+.mobile-menu {
+  width: 100%;
+  height: 50px;
+  /* padding-left: 15px;
+  padding-right: 15px; */
+  max-width: 100%;
+  display: block;
+  position: relative;
+  z-index: 40;
+  display: none;
+  max-height: 300px;
+  overflow: hidden;
+  transition: 250ms ease-in;
+  height: 0px;
+  margin-top: 2rem;
+}
+
+.mobile-menu.open {
+  height: 300px;
+}
+
+.mobile-menu .social__wrapper {
+  margin: 0 auto;
+}
+
+.mobile-menu__list {
+  padding-left: 0;
+}
+
+.mobile-menu__item:hover:not(:last-child) {
+  background-color: var(--c-grey-3);
+}
+
+.mobile-menu__item:hover:not(:last-child) a {
+  color: var(--c-blue) !important;
+}
+
+.mobile-menu__item {
+  list-style: none;
+  background-color: var(--c-grey-1);
+  padding: 16px 0;
+  padding-left: 8px;
+  border-bottom: 1px solid white;
+}
+
+.mobile-menu__link {
+  text-decoration: none;
+  color: black !important;
+  font-family: "Open Sans";
+  font-weight: 600;
+  text-transform: uppercase;
+  display: block;
+  width: 100%;
+  font-size: 19px;
+}
+
+.mobile-burger {
+  align-self: center;
+  display: none;
+  padding-right: 15px;
+  position: relative;
+  width: 38px;
+  position: absolute;
+  right: 0;
+}
+
+/*Creating the X for the menu close button*/
+.mobile-burger::before {
+  position: absolute;
+  font-size: 3rem;
+  font-family: "Open Sans";
+  top: -3px;
+  left: 3px;
+  color: #4c5467;
+  background-image: url("https://www.americanimmigrationcouncil.org/sites/all/themes/custom/aicsite/images/close-menu.svg");
+  background-repeat: no-repeat;
+  content: "";
+  height: 31px;
+  width: 31px;
+  opacity: 0;
+}
+
+.mobile-burger:hover {
+  cursor: pointer;
+}
+
+.mobile-burger__line {
+  width: 37px;
+  height: 6px;
+  display: block;
+  background: var(--c-grey);
+  margin-bottom: 3px;
+}
+
+.mobile-burger.open .mobile-burger__line {
+  opacity: 0;
+}
+
+.mobile-burger.open::before {
+  opacity: 1;
+}
+
+@media (max-width: 768px) {
+  .header .row {
+    justify-content: space-between;
+  }
+
+  .header__links {
+    display: none;
+  }
+
+  .mobile-burger {
+    display: block;
+  }
+
+  .mobile-menu {
+    display: block;
+  }
+
+  .footer .row.d-flex {
+    flex-wrap: wrap;
+  }
+
+  .footer .col {
+    width: 100%;
+  }
+
+  .footer .col:first-child {
+    margin-bottom: 2.5rem;
+  }
+}
+
+.body {
+  background-color: white !important;
+}
+
+.content_container {
+  width: 100% !important;
+  margin-top: 0 !important;
+}

@@ -1,0 +1,95 @@
+{"name": "H2A-Visa-2010",
+ "children": [
+{
+ "name": "2010",
+ "children": [
+  {
+    "State_Abv": "NC",
+    "Title": "North Carolina",
+    "WorkersH2A_2010": 18299
+  },
+  {
+    "State_Abv": "LA",
+    "Title": "Louisiana",
+    "WorkersH2A_2010": 6959
+  },
+  {
+    "State_Abv": "KY",
+    "Title": "Kentucky",
+    "WorkersH2A_2010": 5652
+  },
+  {
+    "State_Abv": "GA",
+    "Title": "Georgia",
+    "WorkersH2A_2010": 4874
+  },
+  {
+    "State_Abv": "AZ",
+    "Title": "Arizona",
+    "WorkersH2A_2010": 4712
+  },
+  {
+    "State_Abv": "FL",
+    "Title": "Florida",
+    "WorkersH2A_2010": 4542
+  },
+  {
+    "State_Abv": "ID",
+    "Title": "Idaho",
+    "WorkersH2A_2010": 4328
+  },
+  {
+    "State_Abv": "WA",
+    "Title": "Washington",
+    "WorkersH2A_2010": 4248
+  },
+  {
+    "State_Abv": "NY",
+    "Title": "New York",
+    "WorkersH2A_2010": 3944
+  },
+  {
+    "State_Abv": "VA",
+    "Title": "Virginia",
+    "WorkersH2A_2010": 3301
+  },
+  {
+    "State_Abv": "AR",
+    "Title": "Arkansas",
+    "WorkersH2A_2010": 3075
+  },
+  {
+    "State_Abv": "CA",
+    "Title": "California",
+    "WorkersH2A_2010": 2839
+  },
+  {
+    "State_Abv": "TN",
+    "Title": "Tennessee",
+    "WorkersH2A_2010": 2305
+  },
+  {
+    "State_Abv": "SC",
+    "Title": "South Carolina",
+    "WorkersH2A_2010": 2252
+  },
+  {
+    "State_Abv": "TX",
+    "Title": "Texas",
+    "WorkersH2A_2010": 2223
+  },
+  {
+    "State_Abv": "NV",
+    "Title": "Nevada",
+    "WorkersH2A_2010": 1938
+  },
+  {
+    "State_Abv": "OT",
+    "Title": "All Other States",
+    "WorkersH2A_2010": 18421
+  }
+]
+}
+
+]
+}

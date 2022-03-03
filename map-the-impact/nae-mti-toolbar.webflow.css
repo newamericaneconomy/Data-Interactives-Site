@@ -1,0 +1,782 @@
+.main_heading {
+  margin-bottom: 0px;
+  padding-top: 1.5px;
+  padding-left: 0%;
+  -webkit-box-flex: 0;
+  -webkit-flex: 0 auto;
+  -ms-flex: 0 auto;
+  flex: 0 auto;
+  font-family: Foundersgrotesk, sans-serif;
+  color: #222;
+  font-size: 5em;
+  line-height: 53px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.drop_nav_text {
+  padding-bottom: 0px;
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.nav_drop_list {
+  background-color: #fff;
+  box-shadow: none;
+  color: #21d279;
+  font-size: 1.4em;
+  line-height: 17px;
+  font-weight: 500;
+}
+
+.nav_drop_list:hover {
+  color: #21d279;
+}
+
+.nav_drop_list.w--open {
+  top: 65.5px;
+  box-shadow: 0 2px 8px -5px #000;
+}
+
+.nav_drop_list.w--open:hover {
+  top: 66px;
+  box-shadow: 0 3px 8px -5px rgba(0, 0, 0, 0.81);
+}
+
+.nav_drop_link {
+  padding-top: 15px;
+  padding-right: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #eee;
+  color: #222;
+}
+
+.nav_drop_link:hover {
+  border-style: none;
+  border-width: 1px 1px 0px;
+  border-color: #000;
+  color: #21d279;
+}
+
+.hero {
+  height: 100%;
+  min-height: 0px;
+  background-image: -webkit-gradient(linear, left bottom, left top, color-stop(49%, rgba(255, 254, 254, 0.23)), color-stop(82%, #fff)), -webkit-gradient(linear, left top, left bottom, from(hsla(0, 0%, 100%, 0.85)), to(hsla(0, 0%, 100%, 0.85))), url('../images/chuttersnap-348302-unsplash.jpg');
+  background-image: linear-gradient(0deg, rgba(255, 254, 254, 0.23) 49%, #fff 82%), linear-gradient(180deg, hsla(0, 0%, 100%, 0.85), hsla(0, 0%, 100%, 0.85)), url('../images/chuttersnap-348302-unsplash.jpg');
+  background-position: 0px 0px, 0px 0px, 0% 60%;
+  background-size: auto, auto, 3008px;
+  background-repeat: repeat, repeat, no-repeat;
+  background-attachment: scroll, scroll, scroll;
+  opacity: 1;
+}
+
+.highlight_container {
+  position: relative;
+  bottom: -67px;
+}
+
+.nav_hero {
+  width: 100%;
+  min-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 3em;
+  padding-bottom: .65em;
+  border-bottom: 1.5px solid #000;
+  border-radius: 0px;
+  background-color: transparent;
+  font-family: Foundersgrotesk, sans-serif;
+}
+
+.highlight_grid {
+  grid-column-gap: 16px;
+  -ms-grid-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  -ms-grid-rows: auto;
+  grid-template-rows: auto;
+}
+
+.highlight_title {
+  margin-top: 0px;
+  margin-bottom: 40px;
+  color: #222;
+  font-size: 2em;
+  font-weight: 500;
+  text-align: left;
+  letter-spacing: 0px;
+  text-transform: none;
+}
+
+.nae_research_logo {
+  max-width: 250px;
+  margin-left: 30px;
+  padding-left: 0px;
+}
+
+.intro_second {
+  width: 60%;
+  margin-bottom: 0px;
+  margin-left: 12%;
+  padding-top: 1%;
+  padding-bottom: 2%;
+  font-family: 'Lyontext web', sans-serif;
+  color: #222;
+  font-size: 2em;
+  line-height: 40px;
+  font-weight: 300;
+}
+
+.nav_container {
+  display: block;
+  width: 100%;
+  height: auto;
+  min-width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.highlight_img {
+  box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.73);
+}
+
+.nav_link {
+  padding: 0px 10px 10px;
+  -webkit-transition: color 200ms ease;
+  transition: color 200ms ease;
+  font-family: Foundersgrotesk, sans-serif;
+  color: #222;
+  font-size: 1.4em;
+  line-height: 17px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  text-transform: none;
+}
+
+.nav_link:hover {
+  color: #21d279;
+  text-decoration: underline;
+}
+
+.nav_link.w--current {
+  padding: 40px 10px 10px;
+  color: #222;
+  font-size: 1.4em;
+  line-height: 17px;
+  font-style: normal;
+  font-weight: 500;
+  letter-spacing: normal;
+  text-transform: none;
+}
+
+.nav_link.w--current:hover {
+  color: #21d279;
+  text-decoration: underline;
+}
+
+.nav_link.about {
+  padding-left: 10px;
+}
+
+.nav_link.donate {
+  color: #222;
+}
+
+.nav_link.donate:hover {
+  color: #05ce7c;
+}
+
+.nav_link.mti_link {
+  color: #05ce7c;
+}
+
+.nav_dropdown {
+  padding: 40px 35px 35px 10px;
+  line-height: 17px;
+  text-decoration: none;
+}
+
+.nav_dropdown:hover {
+  color: #21d279;
+  text-decoration: underline;
+}
+
+.nav_menu {
+  margin-right: 30px;
+  padding-right: 0px;
+}
+
+.main_head_div {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: auto;
+  margin-left: 12%;
+  padding-top: 5%;
+}
+
+.intro_p {
+  width: 620px;
+  margin-bottom: 0px;
+  margin-left: 12%;
+  padding-top: 2.5em;
+  padding-bottom: 5em;
+  font-family: 'Lyontext web', sans-serif;
+  color: #222;
+  font-size: 1.5em;
+  line-height: 32px;
+  font-weight: 400;
+}
+
+.databrief_title_bar {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96%;
+  margin-right: auto;
+  margin-left: auto;
+  border-bottom: 1px solid #b9b9b9;
+}
+
+.databriefs_heading {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  border-right: 2px solid #000;
+  font-family: Foundersgrotesk, sans-serif;
+  color: #222;
+  font-size: 2.7em;
+  line-height: 20px;
+  font-weight: 500;
+}
+
+.databriefs_descr {
+  padding-top: 15px;
+  padding-left: 15px;
+  font-family: Foundersgrotesk, sans-serif;
+  font-size: 1.3em;
+  line-height: 24px;
+  font-weight: 500;
+}
+
+.databrief_intro {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 96%;
+  height: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.intro_div {
+  position: relative;
+  left: 10%;
+  z-index: 2;
+  width: 45%;
+  margin-top: 5em;
+  margin-right: 0%;
+  margin-bottom: 5em;
+  padding: 2.5em 6% 2.5em 7%;
+  border-left: 6px solid #21d279;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff));
+  background-image: linear-gradient(180deg, #fff, #fff);
+}
+
+.intro_img {
+  position: relative;
+  z-index: 0;
+  width: 55%;
+  height: auto;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+  background-image: url('../images/cthulu_van_v2.jpg');
+  background-position: 0px 0px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.post_title {
+  font-family: Foundersgrotesk, sans-serif;
+  font-size: 320%;
+  font-weight: 500;
+}
+
+.date {
+  margin-bottom: 0px;
+  padding-bottom: 1.2em;
+  font-family: Foundersgrotesk, sans-serif;
+  font-size: 130%;
+  font-weight: 400;
+  letter-spacing: 0.8px;
+}
+
+.post_intro_p1 {
+  margin-bottom: 2em;
+  font-family: Foundersgrotesk, sans-serif;
+  font-size: 140%;
+  line-height: 140%;
+  font-weight: 500;
+}
+
+.secondary_intro {
+  margin-bottom: 20px;
+  font-family: 'Lyontext web', sans-serif;
+  font-size: 120%;
+  line-height: 130%;
+}
+
+.bold-text {
+  color: #21d279;
+}
+
+.image {
+  display: none;
+}
+
+.image-2 {
+  overflow: visible;
+  width: auto;
+  height: 100%;
+}
+
+@media screen and (max-width: 991px) {
+  .dropdown {
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-top: 0px;
+  }
+  .main_heading {
+    font-size: 4em;
+  }
+  .drop_nav_text {
+    color: #fff;
+  }
+  .drop_nav_text:hover {
+    color: #fff;
+  }
+  .icon-4 {
+    background-color: transparent;
+    color: #21d279;
+  }
+  .nav_drop_list.w--open {
+    box-shadow: none;
+  }
+  .nav_drop_link {
+    padding-top: 39px;
+    padding-bottom: 26px;
+  }
+  .hero {
+    min-height: 520px;
+  }
+  .highlight_container {
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+  }
+  .icon-3 {
+    color: #fff;
+  }
+  .icon-3:hover {
+    color: #000;
+  }
+  .nav_hero {
+    margin-top: 0px;
+  }
+  .highlight_title {
+    padding-left: 0%;
+  }
+  .menu-button {
+    padding-top: 28px;
+    padding-right: 38px;
+    background-color: transparent;
+    color: #222;
+    font-size: 2.5em;
+  }
+  .menu-button:hover {
+    color: #21d279;
+  }
+  .menu-button.w--open {
+    background-color: transparent;
+  }
+  .intro_second {
+    margin-left: 5.5%;
+    font-size: 1.7em;
+  }
+  .nav_link.w--current {
+    width: auto;
+    margin-right: 0px;
+    margin-left: 0px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    color: #fff;
+  }
+  .nav_link.w--current:hover {
+    color: #000;
+  }
+  .nav_dropdown.w--open {
+    margin-right: 0px;
+    margin-left: 0px;
+    background-color: #40e090;
+  }
+  .nav_menu {
+    margin-right: 0px;
+    padding-right: 0px;
+    background-color: #21d279;
+  }
+  .main_head_div {
+    margin-left: 5%;
+    padding-top: 5em;
+  }
+  .intro_p {
+    margin-left: 5.5%;
+    font-size: 1.3em;
+  }
+  .databrief_intro {
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    background-image: url('../images/cthulu_van_v2.jpg');
+    background-position: 0px 0px;
+    background-size: cover;
+  }
+  .intro_div {
+    left: 5%;
+    width: 80%;
+  }
+  .intro_img {
+    display: none;
+    width: 20%;
+  }
+  .image {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .main_heading {
+    font-size: 38px;
+    line-height: 43px;
+  }
+  .hero {
+    min-height: 420px;
+  }
+  .highlight_container {
+    bottom: -50px;
+  }
+  .nav_hero {
+    padding-top: 1.5em;
+    padding-bottom: 1.5em;
+  }
+  .highlight_title {
+    width: 90%;
+    margin-right: auto;
+    margin-bottom: 20px;
+    margin-left: auto;
+  }
+  .nae_research_logo {
+    max-width: 150px;
+  }
+  .intro_second {
+    width: 80%;
+  }
+  .main_head_div {
+    padding-top: 3em;
+  }
+  .intro_p {
+    width: 90%;
+    font-size: 1.2em;
+  }
+  .databriefs_heading {
+    width: 210px;
+    padding-right: 8px;
+    font-size: 2em;
+  }
+  .databriefs_descr {
+    padding-top: 8px;
+  }
+  .databrief_intro {
+    background-image: none;
+  }
+  .intro_div {
+    left: auto;
+    width: 96%;
+    margin: 0em auto;
+    padding-top: 0.5em;
+    padding-right: 0%;
+    padding-left: 0%;
+    border-left-style: none;
+    border-left-width: 0px;
+  }
+  .image {
+    display: block;
+    margin-bottom: 2em;
+  }
+}
+
+@media screen and (max-width: 479px) {
+  .main_heading {
+    padding-right: 5px;
+    font-size: 33px;
+  }
+  .hero {
+    min-height: 340px;
+  }
+  .highlight_container {
+    padding-right: 1.5%;
+    padding-left: 1.5%;
+  }
+  .nav_hero {
+    padding-top: 1.55em;
+    padding-bottom: 0em;
+  }
+  .highlight_grid {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .nae_research_logo {
+    max-width: 200px;
+    padding-top: 22px;
+    margin-left: 10%;
+  }
+  .menu-button {
+    padding-right: 0px;
+  }
+  .intro_second {
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1em;
+    font-weight: 700;
+  }
+  .nav_container {
+    padding-top: 10px;
+  }
+  .highlight_img {
+    max-height: 250px;
+    max-width: 90%;
+    margin-right: auto;
+    margin-bottom: 10px;
+    margin-left: auto;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 8px -2px rgba(0, 0, 0, 0.55);
+  }
+  .main_head_div {
+    padding-top: 1em;
+  }
+  .intro_p {
+    font-size: 0.9em;
+  }
+  .databriefs_heading {
+    width: auto;
+    min-width: 108px;
+    padding-top: 15px;
+    padding-right: 0px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 1.5em;
+  }
+  .databriefs_descr {
+    padding-top: 3px;
+    padding-left: 10px;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    -ms-grid-row-align: center;
+    align-self: center;
+    font-size: 0.8em;
+    line-height: 17px;
+  }
+  .post_title {
+    font-size: 250%;
+    line-height: 100%;
+  }
+  .date {
+    font-size: 100%;
+  }
+  .post_intro_p1 {
+    font-size: 110%;
+  }
+  .secondary_intro {
+    font-size: 100%;
+  }
+}
+
+@font-face {
+  font-family: 'Lyondisplay web';
+  src: url('../fonts/LyonDisplay-Regular-Web.woff2') format('woff2'), url('../fonts/LyonDisplay-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../fonts/LyonText-Regular-Web.woff2') format('woff2'), url('../fonts/LyonText-Regular-Web.eot') format('embedded-opentype'), url('../fonts/LyonText-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../fonts/LyonText-BoldItalic-Web.eot') format('embedded-opentype'), url('../fonts/LyonText-BoldItalic-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lyondisplay web';
+  src: url('../fonts/LyonDisplay-RegularItalic-Web.eot') format('embedded-opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../fonts/LyonText-Bold-Web.eot') format('embedded-opentype'), url('../fonts/LyonText-Bold-Web.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Lyontext web';
+  src: url('../fonts/LyonText-RegularItalic-Web.eot') format('embedded-opentype'), url('../fonts/LyonText-RegularItalic-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesk';
+  src: url('../fonts/FoundersGrotesk-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-BoldItalic.otf') format('opentype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-MediumItalic.otf') format('opentype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-Semibold.otf') format('opentype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-SemiboldItalic.otf') format('opentype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-Light.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-Regular.otf') format('opentype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-LightItalic.otf') format('opentype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-Medium.otf') format('opentype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-Bold.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Foundersgrotesktext';
+  src: url('../fonts/FoundersGroteskText-RegularItalic.otf') format('opentype');
+  font-weight: 400;
+  font-style: italic;
+}

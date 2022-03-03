@@ -1,0 +1,61 @@
+/* CUSTOM VARIABLES */
+:root {
+  --c-grey: #4c5467;
+  --c-grey-1: #efefef;
+  --c-grey-2: #9c9da1;
+  --c-grey-3: #e6e6e6;
+  --c-orange: #fa5e00;
+
+  --c-blue: #407cca;
+}
+
+.content_white_padding {
+  width: 92%;
+  max-width: 2500px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.databriefs_heading,
+.article-toolbar__list-item h2,
+.article-toolbar__list-item p {
+  font-family: "Open Sans";
+  font-weight: 500;
+  line-height: 32px;
+}
+
+.databriefs_descr,
+.date,
+.post_title,
+.secondary_intro {
+  font-family: "Open Sans";
+}
+
+.databriefs_descr {
+  font-weight: 400;
+}
+
+.databrief_title_bar {
+  align-items: center;
+}
+
+.post_title {
+  line-height: 43px;
+  font-size: 40px;
+}
+
+.secondary_intro {
+  line-height: 28px;
+}
+
+.intro_div,
+.intro {
+  border-left-color: var(--c-blue);
+}
+
+.date span strong,
+.date--title {
+  color: var(--c-blue);
+}

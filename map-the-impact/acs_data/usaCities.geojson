@@ -1,0 +1,199 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[-8.122171627740796,-3.2051633044796137]},"properties":{"ID":"ABQ","Name":"Albuquerque","State":"NM","Big":"1"},"bbox":[-8.122171627740796,-3.2051633044796137,-8.122171627740796,-3.2051633044796137]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[10.011179923921194,-4.510197809561522]},"properties":{"ID":"ATL","Name":"Atlanta","State":"GA","Big":"1"},"bbox":[10.011179923921194,-4.510197809561522,10.011179923921194,-4.510197809561522]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[8.104815962272747,-4.800029335821532]},"properties":{"ID":"BHM","Name":"Birmingham","State":"AL","Big":"1"},"bbox":[8.104815962272747,-4.800029335821532,8.104815962272747,-4.800029335821532]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-14.010461197737259,6.438564962300803]},"properties":{"ID":"BOI","Name":"Boise","State":"ID","Big":"1"},"bbox":[-14.010461197737259,6.438564962300803,-14.010461197737259,6.438564962300803]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[18.58064293990235,6.082115086179643]},"properties":{"ID":"BOS","Name":"Boston","State":"MA","Big":"1"},"bbox":[18.58064293990235,6.082115086179643,18.58064293990235,6.082115086179643]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.727508705783151,-4.729864998471552]},"properties":{"ID":"CHS","Name":"Charleston","State":"SC","Big":"1"},"bbox":[13.727508705783151,-4.729864998471552,13.727508705783151,-4.729864998471552]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.617392384779567,-2.5482448324838503]},"properties":{"ID":"CLT","Name":"Charlotte","State":"NC","Big":"1"},"bbox":[12.617392384779567,-2.5482448324838503,12.617392384779567,-2.5482448324838503]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[6.625958492656994,3.4953651453900925]},"properties":{"ID":"CHI","Name":"Chicago","State":"IL","Big":"1"},"bbox":[6.625958492656994,3.4953651453900925,6.625958492656994,3.4953651453900925]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[9.158003156293042,0.8707229654184708]},"properties":{"ID":"CVG","Name":"Cincinnati","State":"OH","Big":"1"},"bbox":[9.158003156293042,0.8707229654184708,9.158003156293042,0.8707229654184708]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[11.202062317616098,3.7134573986912223]},"properties":{"ID":"CGF","Name":"Cleveland","State":"OH","Big":"1"},"bbox":[11.202062317616098,3.7134573986912223,11.202062317616098,3.7134573986912223]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.66505876448613,-3.8350662797354933]},"properties":{"ID":"CAE","Name":"Columbia","State":"SC","Big":"1"},"bbox":[12.66505876448613,-3.8350662797354933,12.66505876448613,-3.8350662797354933]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[10.391499123629012,1.996782526936655]},"properties":{"ID":"CMH","Name":"Columbus","State":"OH","Big":"1"},"bbox":[10.391499123629012,1.996782526936655,10.391499123629012,1.996782526936655]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.3957409365282463,-5.837436899976846]},"properties":{"ID":"DFW","Name":"Dallas","State":"TX","Big":"1"},"bbox":[-0.3957409365282463,-5.837436899976846,-0.3957409365282463,-5.837436899976846]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-6.2831976250451165,1.3734934675182044]},"properties":{"ID":"DEN","Name":"Denver","State":"CO","Big":"1"},"bbox":[-6.2831976250451165,1.3734934675182044,-6.2831976250451165,1.3734934675182044]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[2.2092893250716985,2.8742692621520893]},"properties":{"ID":"DSM","Name":"Des Moines","State":"IA","Big":"1"},"bbox":[2.2092893250716985,2.8742692621520893,2.2092893250716985,2.8742692621520893]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[9.954115310183678,4.3950015561259885]},"properties":{"ID":"DET","Name":"Detroit","State":"MI","Big":"1"},"bbox":[9.954115310183678,4.3950015561259885,9.954115310183678,4.3950015561259885]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.098876116931809,-1.5076109904186952]},"properties":{"ID":"DUR","Name":"Durham","State":"NC","Big":"1"},"bbox":[14.098876116931809,-1.5076109904186952,14.098876116931809,-1.5076109904186952]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-8.318145574785078,-6.463406207021401]},"properties":{"ID":"ELP","Name":"El Paso","State":"TX","Big":"1"},"bbox":[-8.318145574785078,-6.463406207021401,-8.318145574785078,-6.463406207021401]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-18.161192960978184,0.38591787216573953]},"properties":{"ID":"FAT","Name":"Fresno","State":"CA","Big":"1"},"bbox":[-18.161192960978184,0.38591787216573953,-18.161192960978184,0.38591787216573953]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.25460257664161,-1.5641042391934352]},"properties":{"ID":"GSO","Name":"Greensboro","State":"NC","Big":"1"},"bbox":[13.25460257664161,-1.5641042391934352,13.25460257664161,-1.5641042391934352]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-9.787121217250684,-10.6573433953867]},"properties":{"ID":"HNL","Name":"Honolulu","State":"HI","Big":"1"},"bbox":[-9.787121217250684,-10.6573433953867,-9.787121217250684,-10.6573433953867]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[1.0262509181347905,-8.757044570151734]},"properties":{"ID":"IAH","Name":"Houston","State":"TX","Big":"1"},"bbox":[1.0262509181347905,-8.757044570151734,1.0262509181347905,-8.757044570151734]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[7.864711626974215,1.417399526334978]},"properties":{"ID":"IND","Name":"Indianapolis","State":"IN","Big":"1"},"bbox":[7.864711626974215,1.417399526334978,7.864711626974215,1.417399526334978]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[5.4368837936796055,-6.268086388584249]},"properties":{"ID":"JAN","Name":"Jackson","State":"MS","Big":"1"},"bbox":[5.4368837936796055,-6.268086388584249,5.4368837936796055,-6.268086388584249]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.712871205230115,-7.319217510688152]},"properties":{"ID":"JAX","Name":"Jacksonville","State":"FL","Big":"1"},"bbox":[12.712871205230115,-7.319217510688152,12.712871205230115,-7.319217510688152]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[1.4445987543201617,0.6311061355841665]},"properties":{"ID":"MCI","Name":"Kansas City","State":"MO","Big":"1"},"bbox":[1.4445987543201617,0.6311061355841665,1.4445987543201617,0.6311061355841665]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-14.782556557027762,-1.1040002714805552]},"properties":{"ID":"LAS","Name":"Las Vegas","State":"NV","Big":"1"},"bbox":[-14.782556557027762,-1.1040002714805552,-14.782556557027762,-1.1040002714805552]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[3.5931371957148692,-3.751153820312277]},"properties":{"ID":"LRF","Name":"Little Rock","State":"AR","Big":"1"},"bbox":[3.5931371957148692,-3.751153820312277,3.5931371957148692,-3.751153820312277]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.81352813861737,-2.6503798075540907]},"properties":{"ID":"LAX","Name":"Los Angeles","State":"CA","Big":"1"},"bbox":[-17.81352813861737,-2.6503798075540907,-17.81352813861737,-2.6503798075540907]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[5.4163442356697695,-3.2220332188657244]},"properties":{"ID":"NQA","Name":"Memphis","State":"TN","Big":"1"},"bbox":[5.4163442356697695,-3.2220332188657244,5.4163442356697695,-3.2220332188657244]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.670253091903449,-11.5706432388769]},"properties":{"ID":"OPF","Name":"Miami","State":"FL","Big":"1"},"bbox":[14.670253091903449,-11.5706432388769,14.670253091903449,-11.5706432388769]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[6.351956438290497,4.529835681726039]},"properties":{"ID":"MKE","Name":"Milwaukee","State":"WI","Big":"1"},"bbox":[6.351956438290497,4.529835681726039,6.351956438290497,4.529835681726039]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[2.2546798141290965,6.182500077004763]},"properties":{"ID":"FCM","Name":"Minneapolis","State":"MN","Big":"1"},"bbox":[2.2546798141290965,6.182500077004763,2.2546798141290965,6.182500077004763]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[7.9107188340737915,-2.2405049255338385]},"properties":{"ID":"BNA","Name":"Nashville","State":"TN","Big":"1"},"bbox":[7.9107188340737915,-2.2405049255338385,7.9107188340737915,-2.2405049255338385]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[5.436196261613828,-8.600314056486454]},"properties":{"ID":"MSY","Name":"New Orleans","State":"LA","Big":"1"},"bbox":[5.436196261613828,-8.600314056486454,5.436196261613828,-8.600314056486454]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.85155801286734,3.991393766942702]},"properties":{"ID":"NYC","Name":"New York","State":"NY","Big":"1"},"bbox":[16.85155801286734,3.991393766942702,16.85155801286734,3.991393766942702]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.8289326124184756,-3.320317936523744]},"properties":{"ID":"OKC","Name":"Oklahoma Cty","State":"OK","Big":"1"},"bbox":[-0.8289326124184756,-3.320317936523744,-0.8289326124184756,-3.320317936523744]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.5382702077037804,2.62120916123299]},"properties":{"ID":"OMA","Name":"Omaha","State":"NE","Big":"1"},"bbox":[0.5382702077037804,2.62120916123299,0.5382702077037804,2.62120916123299]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.35422960124197,-9.29367919141919]},"properties":{"ID":"MCO","Name":"Orlando","State":"FL","Big":"1"},"bbox":[13.35422960124197,-9.29367919141919,13.35422960124197,-9.29367919141919]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.116412575905887,2.90399828545564]},"properties":{"ID":"PHL","Name":"Philadelphia","State":"PA","Big":"1"},"bbox":[16.116412575905887,2.90399828545564,16.116412575905887,2.90399828545564]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-12.751669575403767,-4.198589555354235]},"properties":{"ID":"PHX","Name":"Phoenix","State":"AZ","Big":"1"},"bbox":[-12.751669575403767,-4.198589555354235,-12.751669575403767,-4.198589555354235]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.544968500344455,2.6868370952471143]},"properties":{"ID":"AGC","Name":"Pittsburgh","State":"PA","Big":"1"},"bbox":[12.544968500344455,2.6868370952471143,12.544968500344455,2.6868370952471143]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.910384335811592,9.485757939311407]},"properties":{"ID":"PDX","Name":"Portland","State":"OR","Big":"1"},"bbox":[-17.910384335811592,9.485757939311407,-17.910384335811592,9.485757939311407]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[15.03776339520238,0.22282385495045529]},"properties":{"ID":"RIC","Name":"Richmond","State":"VA","Big":"1"},"bbox":[15.03776339520238,0.22282385495045529,15.03776339520238,0.22282385495045529]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-19.057919064293753,2.4506669513677966]},"properties":{"ID":"SAC","Name":"Sacramento","State":"CA","Big":"1"},"bbox":[-19.057919064293753,2.4506669513677966,-19.057919064293753,2.4506669513677966]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-11.47048101140156,3.101275723323261]},"properties":{"ID":"SLC","Name":"Salt Lake City","State":"UT","Big":"1"},"bbox":[-11.47048101140156,3.101275723323261,-11.47048101140156,3.101275723323261]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.6850169482980597,-9.166227521025359]},"properties":{"ID":"SAT","Name":"San Antonio","State":"TX","Big":"1"},"bbox":[-1.6850169482980597,-9.166227521025359,-1.6850169482980597,-9.166227521025359]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.04134042414681,-3.97560370258804]},"properties":{"ID":"MYF","Name":"San Diego","State":"CA","Big":"1"},"bbox":[-17.04134042414681,-3.97560370258804,-17.04134042414681,-3.97560370258804]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-20.15338186461277,1.9517501707292155]},"properties":{"ID":"51Q","Name":"San Francisco","State":"CA","Big":"1"},"bbox":[-20.15338186461277,1.9517501707292155,-20.15338186461277,1.9517501707292155]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.204662540145534,11.174279536675273]},"properties":{"ID":"SEA","Name":"Seattle","State":"WA","Big":"1"},"bbox":[-17.204662540145534,11.174279536675273,-17.204662540145534,11.174279536675273]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.809663316176168,0.17777763230685578]},"properties":{"ID":"STL","Name":"St Louis","State":"MO","Big":"1"},"bbox":[4.809663316176168,0.17777763230685578,4.809663316176168,0.17777763230685578]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.363952567213834,-9.896509488694042]},"properties":{"ID":"TPA","Name":"Tampa","State":"FL","Big":"1"},"bbox":[12.363952567213834,-9.896509488694042,12.363952567213834,-9.896509488694042]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.653769298609376,1.639157155574402]},"properties":{"ID":"IAD","Name":"Washington","State":"DC","Big":"1"},"bbox":[14.653769298609376,1.639157155574402,14.653769298609376,1.639157155574402]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-4.998655173593715,1.68974962373743]},"properties":{"ID":"AKO","Name":"Akron","State":"OH","Big":"0"},"bbox":[-4.998655173593715,1.68974962373743,-4.998655173593715,1.68974962373743]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.52140709739568,5.955504684112981]},"properties":{"ID":"ALB","Name":"Albany","State":"NY","Big":"0"},"bbox":[16.52140709739568,5.955504684112981,16.52140709739568,5.955504684112981]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[15.815934868714344,3.6320613704941738]},"properties":{"ID":"ABE","Name":"Allentown","State":"PA","Big":"0"},"bbox":[15.815934868714344,3.6320613704941738,15.815934868714344,3.6320613704941738]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[18.91753450947368,8.19119071938293]},"properties":{"ID":"AUG","Name":"Augusta","State":"ME","Big":"0"},"bbox":[18.91753450947368,8.19119071938293,18.91753450947368,8.19119071938293]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.0014649361409276,-8.419246509456777]},"properties":{"ID":"AUS","Name":"Austin","State":"TX","Big":"0"},"bbox":[-1.0014649361409276,-8.419246509456777,-1.0014649361409276,-8.419246509456777]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.970413079981384,-1.05638281017462]},"properties":{"ID":"BFL","Name":"Bakersfield","State":"CA","Big":"0"},"bbox":[-17.970413079981384,-1.05638281017462,-17.970413079981384,-1.05638281017462]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[15.203325814221051,1.9868373544855062]},"properties":{"ID":"BWI","Name":"Baltimore","State":"MD","Big":"0"},"bbox":[15.203325814221051,1.9868373544855062,15.203325814221051,1.9868373544855062]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[4.6305383236147115,-8.098926645652494]},"properties":{"ID":"BTR","Name":"Baton Rouge","State":"LA","Big":"0"},"bbox":[4.6305383236147115,-8.098926645652494,4.6305383236147115,-8.098926645652494]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[17.376005744046854,4.530950289851379]},"properties":{"ID":"BDR","Name":"Bridgeport","State":"CT","Big":"0"},"bbox":[17.376005744046854,4.530950289851379,17.376005744046854,4.530950289851379]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.967789909006072,5.394566853678035]},"properties":{"ID":"BUF","Name":"Buffalo","State":"NY","Big":"0"},"bbox":[12.967789909006072,5.394566853678035,12.967789909006072,5.394566853678035]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.137302621416875,-11.089944840383529]},"properties":{"ID":"RSW","Name":"Cape Coral-Ft Myers","State":"FL","Big":"0"},"bbox":[13.137302621416875,-11.089944840383529,13.137302621416875,-11.089944840383529]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[9.213245960737181,-3.2069651159953385]},"properties":{"ID":"CHA","Name":"Chattanooga","State":"TN","Big":"0"},"bbox":[9.213245960737181,-3.2069651159953385,9.213245960737181,-3.2069651159953385]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-6.255441077930752,0.42814885871967984]},"properties":{"ID":"COS","Name":"Colo Sprgs","State":"CO","Big":"0"},"bbox":[-6.255441077930752,0.42814885871967984,-6.255441077930752,0.42814885871967984]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[9.410593880640603,1.7657815229663687]},"properties":{"ID":"DAY","Name":"Dayton","State":"OH","Big":"0"},"bbox":[9.410593880640603,1.7657815229663687,9.410593880640603,1.7657815229663687]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.361216091429373,-8.943567362305913]},"properties":{"ID":"SFB","Name":"Deltona-Sanford","State":"FL","Big":"0"},"bbox":[13.361216091429373,-8.943567362305913,13.361216091429373,-8.943567362305913]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[8.083604284438103,4.628586576531068]},"properties":{"ID":"GRR","Name":"Grand Rapids","State":"MI","Big":"0"},"bbox":[8.083604284438103,4.628586576531068,8.083604284438103,4.628586576531068]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[11.533900788579434,-3.090012093743944]},"properties":{"ID":"GMU","Name":"Greenville","State":"SC","Big":"0"},"bbox":[11.533900788579434,-3.090012093743944,11.533900788579434,-3.090012093743944]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.857871851062786,2.986554126278852]},"properties":{"ID":"CXY","Name":"Harrisburg","State":"PA","Big":"0"},"bbox":[14.857871851062786,2.986554126278852,14.857871851062786,2.986554126278852]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[17.586604166038352,5.162407058521276]},"properties":{"ID":"HFD","Name":"Hartford","State":"CT","Big":"0"},"bbox":[17.586604166038352,5.162407058521276,17.586604166038352,5.162407058521276]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[10.096081407498046,-2.2987470934518632]},"properties":{"ID":"TYS","Name":"Knoxville","State":"TN","Big":"0"},"bbox":[10.096081407498046,-2.2987470934518632,10.096081407498046,-2.2987470934518632]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.863893784739837,-9.765160034516244]},"properties":{"ID":"LAL","Name":"Lakeland","State":"FL","Big":"0"},"bbox":[12.863893784739837,-9.765160034516244,12.863893784739837,-9.765160034516244]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[8.442667363684318,-0.09504729815201676]},"properties":{"ID":"SDF","Name":"Louisville","State":"KY","Big":"0"},"bbox":[8.442667363684318,-0.09504729815201676,8.442667363684318,-0.09504729815201676]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[5.301631108069107,4.6292761942501555]},"properties":{"ID":"MSN","Name":"Madison","State":"WI","Big":"0"},"bbox":[5.301631108069107,4.6292761942501555,5.301631108069107,4.6292761942501555]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-1.55454732545654,-12.447211635564152]},"properties":{"ID":"MFE","Name":"McAllen","State":"TX","Big":"0"},"bbox":[-1.55454732545654,-12.447211635564152,-1.55454732545654,-12.447211635564152]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[17.697134475202667,4.662082284470303]},"properties":{"ID":"30N","Name":"New Haven","State":"CT","Big":"0"},"bbox":[17.697134475202667,4.662082284470303,17.697134475202667,4.662082284470303]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[12.778743444090482,-10.69828531214364]},"properties":{"ID":"SRQ","Name":"North Port","State":"FL","Big":"0"},"bbox":[12.778743444090482,-10.69828531214364,12.778743444090482,-10.69828531214364]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-11.439829292456839,3.5045102939158035]},"properties":{"ID":"OGD","Name":"Ogden","State":"UT","Big":"0"},"bbox":[-11.439829292456839,3.5045102939158035,-11.439829292456839,3.5045102939158035]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-18.38774911807737,-2.2302269752125845]},"properties":{"ID":"OXR","Name":"Oxnard","State":"CA","Big":"0"},"bbox":[-18.38774911807737,-2.2302269752125845,-18.38774911807737,-2.2302269752125845]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.007926400648312,-9.519584703463332]},"properties":{"ID":"MLB","Name":"Palm Bay-Melbourne","State":"FL","Big":"0"},"bbox":[14.007926400648312,-9.519584703463332,14.007926400648312,-9.519584703463332]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.724678182152424,4.8496963575592655]},"properties":{"ID":"POU","Name":"Poughkeepsie","State":"NY","Big":"0"},"bbox":[16.724678182152424,4.8496963575592655,16.724678182152424,4.8496963575592655]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[18.461739431872353,5.386865034886426]},"properties":{"ID":"PVD","Name":"Providence","State":"RI","Big":"0"},"bbox":[18.461739431872353,5.386865034886426,18.461739431872353,5.386865034886426]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-11.378388920458917,2.5136329373531594]},"properties":{"ID":"PVU","Name":"Provo","State":"UT","Big":"0"},"bbox":[-11.378388920458917,2.5136329373531594,-11.378388920458917,2.5136329373531594]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.215338058047955,-1.6094229788462808]},"properties":{"ID":"RDU","Name":"Raleigh","State":"NC","Big":"0"},"bbox":[14.215338058047955,-1.6094229788462808,14.215338058047955,-1.6094229788462808]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-17.04737227395748,-2.809443915576787]},"properties":{"ID":"RAL","Name":"Riverside","State":"CA","Big":"0"},"bbox":[-17.04737227395748,-2.809443915576787,-17.04737227395748,-2.809443915576787]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.689388016594478,5.724203720045269]},"properties":{"ID":"ROC","Name":"Rochester","State":"NY","Big":"0"},"bbox":[13.689388016594478,5.724203720045269,13.689388016594478,5.724203720045269]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-19.684298553454443,1.4198646841350828]},"properties":{"ID":"SJC","Name":"San Jose","State":"CA","Big":"0"},"bbox":[-19.684298553454443,1.4198646841350828,-19.684298553454443,1.4198646841350828]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-14.021277232367092,10.55186827202844]},"properties":{"ID":"GEG","Name":"Spokane","State":"WA","Big":"0"},"bbox":[-14.021277232367092,10.55186827202844,-14.021277232367092,10.55186827202844]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[17.545987426150507,5.534831206564768]},"properties":{"ID":"SGF","Name":"Springfield","State":"MA","Big":"0"},"bbox":[17.545987426150507,5.534831206564768,17.545987426150507,5.534831206564768]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-19.035457645073713,1.7958987636559411]},"properties":{"ID":"SCK","Name":"Stockton","State":"CA","Big":"0"},"bbox":[-19.035457645073713,1.7958987636559411,-19.035457645073713,1.7958987636559411]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[14.792051815952037,5.947723298954103]},"properties":{"ID":"SYR","Name":"Syracuse","State":"NY","Big":"0"},"bbox":[14.792051815952037,5.947723298954103,14.792051815952037,5.947723298954103]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[9.492766690662812,3.502539452767633]},"properties":{"ID":"TOL","Name":"Toledo","State":"OH","Big":"0"},"bbox":[9.492766690662812,3.502539452767633,9.492766690662812,3.502539452767633]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-12.066339142362438,-5.641277058950059]},"properties":{"ID":"TUS","Name":"Tucson","State":"AZ","Big":"0"},"bbox":[-12.066339142362438,-5.641277058950059,-12.066339142362438,-5.641277058950059]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[0.5436864931173565,-2.5248874001715063]},"properties":{"ID":"TUL","Name":"Tulsa","State":"OK","Big":"0"},"bbox":[0.5436864931173565,-2.5248874001715063,0.5436864931173565,-2.5248874001715063]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[16.03273109072913,-0.19147407732680546]},"properties":{"ID":"ORF","Name":"Virginia Beach-Norfolk","State":"VA","Big":"0"},"bbox":[16.03273109072913,-0.19147407732680546,16.03273109072913,-0.19147407732680546]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[-0.6574250317022884,-1.053264417599442]},"properties":{"ID":"ICT","Name":"Wichita","State":"KS","Big":"0"},"bbox":[-0.6574250317022884,-1.053264417599442,-0.6574250317022884,-1.053264417599442]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[13.025194590148697,-1.5516921194509508]},"properties":{"ID":"INT","Name":"Winston-Salem","State":"NC","Big":"0"},"bbox":[13.025194590148697,-1.5516921194509508,13.025194590148697,-1.5516921194509508]}
+,
+{"type":"Feature","geometry":{"type":"Point","coordinates":[18.009855194041965,5.828565125221905]},"properties":{"ID":"ORH","Name":"Worcester","State":"MA","Big":"0"},"bbox":[18.009855194041965,5.828565125221905,18.009855194041965,5.828565125221905]}]}

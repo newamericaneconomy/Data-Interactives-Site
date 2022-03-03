@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+.counties {
+  fill: none;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+</style>
+<svg width="1060" height="600"></svg>
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script>
+
+var svg = d3.select("svg"),
+    width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var population = d3.map();
+var countyNames = d3.map();
+
+// var projection = d3.geoAlbersUsa().scale(400)
+
+// var projection = d3.geoTransverseMercator()
+//                     .scale(100)
+//                     .translate([0,0]);
+
+
+var x = d3.scaleLinear()
+    .domain([1, 10])
+    .rangeRound([600, 860]);
+
+var color = d3.scaleThreshold()
+    .domain(d3.range(1, 7))
+    .range(d3.schemeBlues[8]);
+
+var g = svg.append("g")
+    .attr("class", "key")
+    .attr("transform", "translate(0,40)");
+
+g.selectAll("rect")
+  .data(color.range().map(function(d) {
+      d = color.invertExtent(d);
+      if (d[0] == null) d[0] = x.domain()[0];
+      if (d[1] == null) d[1] = x.domain()[1];
+      return d;
+    }))
+  .enter().append("rect")
+    .attr("height", 8)
+    .attr("x", function(d) { return x(d[0]); })
+    .attr("width", function(d) { return x(d[1]) - (x(d[0])/1.1); })
+    .attr("fill", function(d) { return color(d[0]); });
+
+g.append("text")
+    .attr("class", "caption")
+    .attr("x", x.range()[0])
+    .attr("y", -6)
+    .attr("fill", "#000")
+    .attr("text-anchor", "start")
+    .attr("font-weight", "bold")
+    .text("Unemployment rate");
+
+g.call(d3.axisBottom(x)
+    .tickSize(13)
+    .tickFormat(function(x, i) { return i ? x : x + "%"; })
+    .tickValues(color.domain()))
+  .select(".domain")
+    .remove();
+
+var promises = [
+  //d3.json("iowa-counties2.geojson"),
+  d3.json("https://d3js.org/us-10m.v1.json"),
+  d3.csv("countyIowaData.csv", function(d) {
+    countyNames.set(d.id, d.CountyName),
+    population.set(d.CountyName, d.Color);
+  })
+]
+console.log("before promises")
+Promise.all(promises).then(ready)
+
+function ready([us]) {
+  
+  var featureCollection = topojson.feature(us, us.objects.counties);
+
+
+var projection = d3.geoIdentity()
+
+  // .fitExtent([[100,100],[600-300,1000-500]],featureCollection)
+  //.fitSize([1.5*width,1.5*height],featureCollection)
+  .fitExtent([[-2000,-50],[100-0,50-0]],featureCollection)
+  .scale(3.5);
+
+
+var path = d3.geoPath()
+            .projection(projection)
+            
+            
+  console.log(us)
+  console.log("in ready", topojson.feature(us, us.objects.counties).features)
+  console.log("statenames", countyNames)
+  console.log("employment", population)
+  svg.append("g")
+      .attr("class", "counties")
+    .selectAll("path")
+    .data(topojson.feature(us, us.objects.counties).features)
+    .enter().append("path")
+      .attr("fill", function(d) { 
+          console.log("d", d)
+          console.log("population", population)
+          var sn = countyNames
+          console.log("sn",sn)
+          //d.rate = countyPop || 0
+          d.rate = population.get(countyNames.get(d.id)) || 0
+          console.log("rate", d.rate)
+          var col =  color(d.rate); 
+          console.log("col", col)
+          if (col) {
+            console.log("found col", col, "for d", d)
+            return col
+          } else {
+            return '#ffffff'
+          }
+      })
+      .attr("d", path)
+    .append("title")
+      .text(function(d) { 
+    			console.log("title", d)
+    			return d.rate + "%"; });
+
+  svg.append("path")
+      .datum(topojson.mesh(us, us.objects.counties, function(a, b) { return a !== b; }))
+      // .datum(topojson.mesh(us, iowa.geometry.coordinates, function(a, b) { return a !== b; }))
+      .attr("class", "counties")
+      .attr("d", path);
+}
+
+</script>

@@ -1,0 +1,141 @@
+{"name": "H2A-Visa-2020",
+ "children": [
+
+   {
+    "name": "2020",
+    "children":           [
+  {
+    "State_Abv": "FL",
+    "Title": "Florida",
+    "WorkersH2A_2020": 39064
+  },
+  {
+    "State_Abv": "GA",
+    "Title": "Georgia",
+    "WorkersH2A_2020": 27614
+  },
+  {
+    "State_Abv": "WA",
+    "Title": "Washington",
+    "WorkersH2A_2020": 26832
+  },
+  {
+    "State_Abv": "CA",
+    "Title": "California",
+    "WorkersH2A_2020": 25453
+  },
+  {
+    "State_Abv": "NC",
+    "Title": "North Carolina",
+    "WorkersH2A_2020": 22052
+  },
+  {
+    "State_Abv": "LA",
+    "Title": "Louisiana",
+    "WorkersH2A_2020": 11332
+  },
+  {
+    "State_Abv": "MI",
+    "Title": "Michigan",
+    "WorkersH2A_2020": 9912
+  },
+  {
+    "State_Abv": "AZ",
+    "Title": "Arizona",
+    "WorkersH2A_2020": 8602
+  },
+  {
+    "State_Abv": "NY",
+    "Title": "New York",
+    "WorkersH2A_2020": 8482
+  },
+  {
+    "State_Abv": "KY",
+    "Title": "Kentucky",
+    "WorkersH2A_2020": 6952
+  },
+  {
+    "State_Abv": "TX",
+    "Title": "Texas",
+    "WorkersH2A_2020": 6596
+  },
+  {
+    "State_Abv": "SC",
+    "Title": "South Carolina",
+    "WorkersH2A_2020": 5942
+  },
+  {
+    "State_Abv": "MS",
+    "Title": "Mississippi",
+    "WorkersH2A_2020": 5521
+  },
+  {
+    "State_Abv": "ID",
+    "Title": "Idaho",
+    "WorkersH2A_2020": 4741
+  },
+  {
+    "State_Abv": "TN",
+    "Title": "Tennessee",
+    "WorkersH2A_2020": 4656
+  },
+  {
+    "State_Abv": "AR",
+    "Title": "Arkansas",
+    "WorkersH2A_2020": 4470
+  },
+  {
+    "State_Abv": "IA",
+    "Title": "Iowa",
+    "WorkersH2A_2020": 3977
+  },
+  {
+    "State_Abv": "VA",
+    "Title": "Virginia",
+    "WorkersH2A_2020": 3940
+  },
+  {
+    "State_Abv": "IN",
+    "Title": "Indiana",
+    "WorkersH2A_2020": 3631
+  },
+  {
+    "State_Abv": "CO",
+    "Title": "Colorado",
+    "WorkersH2A_2020": 3253
+  },
+  {
+    "State_Abv": "OH",
+    "Title": "Ohio",
+    "WorkersH2A_2020": 3086
+  },
+  {
+    "State_Abv": "OR",
+    "Title": "Oregon",
+    "WorkersH2A_2020": 3034
+  },
+  {
+    "State_Abv": "IL",
+    "Title": "Illinois",
+    "WorkersH2A_2020": 2965
+  },
+  {
+    "State_Abv": "NV",
+    "Title": "Nevada",
+    "WorkersH2A_2020": 2831
+  },
+  {
+    "State_Abv": "NE",
+    "Title": "Nebraska",
+    "WorkersH2A_2020": 2755
+  },
+  {
+    "State_Abv": "OT",
+    "Title": "All Other States",
+    "WorkersH2A_2020": 27710
+  }
+]
+  }
+
+]
+}

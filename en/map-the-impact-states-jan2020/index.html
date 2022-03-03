@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+<head>
+
+	<!--  -->
+	<title>Map the Impact: State Updates</title>
+	<meta charset='utf-8'>
+	<meta name='viewport' content='width=device-width'>
+	<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+	<meta name='description'
+		content='In this data interactive, we compare newly released 2018 data from the American Community Survey to last year’s numbers to showcase immigrants’ increasing contributions to each state’s economy.' />
+	<meta name='news_keywords'
+		content='economy, elections, Census, American Community Survey, entrepreneurship, education, population, demographics, voting, taxes' />
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+
+	<meta property='og:title' content='Map the Impact: State Updates' />
+	<meta property='og:site_name' content='American Immigration Council' />
+	<meta property='og:url' content='https://data.newamericaneconomy.org/en/map-the-impact-states-jan2020/' />
+	<meta property='og:image'
+		content='https://data.newamericaneconomy.org/en/map-the-impact-states-jan2020/assets/map_impact_facebook2020.jpg' />
+	<meta property='og:image:type' content='image/jpg' />
+	<meta property='og:image:width' content='1200' />
+	<meta property='og:image:height' content='675' />
+	<meta property='og:description'
+		content='In this data interactive, we compare newly released 2018 data from the American Community Survey to last year’s numbers to showcase immigrants’ increasing contributions to each state’s economy.' />
+	<meta property='og:type' content='article' />
+	<meta property='og:locale' content='en_US' />
+
+	<meta name='twitter:card' content='summary_large_image' />
+	<meta name='twitter:site' content='http://data.newamericaneconomy.org/en/map-the-impact-states-jan2020/' />
+	<meta name='twitter:creator' content='@immcouncil' />
+	<meta property='twitter:title' content='Map the Impact: State Updates' />
+	<meta property='twitter:description'
+		content='via @newamericanecon: Data Interactives https://data.newamericaneconomy.org' />
+	<meta property='twitter:image:src'
+		content='http://data.newamericaneconomy.org/assets/en/map-the-impact-states-jan2020/assets/map_impact_twitter2020.jpg' />
+	<meta name="twitter:image:alt" content="Map the Impact: State Updates">
+
+	<meta name="msapplication-TileImage"
+		content='https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/mstile.png' />
+	<meta name="msapplication-TileColor" content='#FFFFFF' />
+	<!-- smoosh -->
+	<!-- <link rel="stylesheet" href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/build/css/style.css?v=1.6.4" type="text/css" media="all"> -->
+	<link rel="pingback" href="https://www.newamericaneconomy.org/xmlrpc.php">
+	<link rel="icon" type="image/png"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/favicon-16x16.png"
+		sizes="16x16">
+	<link rel="icon" type="image/png"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/favicon-32x32.png"
+		sizes="32x32">
+	<link rel="icon" type="image/png"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/favicon-96x96.png"
+		sizes="96x96">
+	<link rel="shortcut icon"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/favicon.ico"
+		id="favicon">
+	<link rel="apple-touch-icon"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/touch-icon-iphone.png">
+	<link rel="apple-touch-icon" sizes="76x76"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/touch-icon-ipad.png">
+	<link rel="apple-touch-icon" sizes="120x120"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/touch-icon-iphone-retina.png">
+	<link rel="apple-touch-icon" sizes="152x152"
+		href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/favicons/touch-icon-ipad-retina.png">
+	<link rel='canonical' href='https://newamericaneconomy.org' />
+	<link rel='dns-prefetch' href='//s.w.org' />
+	<link rel='https://api.w.org/' href='https://www.newamericaneconomy.org/wp-json/' />
+	<link rel="EditURI" type="application/rsd+xml" title="RSD"
+		href="https://www.newamericaneconomy.org/xmlrpc.php?rsd" />
+	<link rel="wlwmanifest" type="application/wlwmanifest+xml"
+		href="https://www.newamericaneconomy.org/wp-includes/wlwmanifest.xml" />
+	<link rel="icon" href="https://www.newamericaneconomy.org/wp-content/uploads/2017/03/cropped-favicon-32x32.png"
+		sizes="32x32" />
+	<link rel="icon" href="https://www.newamericaneconomy.org/wp-content/uploads/2017/03/cropped-favicon-192x192.png"
+		sizes="192x192" />
+	<link rel="apple-touch-icon-precomposed"
+		href="https://www.newamericaneconomy.org/wp-content/uploads/2017/03/cropped-favicon-180x180.png" />
+	<link rel="stylesheet" href="bundle.css" /> <!-- endsmoosh -->
+
+	<!-- boilerplate.css -->
+
+	<!-- smoosh -->
+
+	<!-- <script src="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/build/js/modernizr-custom.js" defer></script> -->
+	<script type='text/javascript'
+		src='https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/js/jquery.min.js?ver=1.0.0'>
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js"
+		integrity="sha256-45YA33UQCDcJsntBst2bhka2t/LBNHP7RNvpllHPkQ0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js"
+		integrity="sha256-OI3N9zCKabDov2rZFzl8lJUXCcP7EmsGcGoP6DMXQCo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js"
+		integrity="sha256-eOUokb/RjDw7kS+vDwbatNrLN8BIvvEhlLM5yogcDIo=" crossorigin="anonymous"></script>
+	<!-- <script src="//unpkg.com/cross-fetch/dist/cross-fetch.js"></script> -->
+	<script src="assets/scripts/d3.v5.0.0.min.js" charset="utf-8"></script>
+	<script src="assets/scripts/topojson.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="//platform-api.sharethis.com/js/sharethis.js#property=5c77eed4df6421001143aff1&product="
+		sticky-share-buttons"></script>
+	<!-- endsmoosh -->
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+	<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18821235-15"></script>
+	<script>
+		window.dataLayer = window.dataLayer || [];
+
+		function gtag() {
+			dataLayer.push(arguments);
+		}
+		gtag('js', new Date());
+
+		gtag('config', 'UA-18821235-15');
+	</script>
+
+	<!-- Google Fonts-->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link
+		href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+		rel="stylesheet">
+
+	<!-- LOAD FONT AWESOME LIBRARY FOR SOCIAL ICONS -->
+	<link type="text/css" rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" />
+	<link rel="stylesheet" href="../../css/header-footer.css">
+	<link rel="stylesheet" href="../../css/data-viz-page.css">
+
+	<!-- Favicons - generated using https://realfavicongenerator.net -->
+	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+	<link rel="manifest" href="/site.webmanifest">
+	<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+	<!-- END Favicons -->
+
+</head>
+
+<body>
+
+	<div class="content_white_padding">
+		<!-- COUNCIL HEADER START -->
+		<header class="header header--data-viz-page">
+			<div class="row d-flex">
+				<div class="col">
+					<a href="https://americanimmigrationcouncil.org"> <img class="header__logo"
+							src="https://www.americanimmigrationcouncil.org/sites/all/themes/custom/aicsite/logo.png"
+							alt=""></a>
+				</div>
+
+				<div class="col header__links">
+					<div class="d-flex j-flex-end">
+						<div class="social__wrapper">
+							<a href="https://www.facebook.com/122037065517/"
+								class="social__facebook fa fa-facebook social__link" target="_blank"></a>
+							<a href="https://twitter.com/immcouncil" class="social__twitter fa fa-twitter social__link"
+								target="_blank"></a>
+							<a href="https://www.linkedin.com/company/american-immigration-council/"
+								class="social__linkedin fa fa-linkedin social__link" target="_blank"></a>
+						</div>
+						<a href="https://secure.everyaction.com/Cjhao1htyUmOhRFAWamusQ2?ms=Data_Site"
+							class="btn btn--primary">Donate</a>
+						<a href="https://www.americanimmigrationcouncil.org/get-involved" class="btn btn--secondary">Get
+							Involved</a>
+					</div>
+					<div class="header__backToHomeWrapper">
+						<a class="header__backToHomeLink" href="https://americanimmigrationcouncil.org">Back to
+							Homepage</a>
+					</div>
+
+				</div>
+
+				<div class="mobile-burger">
+					<span class="mobile-burger__line"></span>
+					<span class="mobile-burger__line"></span>
+					<span class="mobile-burger__line"></span>
+				</div>
+			</div>
+
+			<div class="mobile-menu">
+				<ul class="mobile-menu__list">
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Donate</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Get Involved</a></li>
+					<li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Back To Homepage</a></li>
+					<li class="mobile-menu__item">
+						<div class="social__wrapper">
+							<a href="https://www.facebook.com/122037065517/"
+								class="social__facebook fa fa-facebook social__link" target="_blank"></a>
+							<a href="https://twitter.com/immcouncil" class="social__twitter fa fa-twitter social__link"
+								target="_blank"></a>
+							<a href="https://www.linkedin.com/company/american-immigration-council/"
+								class="social__linkedin fa fa-linkedin social__link" target="_blank"></a>
+						</div>
+					</li>
+
+				</ul>
+			</div>
+		</header>
+		<!-- COUNCIL HEADER END -->
+		<div class="titlebar">
+
+			<div class="databrief_title_bar">
+				<h1 class="databriefs_heading">Data Interactives</h1>
+				<h4 class="databriefs_descr">Immigration in America, explained through data visualization</h4>
+			</div>
+
+			<div class="databrief_intro">
+				<div class="intro_div">
+					<h1 class="post_title">Map the Impact:</br> State Updates</h1>
+					<p class="date"><span><strong class="bold-text">Date:</strong></span>  January 30, 2020</p><img
+						src="assets/mapImpactDI.jpg" srcset="images/mapImpactDI.jpeg 500w, assets/mapImpactDI.jpg 800w"
+						sizes="(max-width: 479px) 92vw, 100vw" alt="" class="image">
+					<p class="post_intro_p1">The U.S. population is growing at its <a
+							href="https://www.nytimes.com/2019/12/30/us/usa-population-growth-decline-census.html">slowest
+							rate in a century</a>. This is a troubling trend as 10,000 Baby Boomers age into retirement
+						each day and birthrates remain at <a
+							href="https://www.npr.org/2019/05/15/723518379/u-s-births-fell-to-a-32-year-low-in-2018-cdc-says-birthrate-is-at-record-level">historic
+							lows</a>. For many states, this means that immigrants are playing an increasingly important
+						role in sustaining and driving growth. In this data interactive, we compare new 2018 data from
+						the <a href="https://www.census.gov/programs-surveys/acs">American Community Survey</a> to last
+						year’s numbers to showcase immigrants’ increasing contributions to each state and the country as
+						a whole.</p>
+					<p class="secondary_intro">By hovering over a state, a tooltip will provide detailed information for
+						that state. By clicking on a state, you will be directed to <a
+							href="https://www.newamericaneconomy.org/locations/">Map the Impact</a>, our comprehensive
+						data tool, to learn more about immigrants in that state.</p>
+				</div>
+				<div class="intro_img">
+				</div>
+			</div>
+
+			<div class="breakdown_story">
+				<div id="container-scroll1">
+					<div class="scroll__figure1">
+					</div>
+					<div class='scroll__text1'>
+						<div class='step1' data-step='1'>
+							<h3>The growth of the immigrant population is slowing.</h3>
+							<p>Between 2017 and 2018, <a
+									href="https://www.newamericaneconomy.org/locations/national/">the country</a> gained
+								more than 354,000 immigrants, less than half of the increase from the previous year.
+								Despite this slowdown, the immigrant population was still expanding faster than the U.S.
+								population by 0.8 percent. All in all, about one-fourth of total population growth in
+								the United States was due to immigrants from 2017 to 2018.</p>
+						</div>
+						<div class='step1' data-step='2'>
+							<p>More than half of all states experienced an increase in their immigrant population
+								between 2017 and 2018. For four states, the increase in the immigrant population was
+								enough to reverse population loss completely (<a
+									href="https://www.newamericaneconomy.org/locations/Iowa/">Iowa</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Massachusetts/">Massachusetts</a>,
+								<a href="https://www.newamericaneconomy.org/locations/Mississippi/">Mississippi</a>, and
+								<a href="https://www.newamericaneconomy.org/locations/Pennsylvania/">Pennsylvania</a>),
+								and in five others, immigration helped offset or slow population loss (<a
+									href="https://www.newamericaneconomy.org/locations/Alaska/">Alaska</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Hawaii/">Hawaii</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Kansas/">Kansas</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Louisiana/">Louisiana</a>, and <a
+									href="https://www.newamericaneconomy.org/locations/Rhode-Island/">Rhode Island</a>).
+							</p>
+						</div>
+						<div class='step1' data-step='3'>
+							<p>Worryingly, the foreign-born population shrank in 22 states. These included traditional
+								immigrant destinations like <a
+									href="https://www.newamericaneconomy.org/locations/new-york/">New York</a>, which
+								experienced a decrease of 1.5 percent in its immigrant population. This hints at a
+								change in international and domestic migration patterns among immigrants in the United
+								States.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="breakdown_story">
+				<div id="container-scroll2">
+
+					<div class="scroll__figure2">
+						<div class="svgTax">
+
+						</div>
+					</div>
+
+					<div class='scroll__text2'>
+						<div class='step2' data-step='1'>
+							<h3>This all matters because losing immigrants means losing billions of dollars in tax
+								revenues.</h3>
+							<p>In 2018 alone, immigrants contributed almost $459 billion in taxes nationwide, supporting
+								public services, such as schools, hospitals, and welfare programs. As part of this,
+								immigrants paid $150 billion in state and local taxes, providing additional valuable tax
+								revenues for states <a
+									href="https://www.pewtrusts.org/en/research-and-analysis/issue-briefs/2019/06/lost-decade-casts-a-post-recession-shadow-on-state-finances">struggling
+									with Medicaid expenses</a>, underfunded pension costs, and needed funds for public
+								education to avoid tuition hikes for American students.</p>
+						</div>
+
+						<div class='step2' data-step='2'>
+							<p>In the long term, <a
+									href="https://www.pewtrusts.org/en/research-and-analysis/articles/2018/11/19/over-long-term-revenue-lags-behind-expenses-in-10-states">10
+									U.S. states</a> face fiscal shortfalls, including <a
+									href="https://www.newamericaneconomy.org/locations/new-jersey/">New Jersey</a>,
+								which had the largest fiscal deficit. The state collected only enough revenue—mostly
+								from taxes and federal grants—to cover 91.3 percent of its expenses. Already in the
+								Garden State, immigrants play a significant role as taxpayers to support government
+								spending: Foreign-born households paid $19.7 billion in federal taxes and $9.5 billion
+								in state and local taxes in 2018 alone. Given the state’s needs, any decrease in their
+								numbers would likely widen the state’s budget shortfall.</p>
+						</div>
+
+					</div>
+
+
+				</div>
+			</div>
+
+			<div class="breakdown_story">
+				<div id="container-scroll3">
+
+					<div class="scroll__figure3">
+
+					</div>
+
+					<div class='scroll__text3'>
+
+						<div class='step3' data-step='1'>
+							<h3>The growth of college-educated immigrants is outpacing their U.S.-born counterparts.
+							</h3>
+							<p>Between 2017 and 2018, the number of college-educated immigrants increased by more than
+								473,000 people, or 3.8 percent, higher than the growth rate of 2.7 percent for their
+								U.S.-born counterparts. These immigrants are helping to fill the urgent and growing need
+								for high-skilled workers, as already <a
+									href="https://www.marketwatch.com/story/nine-out-of-10-new-jobs-are-going-to-those-with-a-college-degree-2018-06-04">nine
+									out of 10 new jobs in the United States</a> are going to workers with college
+								degrees.</p>
+						</div>
+
+						<div class='step3' data-step='2'>
+							<p>As states compete to attract more high-skilled talent, 32 states and Washington D.C. have
+								gained more college-educated immigrants. This is particularly important for states
+								hoping to keep companies that are looking for such talent in the local labor pool. From
+								2017 to 2018, <a
+									href="https://www.newamericaneconomy.org/locations/Mississippi/">Mississippi</a> had
+								the fastest growth in college-educated immigrants, seeing a 32.0 percent increase,
+								followed by <a href="https://www.newamericaneconomy.org/locations/South-Carolina/">South
+									Carolina</a> and <a
+									href="https://www.newamericaneconomy.org/locations/Oklahoma/">Oklahoma</a>, with
+								17.8 percent and 16.4 percent increases in their college-educated immigrant populations,
+								respectively.</p>
+						</div>
+
+						<div class='step3' data-step='3'>
+							<p>Meanwhile, 16 states saw a decrease in their number of college-educated immigrants, with
+								<a href="https://www.newamericaneconomy.org/locations/Maine/">Maine</a> and <a
+									href="https://www.newamericaneconomy.org/locations/North-Dakota/">North Dakota</a>
+								both experiencing a 20 percent drop from 2017 to 2018. This could have serious
+								ramifications for states: If companies fail to fill job openings that require certain
+								skills, the growth potential of these companies and the economic outlook of local
+								economies could be threatened.</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="breakdown_story">
+				<div id="container-scroll4">
+
+					<div class="scroll__figure4">
+						<div class="svgEd"></div>
+					</div>
+
+					<div class='scroll__text4'>
+						<div class='step4' data-step='1'>
+							<h3>Immigrants play an outsize role in starting new businesses.</h3>
+							<p>Between 2017 and 2018, immigrants made up 47.2 percent of new entrepreneurs in the United
+								States. These newcomers founded businesses ranging from cutting edge computer companies
+								to Main Street mom-and-pop shops serving the everyday needs of their communities. In
+								2018, 11.9 percent of immigrants—or more than 3.2 million—were entrepreneurs, compared
+								with 9.1 percent of the U.S.-born.</p>
+						</div>
+						<div class='step4' data-step='2'>
+							<p>In 2018, immigrants in 12 states had an entrepreneurship rate above the national average
+								of 11.9 percent, led by <a
+									href="https://www.newamericaneconomy.org/locations/Louisiana/">Louisiana</a>, where
+								more than one in six immigrants worked for their own businesses, as well as <a
+									href="https://www.newamericaneconomy.org/locations/Mississippi/">Mississippi</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Florida/">Florida</a>, and <a
+									href="https://www.newamericaneconomy.org/locations/South-Carolina/">South
+									Carolina</a>, where immigrants’ entrepreneurship rates stood at about 15 percent.
+							</p>
+						</div>
+
+					</div>
+
+				</div>
+			</div>
+
+			<div class="breakdown_story">
+				<div id="container-scroll5">
+
+					<div class="scroll__figure5">
+
+					</div>
+
+					<div class='scroll__text5'>
+
+						<div class='step5' data-step='1'>
+							<h3>Immigrants also have growing electoral power at the ballot box.</h3>
+							<p>Between 2017 and 2018, the number of immigrants eligible to vote rose by more than
+								700,000 people to a total of 21.4 million nationwide. These eligible immigrant voters
+								made up 9.5 percent of the U.S. electorate in 2018.</p>
+						</div>
+
+
+						<div class='step5' data-step='2'>
+						</div>
+
+						<div class='step5' data-step='3'>
+						</div>
+
+
+
+						<div class='step5' data-step='4'>
+							<p>In three battleground states—<a
+									href="https://www.newamericaneconomy.org/locations/Florida/">Florida</a>, <a
+									href="https://www.newamericaneconomy.org/locations/Michigan/">Michigan</a>, and <a
+									href="https://www.newamericaneconomy.org/locations/New-Hampshire/">New
+									Hampshire</a>—the increase in eligible immigrant voters from 2017 to 2018 was larger
+								than the margin of victory in the 2016 presidential election, making them an
+								increasingly important force in these states’ electoral contests.</p>
+						</div>
+
+						<div class='step5' data-step='5'>
+							<p>The latest data provides new insight on how American society and the U.S. economy are
+								evolving. With shifting demands reshaped by globalization and ever more advanced
+								technologies, at both at the national and state level the American economy requires a
+								range of skills, workers, and consumers to drive innovation, production, and growth. As
+								this year’s data continues to show, immigrants in the United States are doing their part
+								to make America a more dynamic, more competitive country. And as immigrants become new
+								Americans, the increase in foreign-born citizen voters also means that they will be an
+								important voice in deciding America’s future at the ballot box.</p>
+						</div>
+
+
+
+					</div>
+
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- COUNCIL FOOTER START -->
+	<footer id="footer" class="footer" role="footer">
+		<div class="content_white_padding">
+			<div class="container">
+				<div class="row d-flex">
+					<div class="col">
+						<div class="footer__links">
+							<ul class="footer__linksList">
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/topics">Topics</a></li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://immigrationimpact.com/">Immigration
+										Impact</a>
+								</li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://exchange.americanimmigrationcouncil.org/">J-1 Exchange</a>
+								</li>
+							</ul>
+							<ul class="footer__linksList">
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/attorney">Attorney</a>
+								</li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/get-involved">Get
+										Involved</a>
+								</li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/donate">Donate</a>
+								</li>
+							</ul>
+							<ul class="footer__linksList">
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/about/our-mission">About</a>
+								</li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/staff">Staff</a>
+								</li>
+								<li class="footer__linksListItem"><a class="footer__linksListLink"
+										href="https://www.americanimmigrationcouncil.org/contact-us">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+
+					<div class="col">
+						<div class="footer__about">
+							<p class="text-large">Honoring our immigrant past.<br>
+								Shaping our immigrant future.</p>
+
+							<p>The American Immigration Council is a non-profit, non-partisan organization.</p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="footer__contactInfo">
+				<p>
+					1331 G St. NW, Suite 200, Washington, D.C., 20005 | 202-507-7500<br>
+					Registered 501(c)(3). EIN: 52-1549711<br>
+					Copyright American Immigration Council. All rights reserved.
+				</p>
+			</div>
+		</div>
+	</footer>
+	<!-- COUNCIL FOOTER END -->
+
+	<script src="https://d3js.org/d3.v5.min.js"></script>
+	<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+	<script src="https://d3js.org/topojson.v2.min.js"></script>
+
+	<script src='assets/scripts/intersection-observer.js'></script>
+	<script src='assets/scripts/scrollama.min.js'></script>
+	<script src='assets/scripts/entry.js'></script>
+	<script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+	<script src="assets/scripts/nae-hero-starter-51dfb688-9a6d61464d87c.js" type="text/javascript"></script>
+	<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+</body>
+
+</html>

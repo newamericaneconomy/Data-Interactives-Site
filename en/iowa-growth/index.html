@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+
+
+
+.tablediv {
+  font-family: LyonText-Semibold;
+  margin-top: 5%;
+  margin-left: 10%;
+}
+
+.mapleg {
+  font-family: LyonText-Regular;
+  position: fixed;
+  left: 0%;
+  top: 15%;
+  right: auto;
+  bottom: auto;
+  width: 90%;
+  height: 70%;
+  margin-left: 5%;
+}
+
+.mapbox {
+  position: fixed;
+  left: 5%;
+  top: 20%;
+  right: auto;
+  bottom: 0%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 65%;
+}
+
+.legbox {
+  font-family: LyonText-Regular;
+  position: absolute;
+  left: auto;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  width: 38%;
+  background-color: rgba(255,255,255,.1);
+  
+}
+
+.counties {
+  fill: none;
+}
+
+.redDecrease {
+  color: red;
+}
+
+.states {
+  fill: none;
+  stroke: #fff;
+  stroke-linejoin: round;
+}
+
+.mapTip {
+  position: absolute;
+  left:60%;
+  top:9%;
+  font-family: FoundersGrotesk-Regular;
+  background-color: #E8E8E8;
+  padding: 1%;
+}
+
+#tableRow1, #tableRow2, #tableRow3, #tableRow4, #tableRow5, #tableRow6  {
+  display: table-row;
+  font-family: LyonText-Regular;
+
+}
+
+#sqBox11, #sqBox21, #sqBox31, #sqBox41, #sqBox51, #sqBox61 {
+  width: 5%;
+  height: 2%;
+  display: table-cell;
+}
+
+#sqBox11 {
+  background-color: #38387C;
+}
+
+#sqBox21{
+  background-color: #6063ED;
+}
+#sqBox31{
+  background-color: #87D8F7;
+}
+#sqBox41{
+  background-color: #dae4e6;
+}
+#sqBox51{
+  background-color: #fad095;
+}
+#sqBox61{
+  background-color: #f7844c;
+}
+
+
+.spSpace {
+  margin-right: 5%;
+}
+
+.legLine {
+    margin-left: .5em;
+    font-family: LyonText-Regular;
+}
+
+
+.legtable {
+  margin-top: 20%;
+  font-family: LyonText-Regular;
+}
+
+h4 {
+  padding: 0;
+  margin: 0;
+  
+}
+.rowFill {
+  margin: 4%;
+  
+}
+.legTitle {
+  font-family: LyonText-Semibold;
+  font-size: 1.25em;
+  margin-bottom: 1em;
+}
+
+.legSubTitle {
+  font-family: LyonText-Regular;
+  font-size: 1.1em;
+  margin-bottom: .25em;
+}
+
+.explanation {
+  font-family: LyonText-Regular;
+   font-size: .8em;
+}
+.descriptionDiv {
+  width: 45%;
+  font-family: LyonText-Regular;
+   font-size: .95em;
+}
+
+</style>
+<body>
+<div class="bigDiv">
+  <div id="TableDiv" class="tablediv">
+    <h1 class="titleiowa">Immigration &amp; Iowa&#x27;s Population</h1>
+    <div class="descriptionDiv" ><p>The interactive map below shows population estimates for every county in Iowa between 2010 and 2018 from the U.S. Census Bureau.  The map allows the user to identify which counties were growing and which were shrinking and how big of a role immigration played in each. When hovering over a county, the user is able to view population change from international migration and the sum of domestic migration plus births minus deaths.</p></div>
+  </div>
+  <div class="mapleg">
+    <div class="mapbox">
+      <svg id="svgMap"></svg>
+    </div>
+    <div class="legbox">
+      <div class="legtable">
+        <div class="legTitle">Legend</div>
+        <div class="legSubTitle">GROWTH</div>
+        <div id="tableRow1"><div id="sqBox11"></div><div id="sqBox12" class="legLine">International migration increase > Other population increases</div></div>
+        <div class= "rowFill"></div>
+        <div id="tableRow2"><div id="sqBox21"></div><div id="sqBox22" class="legLine">International migration increase < Other population increases</div></div>
+        <div class= "rowFill"></div>
+        <div id="tableRow3"><div id="sqBox31"></div><div id="sqBox32" class="legLine">International migration increase > Other population decreases</div></div>
+        <div class= "rowFill"></div>
+        <div id="tableRow4"><div id="sqBox41"></div><div id="sqBox42" class="legLine">International migration decrease < Other population increases</div></div>
+        <div class= "rowFill"></div>
+        <div class="legSubTitle">DECLINE</div>
+        <div id="tableRow5"><div id="sqBox51"></div><div id="sqBox52" class="legLine">International migration increase < Other population decreases</div></div>
+        <div class= "rowFill"></div>
+        <div id="tableRow6"><div id="sqBox61"></div><div id="sqBox62" class="legLine">International migration decrease & Other population decreases</div></div>
+      </div>
+      <div><p class="explanation">Other population increase and decrease = Domestic migration & births minus deaths</p></div>
+    </div>
+  </div>
+</div>  
+  
+  <!--<script src="https://d3e54v103j8qbb.cloudfront.net/js/jquery-3.4.1.min.220afd743d.js" type="text/javascript" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>-->
+<script src="js/webflow.js" type="text/javascript"></script>  
+<script src="https://d3js.org/d3.v5.min.js"></script>
+<script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+<script src="https://d3js.org/topojson.v2.min.js"></script>
+<script src="https://d3js.org/d3-array.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo.v1.min.js"></script>
+<script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+
+
+
+<script>
+var svg = d3.select("#svgMap")
+.attr("width", window.innerWidth*.55)
+.attr("height", window.innerHeight*.9)
+
+// var svg2 = d3.select("#svgLeg")
+// .attr("width", window.innerWidth*.4)
+// .attr("height", window.innerHeight*.9)
+
+var div = d3.select(".bigDiv").append("div")
+            .attr("class", "tooltip")
+            .style("opacity", 0); 
+
+var width = +svg.attr("width"),
+    height = +svg.attr("height");
+
+var population = d3.map();
+var countyNames = d3.map();
+var populationImmigrant = d3.map();
+var populationDomestic = d3.map();
+var populationTotal = d3.map();
+
+
+var center1, scale1;
+
+if (window.innerWidth<1100) {
+  center1 = [-89.06972, 42.58428]
+}
+else {
+  center1 = [-92.56972, 42.58428]
+}
+
+if (window.innerWidth<1100) {
+  scale1 = [width*6]
+}
+else {
+  scale1 = [width*7]
+}
+
+var projection = d3.geoBaker()
+								  // .translate([ width*.25, height*1.3 ])
+								  //.scale([ width*7 ]);
+								  .scale([scale1])
+								  .center(center1)
+								   
+var path = d3.geoPath()
+            .projection(projection);
+
+    
+var color = d3.scaleOrdinal()
+         .domain([1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+         .range(['#38387C', '#6063ED',"#87D8F7",'#ffc885', "#f7844c",'#f9c52f',"#dae4e6",'#f3f720', '#696969','#f0ce22', '#F4F721' ]);
+         //#f9867d
+         //#f7844c
+         //
+        //  .  #BCE5ED . #7 alternative
+
+// var k = svg2.append("g")
+//     .attr("class", "key")
+//     .attr("transform", "translate(0,40)");
+
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.1)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#38387C');
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.16)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#6063ED');
+    
+//     // k.append('rect')
+//     // .attr("class", "legend")
+//     // .attr("x", width*.1) 
+//     // .attr("y", height*.22)
+//     // .attr("width", width*.04) 
+//     // .attr("height", width*.04) 
+//     // .attr("fill", '#6063ED');
+    
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.22)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#87D8F7');
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.28)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#dae4e6');
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.40)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#F9C9B5');
+    
+//     k.append('rect')
+//     .attr("class", "legend")
+//     .attr("x", width*.1) 
+//     .attr("y", height*.46)
+//     .attr("width", width*.04) 
+//     .attr("height", width*.04) 
+//     .attr("fill", '#F7594C');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.08)
+//     .attr("fill", "black")
+//     .text('GROWTH');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.37)
+//     .attr("fill", "black")
+//     .text('DECLINE');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.13)
+//     .attr("fill", "#21D177")
+//     .text('International migration > Births, deaths, domestic migration');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.19)
+//     .attr("fill", "#21D177")
+//     .text('International migration < Births, deaths, domestic migration');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.25)
+//     .attr("fill", "black")
+//     .text('International migration > Births, deaths, domestic migration');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.31)
+//     .attr("fill", "black")
+//     .text('International migration < Births, deaths, domestic migration');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.43)
+//     .attr("fill", "black")
+//     .text('International migration < Births, deaths, domestic migration');
+    
+//     k.append('text')
+//     .attr("class", "legend")
+//     .attr("x", width*.155) 
+//     .attr("y", height*.49)
+//     .attr("fill", "black")
+//     .text('International migration < Births, deaths, domestic migration');
+    
+    
+    
+    
+
+
+var promises = [
+  d3.json("IowaCountyPath.json"),
+ 
+  d3.csv("countyIowaData2.csv", function(d) {
+    countyNames.set(d.ID, d.NAME),
+    population.set(d.NAME, +d.Color);
+    populationImmigrant.set(d.NAME, +d.PopulationChangeMigrationInt);
+    populationDomestic.set(d.NAME, +d.DifferenceIntMigrationOverall);
+    populationTotal.set(d.NAME, +d.PopulationChange);
+  })
+]
+
+Promise.all(promises).then(ready)
+
+function ready([us]) {
+
+  svg.append("g")
+    .attr("class", "counties")
+    .selectAll("path")
+    .data(topojson.feature(us, us.objects.cb_2015_iowa_county_20m).features)
+    .enter().append("path")
+      .attr("fill", function(d) { 
+          var sn = countyNames
+          d.rate = population.get(d.properties.NAME) || 0
+          d.popImm = populationImmigrant.get(d.properties.NAME) || 0
+          d.popDom = populationDomestic.get(d.properties.NAME) || 0
+          d.popTot = populationTotal.get(d.properties.NAME) || 0
+          
+          var col =  color(d.rate); 
+
+          if (col) {
+
+            return col
+          } else {
+            return '#ffffff'
+          }
+      })
+      .attr("stroke-width", 1.25)
+      .attr('stroke', "grey")
+      .attr("d", path)
+    	.on('mouseover', function(d) {
+                var currentState = this;
+          
+            
+                d3.select(this).style('fill-opacity', .5);
+              div.transition()		
+                .duration(200)		
+                .style("opacity", .9)
+                .attr("class", "mapTip");	
+                
+                if (d.popImm >0 && d.popDom>0 && d.popTot >0)
+                {return div.html("<h4>"+d.properties.NAME + " County: </h4></br>International migration increase:  " + d.popImm + "</br>" + "Domestic migration & births minus deaths:  " +d.popDom + "</br>" + "Total change: " +d.popTot)}
+                
+                else if (d.popImm <= 0 && d.popDom > 0 && d.popTot >0)
+                {return div.html("<h4>"+d.properties.NAME + " County: </h4></br>International migration decrease:  <span class='redDecrease'>" + d.popImm + "</span></br>" + "Domestic migration & births minus deaths:  " +d.popDom + "</br>" + "Total change: " +d.popTot)}
+                
+                else if (d.popImm <= 0 && d.popDom <= 0 && d.popTot < 0)
+                {return div.html("<h4>"+d.properties.NAME + " County: </h4></br>International migration decrease:  <span class='redDecrease'>" + d.popImm + "</span></br>" + "Domestic migration & births minus deaths:  <span class='redDecrease'>" +d.popDom + "</span></br>" + "Total change: <span class='redDecrease'>" +d.popTot+"</span>")}
+                
+                else if (d.popImm > 0 && d.popDom <= 0 && d.popTot < 0)
+                {return div.html("<h4>"+d.properties.NAME + " County: </h4></br>International migration increase:  " + d.popImm + "</br>" + "Domestic migration & births minus deaths:  <span class='redDecrease'>" +d.popDom + "</span></br>" + "Total change:  <span class='redDecrease'>" +d.popTot+ "</span>")}
+                
+                else if (d.popImm >= 0 && d.popDom <= 0 && d.popTot > 0)
+                {return div.html("<h4>"+d.properties.NAME + " County: </h4></br>International migration increase:  " + d.popImm + "</br>" + "Domestic migration & births minus deaths:  <span class='redDecrease'>" +d.popDom + "</span></br>" + "Total change:  " +d.popTot)}
+                
+                else {return  "<h4>"+d.properties.NAME + " County: </h4></br>International migration change:  " + d.popImm + "</br>" + "Domestic migration & births minus deaths:  " +d.popDom + "</br>" + "Total change: " +d.popTot}
+                
+                
+                
+                })
+      .on('mouseout', function(d) {
+                    d3.selectAll("path")
+                            .style('fill-opacity', 1);
+                            
+                  div.transition()		
+                .duration(100)		
+                .style("opacity", 0);	
+                });
+
+  svg.append("path")
+      .datum(topojson.mesh(us, us.objects.cb_2015_iowa_county_20m.geometries, function(a, b) { return a !== b; }))
+      .attr("class", "counties")
+      .attr("d", path);
+}
+
+
+
+</script>
+</body>

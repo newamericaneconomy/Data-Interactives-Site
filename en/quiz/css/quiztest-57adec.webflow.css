@@ -1,0 +1,226 @@
+.div-block {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: block;
+  width: 100.02%;
+  background-image: url('../images/nyc-scene.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+
+.backgrounddiv {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  right: 0%;
+  bottom: 0%;
+  display: inline-block;
+  background-image: url('../images/nyc-sceneIPAD2_8-01-01.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.logodiv {
+  position: absolute;
+  left: 0%;
+  top: 30%;
+  right: 0%;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 30%;
+  height: 35%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 75px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  background-image: url('../images/new-american-festival-logo-color.png');
+  background-position: 50% 50%;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.button {
+  position: relative;
+  left: auto;
+  top: 60%;
+  right: auto;
+  bottom: auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  width: 28%;
+  height: 6%;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  border-radius: 8px;
+  background-color: #f7594d;
+  font-family: trade-gothic-next, sans-serif;
+  color: #f7ede3;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+}
+
+.buttondiv {
+  position: absolute;
+  left: 0%;
+  top: 67%;
+  right: 0%;
+  bottom: auto;
+}
+
+@media (max-width: 991px) {
+  .quiz {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+  .div-block {
+    border-radius: 0px;
+    background-color: hsla(0, 0%, 100%, 0.56);
+    background-position: 50% 0%;
+    background-size: cover;
+    background-attachment: scroll;
+    opacity: 1;
+    -webkit-filter: blur(4px);
+    filter: blur(4px);
+  }
+  .quizembed {
+    position: absolute;
+    left: 5%;
+    top: 10%;
+    right: 5%;
+    bottom: 10%;
+    width: 89.94548%;
+    height: 92%;
+    margin: auto;
+  }
+  .html-embed {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+    height: 100%;
+  }
+  .backgrounddiv {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    background-image: url('../images/nyc-sceneIPAD2_8-01-01.png');
+    background-position: 0px 0px;
+    background-size: cover;
+    text-align: center;
+  }
+  .logodiv {
+    position: absolute;
+    left: 0%;
+    top: 30%;
+    right: 0%;
+    bottom: auto;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 35%;
+    height: 30%;
+    margin-right: auto;
+    margin-left: auto;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    grid-auto-columns: 1fr;
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: auto auto;
+    grid-template-rows: auto auto;
+    background-image: url('../images/new-american-festival-logo-color.png');
+    background-position: 50% 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    text-align: center;
+  }
+  .button {
+    position: relative;
+    left: auto;
+    top: 60%;
+    right: auto;
+    bottom: auto;
+    display: inline-block;
+    width: 33%;
+    height: 4%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    border-radius: 8px;
+    background-color: #f7594d;
+    font-family: Nunito, sans-serif;
+    color: #f7ede3;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: center;
+  }
+  .buttondiv {
+    position: absolute;
+    left: 0%;
+    top: 67%;
+    right: 0%;
+    bottom: auto;
+  }
+  .html-embed-2 {
+    position: absolute;
+    left: 0%;
+    top: 0%;
+    right: 0%;
+    bottom: 0%;
+    display: block;
+  }
+}
+
