@@ -1,0 +1,523 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+.text {
+  font-family: Foundersgrotesk, sans-serif;
+  color: #3A3745;
+  font-weight: 300;
+  font-size: 1em;
+  }
+
+  .titleText {
+    font-family: Foundersgrotesk, sans-serif;
+    color: #3A3745;
+    font-weight: 500;
+    font-size: 2em;
+    }
+
+    .textContainer {
+      font-family: Foundersgrotesk, sans-serif;
+      color: #3A3745;
+      font-weight: 300;
+      font-size: .8em;
+      top: 90%;
+      position: absolute;
+      text-align: left;
+      margin-left: 10%;
+      padding-bottom: 10%;
+    }
+
+    div.tooltip {
+    position: absolute;
+    text-align: center;
+    width: 200px;
+    height: 40px;
+    padding: 5px;
+    font-size: .8em;
+    font-family: Foundersgrotesk, sans-serif;
+    background: #E8EDED;
+    border: 0px;
+    border-radius: 8px;
+    pointer-events: none;
+}
+
+    .buttonContainer {
+        top: 81%;
+        position: absolute;
+        text-align: center;
+        width: 100%;
+        margin: Auto;
+    }
+    h2{
+      top: 2.5%;
+      position: absolute;
+      text-align: center;
+      width: 100%;
+      margin: Auto;
+    }
+    button {
+      margin: 3%;
+      padding: 2px;
+    }
+    /* set the CSS */
+
+</style>
+<body>
+
+<div id="table-location" viewBox="0 0 900 800">
+
+<!-- load the d3.js library -->
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+
+// set the dimensions and margins of the graph
+var margin = {top: 20, right: 20, bottom: 30, left: 20},
+    width = 900 - margin.left - margin.right,
+    height = 800 - margin.top - margin.bottom;
+
+// parse the date / time;
+
+// set the ranges
+var x = d3.scaleLinear().range([0, width]);
+var xLineup = d3.scaleLinear().range([100, width]);
+var yLineup = d3.scaleLinear().range([height, 100]);
+var xfb = d3.scaleLinear().range([0, width]);
+var y = d3.scaleLinear().range([height, 0]);
+var formatPercent = d3.format(",.1%");
+
+// define the line
+
+// append the svg obgect to the body of the page
+// appends a 'group' element to 'svg'
+// moves the 'group' element to the top left margin
+var svg = d3.select("#table-location").append("svg")
+    .attr("width", width + margin.left + margin.right)
+    .attr("height", height + margin.top + margin.bottom)
+  .append("g")
+    .attr("transform",
+          "translate(" + margin.left + "," + margin.top + ")");
+
+var color = d3.scaleLinear()
+  .domain([.06,.3])
+  .range(["#ffffff","#05ce7c"]);
+
+
+
+// Get the data
+d3.csv("visualOccupations_updated.csv").then(function(data) {
+
+  // format the data
+  data.forEach(function(d) {
+      d.shortGrowth5 = +d.PercentGrowth2019_2021;
+      d.shortGrowth3 =+d.GrowthRate_2019_20_3Code;
+      d.shortGrowth2 =+d.GrowthRate_2019_20_2Code;
+      d.longGrowth5 = +d.Projection2020_30_5Code;
+      d.longGrowth3 = +d.Projection2020_30_3Code;
+      d.longGrowth2 = +d.Projection2020_30_2Code;
+      d.foreignB5 = +d.share_fb_5digit;
+      d.foreignB3 = +d.share_fb_3digit;
+      d.foreignB2 = +d.share_fb_2digit;
+      d.jp2021_2cd = +d.JobPostings_2021_2Code;
+      d.jp2021_3cd = +d.JobPostings_2021_3Code;
+      d.jp2021_5cd = +d.JobPostings_2021;
+      d.titleOcc = d.Occupation_x;
+      d.titleFam = d.occFamilyTitle;
+      d.title_2Code = d.Title_2Code;
+      d.fbShare_2codeAll = d.FB_Share_ALL_2Code;
+      d.growth_all2Code = d.PercentGrowth_2019_21_2code;
+      d.allJobPosts2021 = d.JobPostings_2021_2codeSum;
+      d.rankBegin = d.rank_allJobs;
+      d.rankNext = d.rank_allGrowth;
+      d.project2Code = d.Projection2020_30_2Code;
+      d.x_allJobs = d.x_allJobs;
+      d.y_allJobs = d.y_allJobs;
+      d.x_allGrowth = d.x_allGrowth;
+      d.y_allGrowth = d.y_allGrowth;
+      d.name2code = d.Name_2code;
+  });
+
+// var minValue = d3.min(data, function(d) { return d.longGrowth5; })
+// var maxValue = d3.max(data, function(d) { return d.longGrowth5; })
+
+var minValue = d3.min(data, function(d) { return d.Projection2020_30_2Code; })-.04
+var maxValue = d3.max(data, function(d) { return +d.Projection2020_30_2Code; })+.04
+console.log(minValue)
+var radiusScale = d3.scaleSqrt()
+  .domain([1000, d3.max(data, function(d) { return d.allJobPosts2021; })])
+  .range([3, 40])
+
+xLineup.domain([1,22]);
+yLineup.domain([22,1]);
+x.domain([0, d3.max([0,1.3])]);
+
+console.log(minValue,maxValue)
+y.domain([+minValue, +maxValue])
+
+;
+radiusScale = d3.scaleSqrt()
+  .domain([0, d3.max(data, function(d) { return d.jp2021_5cd; })])
+  .range([3, 20])
+
+
+// svg.selectAll("dot")
+//     .data(data)
+//   .enter().append("circle")
+//     .attr("class","dots")
+//     .attr("stroke", "#090909")
+//     .attr("r", function(d){return radiusScale(d.allJobPosts2021);})
+//     .attr("cx", function(d) { return x(d.growth_all2Code); })
+//     .attr("fill", function(d){return color(d.fbShare_2codeAll);})
+//     .attr("cy", function(d) { return y(d.project2Code); })
+//
+//   //   .on('mouseover', d => {
+//   //
+//   // });
+//
+// // Add the X Axis
+// svg.append("g")
+// .attr("transform", "translate(0," + height + ")")
+//   .call(d3.axisBottom(x))
+//
+// // Add the Y Axis
+// svg.append("g")
+//     .call(d3.axisLeft(y));
+//
+// svg.append("text")
+//    .attr("class","x-axisTitle text")
+//    .attr("x",width/2)
+//    .attr('y',height*.739+30)
+//    .attr('text-anchor',"middle")
+//    .text("Growth Rate 2019-2021")
+//
+// svg.append("text")
+//  .attr("class","y-axisTitle text")
+//  .attr("x",5)
+//  .attr('y',width/2)
+//  .attr('text-anchor',"middle")
+//  .attr("transform", "translate(" + -500 + "," + height*.74 + ") rotate(270)")
+//  .text("Projected Growth Rate 2020-2030 (BLS) ")
+//
+
+
+svg.selectAll("dot")
+    .data(data)
+  .enter().append("circle")
+    .attr("class","dots")
+    .attr("stroke", "#9B9EA0")
+    .attr("stroke-width", ".5px")
+    .attr("r", function(d){console.log(radiusScale(d.allJobPosts2021));return radiusScale(d.allJobPosts2021);})
+    .attr("cx", function(d) { return d.x_allGrowth})
+    .attr("fill", function(d){return color(d.fbShare_2codeAll);})
+    .attr("cy", function(d) { return (d.y_allGrowth-(radiusScale(d.allJobPosts2021))+25) })
+
+    svg.selectAll(".circleTitle")
+       .data(data)
+       .enter()
+       .append("text")
+       .attr("class","circleTitle")
+       .attr("x",function(d) { return d.x_allGrowth })
+       .attr('y',function(d) { return (d.y_allGrowth-(2*(radiusScale(d.allJobPosts2021)))+15)})
+       .attr('text-anchor',"middle")
+       .text(function(d) { return d.name2code })
+  //   .on('mouseover', function(event,d) {
+  //   div
+  //     .transition()
+  //     .duration(200)
+  //     .style('opacity', 0.9);
+  //   div
+  //     .html(d.titleOcc + '<br/>' + formatPercent(d.foreignB5)+ ' Foreign Born')
+  //     .style("left", (event.pageX - 50) + "px")
+  //     .style("top", (event.pageY - 68) + "px");
+  // })
+  // .on('mouseout', () => {
+  //   div
+  //     .transition()
+  //     .duration(500)
+  //     .style('opacity', 0);
+  // });
+
+
+
+
+function scatter() {
+
+  // Scale the range of the data
+  // x.domain([d3.min(data, .5, d3.max(data, function(d) { return d.shortGrowth; }))]);
+  x.domain([0, d3.max([0,4])]);
+  // xfb.domain([0, d3.max(data, function(d) { return d.ratio_FB; })]);
+  xfb.domain([0,.5]);
+  y.domain([minValue, maxValue]);
+  radiusScale = d3.scaleSqrt()
+    .domain([0, d3.max(data, function(d) { return d.jp2021_5cd; })])
+    .range([3, 20])
+
+    var div = d3.select("body").append("div")
+        .attr("class", "tooltip")
+        .style("opacity", 0);
+
+  // Add the valueline path.
+  // svg.append("path")
+  //     .data([data])
+  //     .attr("class", "line")
+  //     .attr("d", valueline);
+
+  // Add the scatterplot
+  svg.selectAll("dot")
+      .data(data)
+    .enter().append("circle")
+      .attr("class","dots")
+      .attr("opacity",.75)
+      .attr("stroke", "#090909")
+      .attr("r", function(d){return radiusScale(d.jp2021_5cd);})
+      .attr("cx", function(d) { return x(d.shortGrowth5); })
+      .attr("fill", function(d){return color(d.foreignB5);})
+      .attr("cy", function(d) { return y(d.longGrowth5); })
+      .on('mouseover', function(event,d) {
+      div
+        .transition()
+        .duration(200)
+        .style('opacity', 0.9);
+      div
+        .html(d.titleOcc + '<br/>' + formatPercent(d.foreignB5)+ ' Foreign Born')
+        .style("left", (event.pageX - 50) + "px")
+        .style("top", (event.pageY - 68) + "px");
+    })
+    .on('mouseout', () => {
+      div
+        .transition()
+        .duration(500)
+        .style('opacity', 0);
+    });
+    //   .on('mouseover', d => {
+    //
+    // });
+
+  // Add the X Axis
+  svg.append("g")
+      .attr("transform", "translate(0," + height*.739 + ")")
+      .call(d3.axisBottom(x));
+
+  // Add the Y Axis
+  svg.append("g")
+      .call(d3.axisLeft(y));
+
+  svg.append("text")
+     .attr("class","x-axisTitle text")
+     .attr("x",width/2)
+     .attr('y',height*.739+30)
+     .attr('text-anchor',"middle")
+     .text("Growth Rate 2019-2021")
+
+  svg.append("text")
+   .attr("class","y-axisTitle text")
+   .attr("x",5)
+   .attr('y',width/2)
+   .attr('text-anchor',"middle")
+   .attr("transform", "translate(" + -500 + "," + height*.74 + ") rotate(270)")
+   .text("Projected Growth Rate 2020-2030 (BLS) ")
+
+   svg.append("text")
+    .attr("class","titleText")
+    .attr("id","percent")
+    .attr("x",width*.75)
+    .attr('y',100)
+    .attr('text-anchor',"middle")
+    .text("18.0%")
+
+    svg.append("text")
+     .attr("class","text")
+     .attr("id","fb")
+     .attr("x",width*.75)
+     .attr('y',120)
+     .attr('text-anchor',"middle")
+     .text("Foreign Born")
+
+   }
+
+
+function threeCode () {
+
+  svg.select("#percent")
+     .attr("visibility", "hidden")
+
+     svg.select("#fb")
+        .attr("visibility", "hidden")
+
+    svg.selectAll(".dots")
+       // .data(data)
+       // .enter()
+       .transition()
+       .duration(500)
+       .attr("visibility", "visibile")
+       .attr("r", function(d){ return radiusScale(d.jp2021_3cd);})
+       .attr("cx", function(d) { return x(d.shortGrowth3); })
+       .attr("fill", function(d){return color(d.foreignB3);})
+       .attr("cy", function(d) { return y(d.longGrowth3); })
+
+    svg.selectAll(".dots")
+       .on('mouseover', function(event,d) {
+       div
+         .transition()
+         .duration(200)
+         .style('opacity', 0.9);
+       div
+         .html(d.titleFam + '<br/>' + formatPercent(d.foreignB3)+ ' Foreign Born')
+         .style("left", (event.pageX - 50) + "px")
+         .style("top", (event.pageY - 68) + "px");
+     })
+     .on('mouseout', () => {
+       div
+         .transition()
+         .duration(500)
+         .style('opacity', 0);
+     });
+}
+
+function fiveCode () {
+
+  svg.select("#percent")
+     .attr("visibility", "visibible")
+     .text("18.0%")
+
+     svg.select("#fb")
+        .attr("visibility", "visibible")
+
+
+
+    svg.selectAll(".dots")
+       // .data(data)
+       // .enter()
+       .transition()
+       .duration(500)
+       .attr("visibility", "visibile")
+       .attr("r", function(d){ return radiusScale(d.jp2021_5cd);})
+       .attr("cx", function(d) { return x(d.shortGrowth5); })
+       .attr("fill", function(d){return color(d.foreignB5);})
+       .attr("cy", function(d) { return y(d.longGrowth5); });
+
+       svg.selectAll(".dots")
+          .on('mouseover', function(event,d) {
+          div
+            .transition()
+            .duration(200)
+            .style('opacity', 0.9);
+          div
+            .html(d.titleOcc + '<br/>' + formatPercent(d.foreignB5)+ ' Foreign Born')
+            .style("left", (event.pageX - 50) + "px")
+            .style("top", (event.pageY - 68) + "px");
+        })
+        .on('mouseout', () => {
+          div
+            .transition()
+            .duration(500)
+            .style('opacity', 0);
+        });
+}
+
+
+function tenPercent () {
+
+  svg.select("#percent")
+     .attr("visibility", "visibible")
+     .text("18.9%")
+
+     svg.select("#fb")
+        .attr("visibility", "visibible")
+
+    svg.selectAll(".dots")
+       .transition()
+       .duration(500)
+       .attr("r", function(d){ return radiusScale(d.jp2021_5cd);})
+       .attr("cx", function(d) { return x(d.shortGrowth5); })
+       .attr("fill", function(d){return color(d.foreignB5);})
+       .attr("cy", function(d) { return y(d.longGrowth5); })
+       .attr("visibility", function(d) {if (d.longGrowth5 <=.095){return "hidden"} else {return "visibile"}})
+
+       svg.selectAll(".dots")
+          .on('mouseover', function(event,d) {
+          div
+            .transition()
+            .duration(200)
+            .style('opacity', 0.9);
+          div
+            .html(d.titleOcc + '<br/>' + formatPercent(d.foreignB5)+ ' Foreign Born')
+            .style("left", (event.pageX - 50) + "px")
+            .style("top", (event.pageY - 68) + "px");
+        })
+        .on('mouseout', () => {
+          div
+            .transition()
+            .duration(500)
+            .style('opacity', 0);
+        });
+
+
+}
+
+function tenPercent3Code () {
+
+  svg.select("#percent")
+     .attr("visibility", "hidden")
+
+     svg.select("#fb")
+        .attr("visibility", "hidden")
+
+    svg.selectAll(".dots")
+       .transition()
+       .duration(500)
+       .attr("r", function(d){ return radiusScale(d.jp2021_3cd);})
+       .attr("cx", function(d) { return x(d.shortGrowth3); })
+       .attr("fill", function(d){return color(d.foreignB3);})
+       .attr("cy", function(d) { return y(d.longGrowth3); })
+       .attr("visibility", function(d) {if (d.longGrowth3 <=.095){return "hidden"} else {return "visibile"}})
+
+       svg.selectAll(".dots")
+          .on('mouseover', function(event,d) {
+          div
+            .transition()
+            .duration(200)
+            .style('opacity', 0.9);
+          div
+            .html(d.titleFam + '<br/>' + formatPercent(d.foreignB3)+ ' Foreign Born')
+            .style("left", (event.pageX - 50) + "px")
+            .style("top", (event.pageY - 68) + "px");
+        })
+        .on('mouseout', () => {
+          div
+            .transition()
+            .duration(500)
+            .style('opacity', 0);
+        });
+
+}
+
+// document.getElementById("OccFamilies").addEventListener("click", function() {
+//   threeCode()
+//   document.getElementById("textDescription").innerHTML = "These circles represent OCCUPATION FAMILIES of jobs with at least 1,000 jop postings and 50% growth from 2019 to 2021 during the months of May, June, and July.";
+//
+// });
+//
+// document.getElementById("10Percent").addEventListener("click", function() {
+//   tenPercent()
+//   document.getElementById("textDescription").innerHTML = "These circles represent occupations with expected 10 year growth of over 9.5% and those with at least 1,000 jop postings and 50% growth from 2019 to 2021 during the months of May, June, and July.</br><h4>Top Skills - Share Foreign Born</h4></br>Scheduling - 20.0%</br>Team Member - 9.6%</br>Direct Support Professsional - 23.8%</br>Customer Service - 22.4%</br>Front Desk Agent - 13.1%</br>Food Service Managing - 20.3%</br>Human Resources Specialist - 10.7%</br>Nursing Assistant - 20.9%</br>Security Guard - 13.4%</br>Cleaning - 24.6%</br>Waiter/Waitress - 15.6%</br>Marketing Manager - 13.2%</br>Coach - 24.8%</br>Caregiver - 23.8%</br>Housekeeper - 45.5%</br>Delivery Driver - 16.9%</br>Shift Leader - 13.5%</br>Certified Medical Assistant - 14.7%</br>Medical Receptionist - 9.4%</br> Patient Care - 9.6%</br>Busser - 24.8%";
+// });
+//
+// document.getElementById("fiveCode").addEventListener("click", function() {
+//   fiveCode()
+//   document.getElementById("textDescription").innerHTML ="The circles represent all occupations with at least 1,000 jop postings and 50% growth from 2019 to 2021 during the months of May, June, and July."
+// });
+//
+// document.getElementById("OccFamilies10Percent").addEventListener("click", function() {
+//   tenPercent3Code ()
+//   document.getElementById("textDescription").innerHTML = "These circles represent OCCUPATION FAMILIES of jobs with expected 10 year growth of over 9.5% and those with at least 1,000 jop postings and 50% growth from 2019 to 2021 during the months of May, June, and July.";
+// });
+
+
+});
+
+</script>
+<!-- <div class="buttonContainer"><button id="fiveCode">All Occupations</button><button id="10Percent">Occupations Projected 10% Growth</button><button id="OccFamilies">Occupation Families</button><button id ="OccFamilies10Percent">Occupation Families Projected 10% Growth</button></div>
+<div class="textContainer" id="textDescription">The circles represent all occupations with at least 1,000 jop postings and 50% growth from 2019 to 2021 during the months of May, June, and July.</div> -->
+
+<!-- </script> -->
+</body>
