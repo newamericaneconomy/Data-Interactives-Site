@@ -4748,6 +4748,21 @@ div #NVSignupForm328937 .at-form {
 }
 
 @media (max-width: 800px) {
+
+  #introImage {
+    width:100%;
+  }
+  #countryCompare {
+    width:100%;
+    padding-left: .1em;
+      padding-top: 2em;
+  }
+  #stateTable {
+    width:100%;
+    padding-left: .1em;
+      padding-top: 2em;
+  }
+
   .percentText {
     font-size: 9em !important;
   }
@@ -5164,16 +5179,16 @@ div #NVSignupForm328937 .at-form {
     z-index: 100 !important;
     opacity: 100%;
     padding-bottom: 1rem;
-    padding-left: 1.5em;
+    padding-left: 0em;
     padding-right: 1.5em;
     padding-top: 1rem;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-right: 5%;
     margin-bottom: 0px;
     margin-top: -10%;
     width: 100%;
     min-width: 300px;
- /*background-color: #393745;*/
+    /*background-color: #393745;*/
     color: #000;
     opacity: 1 !important;
     z-index: 99 !important;
@@ -5183,16 +5198,16 @@ div #NVSignupForm328937 .at-form {
     z-index: 100 !important;
     opacity: 100%;
     padding-bottom: 1rem;
-    padding-left: 1.5em;
+    padding-left: 0em;
     padding-right: 1.5em;
     padding-top: 1rem;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-right: 5%;
     margin-bottom: 0px;
     margin-top: -10%;
     width: 100%;
     min-width: 300px;
- /*background-color: #393745;*/
+    /*background-color: #393745;*/
     color: #000;
     opacity: 1 !important;
     z-index: 99 !important;
@@ -5202,16 +5217,16 @@ div #NVSignupForm328937 .at-form {
     z-index: 100 !important;
     opacity: 100%;
     padding-bottom: 1rem;
-    padding-left: 1.5em;
+    padding-left: 0em;
     padding-right: 1.5em;
     padding-top: 1rem;
-    margin-left: 4%;
+    margin-left: 2%;
     margin-right: 5%;
     margin-bottom: 0px;
     margin-top: -10%;
     width: 100%;
     min-width: 300px;
- /*background-color: #393745;*/
+    /*background-color: #393745;*/
     color: #000;
     opacity: 1 !important;
     z-index: 99 !important;
