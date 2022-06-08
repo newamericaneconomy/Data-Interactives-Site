@@ -4821,6 +4821,24 @@ div #NVSignupForm328937 .at-form {
     box-shadow: 2px 2px 20px 0px rgba(0,0,0,0.1);
     z-index: 100;
   }
+  .step3 p {
+    margin: 0px;
+    margin-bottom: 200%;
+    padding: 1.5em !important;
+    padding-top: 1.2em;
+    background-color: #fff;
+    box-shadow: 2px 12px 20px 0px rgba(0, 0, 0, 0.1);
+    z-index: 1;
+  }
+
+  .step3 h3 {
+    background-color: #fff;
+    margin: 0px;
+    padding: 1em;
+    padding-bottom: 0px;
+    box-shadow: 2px 2px 20px 0px rgba(0, 0, 0, 0.1);
+    z-index: 100;
+  }
 }
 
 @media (max-width: 768px) {
