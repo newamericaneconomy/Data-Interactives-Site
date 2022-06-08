@@ -5217,7 +5217,7 @@ div #NVSignupForm328937 .at-form {
     z-index: 100 !important;
     opacity: 100%;
     padding-bottom: 1rem;
-    padding-left: 0em;
+    padding-left: 0%;
     padding-right: 1.5em;
     padding-top: 1rem;
     margin-left: 2%;
@@ -5231,6 +5231,8 @@ div #NVSignupForm328937 .at-form {
     opacity: 1 !important;
     z-index: 99 !important;
   }
+
+
 
   .breakdown_story {
     width: 100%;
