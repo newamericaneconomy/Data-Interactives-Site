@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+
+<html lang="en-US" prefix="og: http://ogp.me/ns#">
+
+	<head>
+
+		<!--  -->
+		<title>Midterms 2022: The Changing Demographics of the Electorate</title>
+		<meta charset='utf-8'>
+		<meta name='viewport' content='width=device-width'>
+		<meta http-equiv='X-UA-Compatible' content='IE=edge,chrome=1'>
+		<meta name='description' content='With the 2022 midterm elections on the horizon, this map uses data from the Current Population Survey to show which states’ electorates are changing most rapidly.' />
+		<meta name='news_keywords' content='midterm, elections, immigrants, politics' />
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		
+		<meta property='og:title' content='Midterms 2022: The Changing Demographics of the Electorate' />
+		<meta property='og:site_name' content='New American Economy' />
+		<meta property='og:url' content='https://data.americanimmigrationcouncil.org/' />
+		<meta property='og:image' content='https://council-images.s3.us-east-2.amazonaws.com/data-interactives/electionStickers.jpg' />
+		<meta property='og:image:type' content='image/png' />
+		<meta property='og:image:width' content='1200' />
+		<meta property='og:image:height' content='675' />
+		<meta property='og:description' content='With the 2022 midterm elections on the horizon, this map uses data from the Current Population Survey to show which states’ electorates are changing most rapidly.' />
+		<meta property='og:type' content='article' />
+		<meta property='og:locale' content='en_US' />
+		
+		<meta name='twitter:card' content='summary_large_image' />
+		<meta name='twitter:site' content='http://data.newamericaneconomy.org' />
+		<meta name='twitter:creator' content='@newamericanecon' />
+		<meta property='twitter:title' content='Midterms 2022: The Changing Demographics of the Electorate' />
+		<meta property='twitter:description' content='via @newamericanecon: Data Interactives https://data.newamericaneconomy.org' />
+		<meta property='twitter:image:src' content='http://data.newamericaneconomy.org/assets/<ADD IMAGE FILE NAME>' />
+		<meta name="twitter:image:alt" content="Midterms 2022: The Changing Demographics of the Electorate">
+		
+		<meta name="msapplication-TileImage" content='https://council-images.s3.us-east-2.amazonaws.com/brand-assets/favicon/favicon-512x512.png'/>
+		<meta name="msapplication-TileColor" content='#FFFFFF' />
+
+		<!-- smoosh -->
+		<!-- <link rel="stylesheet" href="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/build/css/style.css?v=1.6.4" type="text/css" media="all"> -->
+		<link rel="pingback" href="https://www.newamericaneconomy.org/xmlrpc.php">
+		<link rel="icon" type="image/png" href="https://data.americanimmigrationcouncil.org/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="https://data.americanimmigrationcouncil.org/favicon-32x32.png" sizes="32x32">
+		<link rel="icon" type="image/png" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png" sizes="96x96">
+		<link rel="shortcut icon" href="https://data.americanimmigrationcouncil.org/favicon.ico" id="favicon">
+		<link rel="apple-touch-icon" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png">
+		<link rel='canonical' href='https://data.americanimmigrationcouncil.org' />
+		<link rel='dns-prefetch' href='//s.w.org' />
+		<link rel='https://api.w.org/' href='https://www.americanimmigrationcouncil.org/wp-json/' />
+		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.newamericaneconomy.org/xmlrpc.php?rsd" />
+		<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.newamericaneconomy.org/wp-includes/wlwmanifest.xml" />
+		<link rel="icon" href="https://data.americanimmigrationcouncil.org/favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" href="https://data.americanimmigrationcouncil.org/android-chrome-192x192.png" sizes="192x192" />
+		<link rel="apple-touch-icon-precomposed" href="https://data.americanimmigrationcouncil.org/apple-touch-icon.png" />
+		<link rel="stylesheet" href="bundle.css" />
+		<!-- endsmoosh -->
+
+		<!-- boilerplate.css -->
+
+		<!-- smoosh -->
+
+		<!-- <script src="https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/build/js/modernizr-custom.js" defer></script> -->
+		<script type='text/javascript' src='https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/js/jquery.min.js?ver=1.0.0'></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.min.js" integrity="sha256-45YA33UQCDcJsntBst2bhka2t/LBNHP7RNvpllHPkQ0=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/es6-promise/4.1.1/es6-promise.auto.min.js" integrity="sha256-OI3N9zCKabDov2rZFzl8lJUXCcP7EmsGcGoP6DMXQCo=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fetch/2.0.4/fetch.min.js" integrity="sha256-eOUokb/RjDw7kS+vDwbatNrLN8BIvvEhlLM5yogcDIo=" crossorigin="anonymous"></script>
+		<!-- <script src="//unpkg.com/cross-fetch/dist/cross-fetch.js"></script> -->
+		<script src="assets/scripts/d3.v5.0.0.min.js" charset="utf-8"></script>
+		<script src="assets/scripts/topojson.min.js"></script>
+		<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+		<script src="//platform-api.sharethis.com/js/sharethis.js#property=5c77eed4df6421001143aff1&product="sticky-share-buttons"></script>
+		<!-- endsmoosh -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-18821235-15"></script>
+		<script>
+		  window.dataLayer = window.dataLayer || [];
+		  function gtag(){dataLayer.push(arguments);}
+		  gtag('js', new Date());
+		
+		  gtag('config', 'UA-18821235-15');
+		</script>
+
+		<meta property='og:title' content='Midterms 2022: The Changing Demographics of the Electorate' />
+		<meta property='og:site_name' content='American Immigration Council' />
+		<meta property='og:url' content='https://data.americanimmigrationcouncil.org/' />
+		<meta property='og:image' content='https://council-images.s3.us-east-2.amazonaws.com/data-interactives/electionStickers.jpg' />
+		<meta property='og:image:type' content='image/png' />
+		<meta property='og:image:width' content='1200' />
+		<meta property='og:image:height' content='675' />
+		<meta property='og:description' content='With the 2022 midterm elections on the horizon, this map uses data from the Current Population Survey to show which states’ electorates are changing most rapidly.' />
+		<meta property='og:type' content='article' />
+		<meta property='og:locale' content='en_US' />
+
+		<meta name='twitter:card' content='summary_large_image' />
+		<meta name='twitter:site' content='http://data.americanimmigrationcouncil.org' />
+		<meta name='twitter:creator' content='@newamericanecon' />
+		<meta property='twitter:title' content='Midterms 2022: The Changing Demographics of the Electorate' />
+		<meta property='twitter:description' content='via @newamericanecon: Data Briefs https://https://data.americanimmigrationcouncil.org/' />
+		<meta property='twitter:image:src' content='http://https://data.americanimmigrationcouncil.org/assets/<ADD TWITTER IMAGE HERE>' />
+		<meta name="twitter:image:alt" content="Midterms 2022: The Changing Demographics of the Electorate">
+
+		<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- LOAD FONT AWESOME LIBRARY FOR SOCIAL ICONS -->
+    <link type="text/css" rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" media="all" />
+
+
+
+	</head>
+
+	<body>
+
+		<header class="header">
+		        <div class="container">
+		            <div class="row d-flex">
+		                <div class="col">
+		                    <a href="https://americanimmigrationcouncil.org"> <img class="header__logo"
+		                            src="https://www.americanimmigrationcouncil.org/sites/all/themes/custom/aicsite/logo.png"
+		                            alt=""></a>
+		                </div>
+		
+		                <div class="col header__links">
+		                    <div class="d-flex j-flex-end">
+		                        <div class="social__wrapper">
+		                            <a href="https://www.facebook.com/122037065517/"
+		                                class="social__facebook fa fa-facebook social__link" target="_blank"></a>
+		                            <a href="https://twitter.com/immcouncil" class="social__twitter fa fa-twitter social__link"
+		                                target="_blank"></a>
+		                            <a href="https://www.linkedin.com/company/american-immigration-council/"
+		                                class="social__linkedin fa fa-linkedin social__link" target="_blank"></a>
+		                        </div>
+		                        <a href="https://secure.everyaction.com/Cjhao1htyUmOhRFAWamusQ2?ms=Data_Site"
+		                            class="btn btn--primary">Donate</a>
+		                        <a href="https://www.americanimmigrationcouncil.org/get-involved" class="btn btn--secondary">Get
+		                            Involved</a>
+		                    </div>
+		                    <div class="header__backToHomeWrapper">
+		                        <a class="header__backToHomeLink" href="https://americanimmigrationcouncil.org">Back to
+		                            Homepage</a>
+		                    </div>
+		
+		                </div>
+		
+		                <div class="mobile-burger">
+		                    <span class="mobile-burger__line"></span>
+		                    <span class="mobile-burger__line"></span>
+		                    <span class="mobile-burger__line"></span>
+		                </div>
+		            </div>
+		
+		            <div class="mobile-menu">
+		                <ul class="mobile-menu__list">
+		                    <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Donate</a></li>
+		                    <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Get Involved</a></li>
+		                    <li class="mobile-menu__item"><a href="#" class="mobile-menu__link">Back To Homepage</a></li>
+		                    <li class="mobile-menu__item">
+		                        <div class="social__wrapper">
+		                            <a href="https://www.facebook.com/122037065517/"
+		                                class="social__facebook fa fa-facebook social__link" target="_blank"></a>
+		                            <a href="https://twitter.com/immcouncil" class="social__twitter fa fa-twitter social__link"
+		                                target="_blank"></a>
+		                            <a href="https://www.linkedin.com/company/american-immigration-council/"
+		                                class="social__linkedin fa fa-linkedin social__link" target="_blank"></a>
+		                        </div>
+		                    </li>
+		
+		                </ul>
+		            </div>
+		        </div>
+		    </header>
+
+		<div class="databrief_title_bar">
+		    <h1 class="databriefs_heading">Data Interactives</h1>
+		    <h4 class="databriefs_descr">Immigration in America, explained through data visualization</h4>
+		</div>
+
+		<div class="databrief_intro">
+		    <div class="intro_div">
+		      <h1 class="post_title">Midterms 2022: The Changing Demographics of the Electorate</h1>
+		      <p class="date"><span><strong class="bold-text">Date:</strong></span> October 3, 2022</p><img src="assets/workspace.jpg" srcset="assets/workspace.jpg 500w, assets/workspace.jpg 800w" sizes="(max-width: 479px) 92vw, 100vw" alt="" class="image">
+		      <!-- <p class="post_intro_p1">Immigrants continue to play a key role in our workforce as the United States faces a growing labor shortage.</p> -->
+		      <p class="secondary_intro">2016 may not feel like a significant time ago, but the 2020 elections, the COVID-19 pandemic, and the war in Ukraine have all transformed the tenor and dynamics of American politics. Beyond political developments, the demographics of the electorate have continued to evolve significantly over this time. </p>
+		      <p class="secondary_intro">Data from <a href="https://www.census.gov/library/stories/2021/08/2020-united-states-population-more-racially-ethnically-diverse-than-2010.html">the 2020 Census</a> already demonstrated how the U.S. population has continued to diversify ethnically and racially. This demographic change is now being seen in the voting-eligible population, as younger and more diverse generations age into voting eligibility and as more immigrants take the important step of gaining U.S. citizenship and the right to vote. </p>
+		      <p class="secondary_intro">With the 2022 midterm elections on the horizon, this map uses data from the <a href="https://cps.ipums.org/cps/">Current Population Survey</a> to show which states’ electorates are changing most rapidly. In swing states where close races are expected to take place, the extent to which changing electorates can be activated by each campaign may ultimately help determine who wins and loses come November.</p>
+		
+		    </div>
+		    <div class="intro_img">
+		    </div>
+		  </div>
+
+		
+		<div class="mapDirections"><h3 class="mapDirectionsTitle">Midterm Map</h3><p>To explore the map below, you can toggle between two values: The share of eligible voters in 2022; and the change in share of eligible voters from 2016 to 2022. Then selected one of eight different segments of the eligible voter population to see how each segment has changed over time. Hovering over a state provides more information on its eligible voter population, including the change in voting share of selected groups from 2016 to 2022 compared to the margin of victories for the 2016 and 2020 presidential elections.</p></div>
+		
+		<div class="mapContainer">
+			<div class="tab" id="sharePop">
+		  <button class="tablinks active" id="share2022" onclick="sharePop()">Share of eligible voters, 2022</button>
+		  <button class="tablinks" id="change2016_22"onclick="shareChange()">Change in share from 2016-2022</button>
+		</div>
+		<div class="tab2" id="immRace">
+		<button class="tablinks active" id="foreignBorn" onclick="fbToggle()">Immigrant</button>
+		<button class="tablinks" id="AAPI"onclick="aapiToggle()">Asian or <br/>Pacific Islander</button>
+		<button class="tablinks" id="Black" onclick="blackToggle()">African American/<br/>Black</button>
+		<button class="tablinks" id="NavAm" onclick="NavAmToggle()">Native<br/>American</button>
+		<button class="tablinks" id="Hispanic" onclick="hispanicToggle()">Hispanic</button>
+		<button class="tablinks" id="Mixed" onclick="mixedToggle()">Multiracial<br> </button>
+		<button class="tablinks" id="White" onclick="whiteToggle()">White<br> </button>
+		<button class="tablinks" id="Senior" onclick="elderToggle()">Age 65+<br> </button>
+		</div>
+			<div id="map">
+			</div>
+		</div>
+		<div class="mapMethod"><p>Methodology: Estimates are based on pooled samples of the 2016 and 2022 basic monthly samples of the Current Population Survey, downloaded from the IPUMS CPS website (<a href="http://www.ipums.org/">www.ipums.org</a>). The first six months of each year were pooled and the individual person weights in each adjusted accordingly in order to create an sample large enough to provide estimates for the selected eligible voter populations in each state. Data on each state’s margins of victory in the 2016 and 2020 were taken from “Dave Leip’s Atlas of U.S Presidential Elections” (uselectionatlas.org).</p></div>
+
+
+
+		<footer id="footer" class="footer" role="footer">
+		        <div class="container">
+		            <div class="row d-flex">
+		                <div class="col">
+		                    <div class="footer__links">
+		                        <ul class="footer__linksList">
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/topics">Topics</a></li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://immigrationimpact.com/">Immigration
+		                                    Impact</a>
+		                            </li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://exchange.americanimmigrationcouncil.org/">J-1 Exchange</a>
+		                            </li>
+		                        </ul>
+		                        <ul class="footer__linksList">
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/attorney">Attorney</a></li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/get-involved">Get Involved</a>
+		                            </li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/donate">Donate</a>
+		                            </li>
+		                        </ul>
+		                        <ul class="footer__linksList">
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/about/our-mission">About</a></li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/staff">Staff</a>
+		                            </li>
+		                            <li class="footer__linksListItem"><a class="footer__linksListLink"
+		                                    href="https://www.americanimmigrationcouncil.org/contact-us">Contact</a>
+		                            </li>
+		                        </ul>
+		                    </div>
+		                </div>
+		
+		                <div class="col">
+		                    <div class="footer__about">
+		                        <p class="text-large">Honoring our immigrant past.<br>
+		                            Shaping our immigrant future.</p>
+		
+		                        <p>The American Immigration Council is a non-profit, non-partisan organization.</p>
+		                    </div>
+		                </div>
+		
+		            </div>
+		        </div>
+		
+		        <div class="footer__contactInfo">
+		            <p>
+		                1331 G St. NW, Suite 200, Washington, D.C., 20005 | 202-507-7500<br>
+		                Registered 501(c)(3). EIN: 52-1549711<br>
+		                Copyright American Immigration Council. All rights reserved.
+		            </p>
+		        </div>
+		    </footer>
+		
+		    <script>
+		      const mobileBurger = document.querySelector('.mobile-burger');
+		      const mobileMenu = document.querySelector('.mobile-menu');
+		
+		      mobileBurger.addEventListener('click', toggleMobileMenu);
+		
+		      function toggleMobileMenu() {
+		          if (mobileMenu.classList.contains('open')) {
+		              mobileMenu.classList.remove('open');
+		              mobileBurger.classList.remove('open');
+		          } else {
+		              mobileMenu.classList.add('open');
+		              mobileBurger.classList.add('open');
+		          }
+		      }
+		  </script>
+
+
+		<script src='assets/scripts/intersection-observer.js'></script>
+		<script src='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.js'></script>
+		<link href='https://api.mapbox.com/mapbox-gl-js/v2.2.0/mapbox-gl.css' rel='stylesheet' />
+			<script src='https://api.mapbox.com/mapbox-gl-js/plugins/mapbox-gl-geocoder/v4.2.0/mapbox-gl-geocoder.min.js'></script>
+
+	  	<script src='assets/scripts/scrollama.min.js'></script>
+		<script src='assets/scripts/entry.js'></script>
+		<script src="https://d1tdp7z6w94jbb.cloudfront.net/js/jquery-3.3.1.min.js" type="text/javascript" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  		<script src="assets/scripts/nae-hero-starter-51dfb688-9a6d61464d87c.js" type="text/javascript"></script>
+			<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+
+		<script src="https://d3js.org/d3-ease.v1.min.js"></script>
+  		<!-- [if lte IE 9]><script src="https://cdnjs.cloudflare.com/ajax/libs/placeholders/3.0.2/placeholders.min.js"></script><![endif] -->
+	</body>
+</html>
