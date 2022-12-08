@@ -134,11 +134,11 @@ a .titleLink {
 }
 
 .layer-legend-titles a {
-  color: #21d279;
+  color: #fff;
 }
 
 .see_more_button {
-  color: #21d279;
+  color: #fff;
   font-family: Foundersgrotesktext, sans-serif;
   font-weight: 600;
   font-size: 15px;
@@ -152,7 +152,7 @@ a:visited {
 }
 
 a.nationLink {
-    color: #21d279;
+    color: #fff;
   }
 
 iframe {
@@ -170,7 +170,7 @@ iframe {
   font-family: Foundersgrotesk, sans-serif;
   font-size: 2em;
   font-weight: 500;
-  color: #05ce7c;
+  color: #fff;
   padding-left: 20px;
 }
 
@@ -207,7 +207,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-bottom: 30px solid #05ce7c;
+  border-bottom: 30px solid #fff;
   position: relative;
   left: -9px;
   top: -10px;
@@ -240,7 +240,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 10px solid transparent;
-  border-top: 30px solid #05ce7c;
+  border-top: 30px solid #fff;
 }
 
 /* creating the illusion of inner and outer elements with double borders */
@@ -249,7 +249,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-bottom: 40px solid #05ce7c;
+  border-bottom: 40px solid #fff;
   position: relative;
   top: -20px;
   transform: rotate(90deg);
@@ -276,7 +276,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-top: 40px solid #05ce7c;
+  border-top: 40px solid #fff;
 }
 
 /* clicked  */
@@ -285,7 +285,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-bottom: 40px solid #05ce7c;
+  border-bottom: 40px solid #fff;
   position: relative;
   top: -20px;
   transform: rotate(90deg);
@@ -312,7 +312,7 @@ label:hover {
   width: 0;
   height: 0;
   border: 15px solid transparent;
-  border-top: 40px solid #05ce7c;
+  border-top: 40px solid #fff;
 }
 
 /* State Radio Button  */
@@ -817,13 +817,13 @@ label:hover {
 
 .btn-secondary {
   background-color: #fff !important;
-  color: #05ce7c !important;
+  color: #fff !important;
   width: 100% !important;
   text-align: center;
   padding-top: 75px;
   padding-bottom: 75px;
   font-size: 24px;
-  border-color: #05ce7c;
+  border-color: #fff;
   border-width: 3px;
   margin: 3px;
   border-radius: 0px;
@@ -845,7 +845,7 @@ label:hover {
 }
 
 .dropdown-menu::-webkit-scrollbar-thumb {
-  background-color: #05ce7c;
+  background-color: #fff;
   border-radius: 5px;
 }
 
@@ -1023,7 +1023,7 @@ label:hover {
   }
 
   #navList a:hover {
-    color: #05ce7c;
+    color: #fff;
   }
 
   #navList a {
@@ -1113,7 +1113,7 @@ label:hover {
 
   .ck7qjivpv195r1io3178901h5 {
     border: 13px solid transparent;
-    border-bottom: 40px solid #05ce7c;
+    border-bottom: 40px solid #fff;
     left: -15px;
   }
 
@@ -1126,7 +1126,7 @@ label:hover {
 
   .ck7qjivpv195r1io3178901h5:checked {
     border: 18px solid transparent;
-    border-bottom: 50px solid #05ce7c;
+    border-bottom: 50px solid #fff;
     top: -20px;
     left: -15px;
   }
@@ -1264,7 +1264,7 @@ a .methodology {
 }
 
 .methodology a:hover {
-  color: #21d279;
+  color: #fff;
 }
 
 .methodology i {
@@ -1367,7 +1367,7 @@ a .methodology {
   margin-top: 0px;
   margin-bottom: 15px;
   padding-bottom: 4px;
-  border-bottom: 3px solid #21d279;
+  border-bottom: 3px solid #fff;
   color: #fff;
   font-size: 1.3em;
   line-height: 1.1em;
