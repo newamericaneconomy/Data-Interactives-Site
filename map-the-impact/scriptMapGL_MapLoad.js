@@ -625,7 +625,7 @@ Promise.all([stateData, countyData, districtData, msaData, centers]).then(initNa
                  Promise.all([stateData, countyData, districtData, msaData]).then(nationMap);
 
                  cssChange.innerHTML = "<style> .sidebar-content { background-color: #f7f7f7;} " +
-                 ".sidebar-share {background: #05ce7c}" +
+                 ".sidebar-share {background: #407cca}" +
                  ".intro-text {color: #000;} " +
                  ".mti_tooltip_text_cont {background-color: #000;} " +
                  ".grid_stat_descr.stat1 {background-color: #4c4c4c;}" +
