@@ -56,7 +56,7 @@ a .titleLink {
   justify-content: left;
   align-items: left;
   flex-direction: column;
-  top: 70px;
+  top: 80px;
   left: 18px;
   padding-bottom: 0px;
   padding-right: 0px;
@@ -943,12 +943,12 @@ label:hover {
     background-color: white;
   }
 
-  .methodology {
+  /* .methodology {
     top: 195px !important;
     left: 30px !important;
     padding-bottom: 0px;
     color: #000 !important;
-  }
+  } */
 
   .nae_research_logo {
     padding-top: 2px;
@@ -1066,8 +1066,6 @@ label:hover {
     justify-content: left;
     align-items: left;
     flex-direction: column;
-    top: 0em;
-    left: 0em;
     padding-bottom: 5px;
     padding-right: 0px;
     padding-left: 0px;
@@ -1247,7 +1245,7 @@ label:hover {
 } */
 
 .methodology {
-  top: 243px;
+  top: 250px;
   left: 40px;
   position: absolute;
   font-size: 16px;
