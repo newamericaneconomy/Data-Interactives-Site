@@ -1,0 +1,833 @@
+{ "national":{
+"nodes":[
+{"node":0,"name":"WF2020"},
+{"node":1,"name":"JobCreation"},
+{"node":2,"name":"Recovery"},
+{"node":3,"name":"PassOne"},
+{"node":4,"name":"PassTwo"},
+{"node":5,"name":"NewWorkforce"},
+{"node":6,"name":"ExistingWorkforce"}
+],
+"links":[
+{"source":0,"target":3,"value":44.4},
+{"source":3,"target":5,"value":44.4},
+{"source":0,"target":4,"value":55.6},
+{"source":4,"target":6,"value":55.6},
+{"source":1,"target":5,"value":1.7},
+{"source":2,"target":5,"value":6.0}
+],
+"demo":[
+{"name":"All_FB","value":0.173},
+{"name":"Mill_FB","value":0.178},
+{"name":"FiftyFive_FB","value":0.164},
+{"name":"Jobs_2019","value":162797000},
+{"name":"Jobs_2030","value":165413700},
+{"name":"NewJobsNumber","value":80085900},
+{"name":"ExistingJobsNumber","value":85327800},
+{"name":"nation","value":"National"},
+{"name": "Jobs_2020","value":153533800},
+{"name": "Pandemic","value":-9263200},
+{"name": "Recovery","value":9261800},
+{"name": "NewJobs","value":2618100},
+{"name": "Exiting","value":68206000},
+{"name": "para#1","value":"<p>By 2030, the number of jobs in the United States is expected to reach 165.4 million, a net increase of more than 2.6 million jobs from 2019, before the pandemic. While 9.3 million jobs were lost during the pandemic, the recovery has been relatively robust and fast. <b>In addition to positions added in the pandemic recovery, the U.S. economy is expected to gain an additional 2.6 million jobs,</b> including 1.4 million healthcare support jobs, by 2030.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be to fill these jobs.</b> Of the 165.4 million jobs expected to exist in 2030, almost half, or 80.1 million, will be vacated by people retiring, changing careers, or leaving the labor market altogether. These 80.1 million jobs do not include workers who change positions within the same occupation.</p><p p class='descPara'><b>U.S.-born workers are more likely than foreign-born workers to reach retirement age.</b> In total, 23.6 percent of U.S.-born workers, or 31 million, will reach retirement age by 2030. Immigrant workers, on the other hand, are less likely to reach retirement age, with 21.9 percent, or 6.0 million, reaching age 65 by 2030.</p><p class='descPara'><b>Younger workers are more likely to be foreign-born.</b>  In 2019, 21.6 million of 121.4 million workers under age 55 were foreign born, a share of 17.8 percent. In comparison, 27.7 million workers out of all 160.2 million workers in the U.S. were foreign born, a share of 17.3 percent.</p><p class='descPara'><b>While many jobs will be filled by people aging into the workforce, demographic trends suggest that the labor market in 2030 will still need more immigrant workers.</b> As <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>a smaller generation than previous ones</a>, Gen Z—comprised of those born after 1996—is likely to produce fewer U.S.-born workers than the baby boomers, who are leaving the workforce. The gap between this growing demand and diminishing supply of U.S.-born workers means that more workers will need to come from abroad or these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.077}
+]
+},
+"management":{
+  "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+    {"source":0,"target":3,"value":27.2},
+    {"source":3,"target":5,"value":27.2},
+    {"source":0,"target":4,"value":72.8},
+    {"source":4,"target":6,"value":72.8},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":9.3}
+  ],
+"demo":[
+{"name":"All_FB","value":0.142},
+{"name":"Mill_FB","value":0.152},
+{"name":"FiftyFive_FB","value":0.115},
+{"name":"Jobs_2019","value":10697000},
+{"name":"Jobs_2030","value":10689100},
+{"name":"NewJobsNumber","value":3569800},
+{"name":"ExistingJobsNumber","value":7119300},
+{"name":"management","value":"Management"},
+{"name": "Jobs_2020","value":9782300},
+{"name": "Pandemic","value":914700},
+{"name": "Recovery","value":906800},
+{"name": "NewJobs","value":0},
+{"name": "Exiting","value":2663000},
+{"name": "para#1","value":"<p>By 2030, the number of U.S. jobs in management occupations is expected to be 10.7 million, close to the number of jobs before the 2020 pandemic. While many jobs (915,000) were lost during the pandemic, the recovery is expected to be robust and relatively fast. It includes management jobs in healthcare, food service, and marketing.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 10.7 million management jobs expected to exist in 2030, about 25 percent, or 2.7 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers in management occupations are more likely to reach retirement age.</b> By 2030, more than 4 million U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: 28.1 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 22.1 percent of immigrant workers.</p><p class='descPara'><b>While new workers aging into the workforce will fill millions of open jobs by 2030, demographic trends suggest that the workforce in 2030 will rely on more immigrant workers, either who are already here or who will need to come from abroad.</b> Of the current workforce, 15.2 percent of those who are not expected to retire or exit the labor force by 2030 are foreign-born, a percentage that’s higher than the foreign-born share of all workers in 2019, meaning workers who will stay in the labor force in the next decade are more likely to be immigrants. <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise, these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.093}
+]},
+"engineering":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":24.6},
+  {"source":3,"target":5,"value":24.6},
+  {"source":0,"target":4,"value":75.4},
+  {"source":4,"target":6,"value":75.4},
+  {"source":1,"target":5,"value":4.8},
+  {"source":2,"target":5,"value":0.8}
+  ],
+"demo":[
+{"name":"All_FB","value":0.196},
+{"name":"Mill_FB","value":0.201},
+{"name":"FiftyFive_FB","value":0.180},
+{"name":"Jobs_2019","value":2729000},
+{"name":"Jobs_2030","value":2748900},
+{"name":"NewJobsNumber","value":785900},
+{"name":"ExistingJobsNumber","value":1963000},
+{"name":"engineering","value":"Architecture & Engineering"},
+{"name": "Jobs_2020","value":2603000},
+{"name": "Pandemic","value":-126000},
+{"name": "Recovery","value":126000},
+{"name": "NewJobs","value":19900},
+{"name": "Exiting","value":640000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in architecture and engineering occupations, including electrical engineer, civil engineer, and engineering technician, is expected to reach 2.7 million, a net increase of 19,900 jobs from early 2020, before the pandemic. While many jobs (126,000) were lost during the early stages of the pandemic, the recovery is expected to be robust and relatively fast.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 2.7 million architecture and engineering jobs expected to exist in 2030, 23.5 percent, or 640,000, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, 673,600 U.S.-born workers in these fields will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age. About 25.3 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 22.8 percent of immigrant workers.</p><p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b>In 2019, about 20.1 percent of these workers under age 55 were foreign-born, compared to 19.6 percent of the overall workforce, making these sectors more reliant on immigrant workers in the next decade.<p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.056}
+]},
+"science":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":21.5},
+  {"source":3,"target":5,"value":21.5},
+  {"source":0,"target":4,"value":56.3},
+  {"source":4,"target":6,"value":56.3},
+  {"source":1,"target":5,"value":3.4},
+  {"source":2,"target":5,"value":0}
+  ],
+  "demo":[
+{"name":"All_FB","value":0.209},
+{"name":"Mill_FB","value":0.220},
+{"name":"FiftyFive_FB","value":0.172},
+{"name":"Jobs_2019","value":1461000},
+{"name":"Jobs_2030","value":1557800},
+{"name":"NewJobsNumber","value":423800},
+{"name":"ExistingJobsNumber","value":1134000},
+{"name":"science","value":"Life, Physical, & Social Science"},
+{"name": "Jobs_2020","value":1444000},
+{"name": "Pandemic","value":-17000},
+{"name": "Recovery","value":16300},
+{"name": "NewJobs","value":97500},
+{"name": "Exiting","value":310000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in the life, physical, & social sciences is expected to reach 1.6 million, an increase of 96,800 jobs from early 2020, before the pandemic. While some jobs (17,000) were lost during the pandemic, the recovery is expected to be robust and relatively fast. On top of this, the U.S. economy is expected to gain an additional 97,500 new jobs in these sciences, including jobs in clinical counseling and those as science technicians, chemists, and biologists.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 1.6 million life sciences jobs expected to exist in in 2030, about 20 percent, or 310,000, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers in the sciences are more likely to reach retirement age.</b> By 2030, more than 299,000 U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: 22.6 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 17.8 percent of immigrant workers.</p><p class='descPara'><b>While new workers aging into the workforce will fill millions of these open jobs by 2030, demographic trends suggest that the workforce in 2030 will rely on more immigrant workers—either who are already here or who will need to come from abroad.</b> Of current workers not expected to retire or exit the labor force by 2030, 22 percent are foreign-born, higher than the foreign-born share of all workers in these fields 2019. Because Gen Z is likely to produce fewer people aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.079}
+]},
+"education":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":43.7},
+  {"source":3,"target":5,"value":43.7},
+  {"source":0,"target":4,"value":56.3},
+  {"source":4,"target":6,"value":56.3},
+  {"source":1,"target":5,"value":3.4},
+  {"source":2,"target":5,"value":6.7}
+  ],
+"demo":[
+{"name":"All_FB","value":0.120},
+{"name":"Mill_FB","value":0.119},
+{"name":"FiftyFive_FB","value":0.121},
+{"name":"Jobs_2019","value":9745000},
+{"name":"Jobs_2030","value":10055200},
+{"name":"NewJobsNumber","value":4910500},
+{"name":"ExistingJobsNumber","value":5144700},
+{"name":"education","value":"Educational Instruction & Library"},
+{"name": "Jobs_2020","value":9134700},
+{"name": "Pandemic","value":-610300},
+{"name": "Recovery","value":609900},
+{"name": "NewJobs","value":310600},
+{"name": "Exiting","value":3990000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in educational occupations, such as teacher, teaching assistant, librarian, and principal, is expected to reach 10.1 million, a net increase of 310,000 jobs from early 2020, before the pandemic. While many jobs (610,300) were lost during the early stages of the pandemic, all are expected to return in the next couple of years.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 10.1 million education profession jobs expected to exist in 2030, 40.9 percent, or almost 4 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many education workers will reach retirement age.</b> More than one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 2.0 million U.S.-born workers and 270,000 immigrant workers will reach retirement age.<p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> More than one in nine educational professionals under the age of 55 in 2019, or 11.9 percent, were foreign-born.<p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.101}
+]},
+"arts":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":40.0},
+  {"source":3,"target":5,"value":40.0},
+  {"source":0,"target":4,"value":60.0},
+  {"source":4,"target":6,"value":60.0},
+  {"source":1,"target":5,"value":3.3},
+  {"source":2,"target":5,"value":9.8}
+  ],
+"demo":[
+{"name":"All_FB","value":0.128},
+{"name":"Mill_FB","value":0.134},
+{"name":"FiftyFive_FB","value":0.111},
+{"name":"Jobs_2019","value":2924000},
+{"name":"Jobs_2030","value":3011400},
+{"name":"NewJobsNumber","value":1413200},
+{"name":"ExistingJobsNumber","value":1598200},
+{"name":"arts","value":"Arts, Design, Entertainment, Sports, & Media"},
+{"name": "Jobs_2020","value":2662200},
+{"name": "Pandemic","value":-261800},
+{"name": "Recovery","value":261400},
+{"name": "NewJobs","value":87800},
+{"name": "Exiting","value":1064000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in the arts, design, entertainment, sports, and media occupations is expected to reach 3.0 million, an increase of 87,800 jobs from early 2020, before the pandemic. While many jobs (261,000) were lost during the pandemic, the recovery is expected to be robust and relatively fast. On top of this, the U.S. economy is expected to gain additional jobs in coaching, public relations, and graphic design.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 3 million jobs expected to exist in these fields in 2030, about 36.4%, or 1 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, more than 638,000 U.S.-born workers in these fields will reach retirement age. Immigrant workers, on the other hand are less likely to reach retirement age: 22.8 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 19.1 percent of immigrant workers.</p><p class='descPara'><b>While new workers aging into the workforce will fill millions of these open jobs by 2030, demographic trends suggest that the workforce in 2030 will rely on more immigrant workers—either who are already here or who will need to come from abroad.</b> Of the current workforce not expected to retire or exit the labor force by 2030, 13.4 percent are foreign-born, a higher share than that of foreign-born workers in 2019. <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.131}
+]},
+"healthcarePrac":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":26.7},
+  {"source":3,"target":5,"value":26.7},
+  {"source":0,"target":4,"value":73.3},
+  {"source":4,"target":6,"value":73.3},
+  {"source":1,"target":5,"value":9.5},
+  {"source":2,"target":5,"value":1.4}
+  ],
+"demo":[
+{"name":"All_FB","value":0.156},
+{"name":"Mill_FB","value":0.156},
+{"name":"FiftyFive_FB","value":0.158},
+{"name":"Jobs_2019","value":9134000},
+{"name":"Jobs_2030","value":9985900},
+{"name":"NewJobsNumber","value":3376500},
+{"name":"ExistingJobsNumber","value":6609400},
+{"name":"healthcarePrac","value":"Healthcare Practitioners & Technical"},
+{"name": "Jobs_2020","value":9011400},
+{"name": "Pandemic","value":-122600},
+{"name": "Recovery","value":122400},
+{"name": "NewJobs","value":852100},
+{"name": "Exiting","value":2402000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of healthcare practitioner and technician jobs, such as registered nurse, health technologist, and speech-language pathologist, is expected to reach 10.0 million, a net increase of 852,100 million jobs from early 2020, before the pandemic. While many jobs (122,600) were lost during the early stages of the pandemic, most are expected to come back in the next couple of years.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 10.0 million healthcare practitioner and technician jobs expected to exist in 2030, 37.0 percent, or 3.4 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many healthcare workers will reach retirement age.</b> At least one-fifth of the workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 1.9 million U.S.-born workers and 356,500 immigrant workers will reach retirement age.</p><p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> More than one in seven workers under the age of 55 in 2019, or 15.6 percent, were foreign-born.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> Because Gen Z is likely to produce fewer people aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.108}
+]},
+"healthcareSupp":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":66.0},
+  {"source":3,"target":5,"value":66.0},
+  {"source":0,"target":4,"value":34.0},
+  {"source":4,"target":6,"value":34.0},
+  {"source":1,"target":5,"value":20.5},
+  {"source":2,"target":5,"value":2.6}
+  ],
+"demo":[
+{"name":"All_FB","value":0.224},
+{"name":"Mill_FB","value":0.200},
+{"name":"FiftyFive_FB","value":0.309},
+{"name":"Jobs_2019","value":7013000},
+{"name":"Jobs_2030","value":8418000},
+{"name":"NewJobsNumber","value":6094200},
+{"name":"ExistingJobsNumber","value":2323800},
+{"name":"healthcareSupp","value":"Healthcare Support"},
+{"name": "Jobs_2020","value":6837800},
+{"name": "Pandemic","value":-175200},
+{"name": "Recovery","value":175500},
+{"name": "NewJobs","value":1404700},
+{"name": "Exiting","value":4514000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in healthcare support occupations, such as nursing assistant, home health aide, and dental assistant, is expected to reach 8.4 million, a net increase of 1.4 million jobs from early 2020, before the pandemic.  While many jobs (175,200) were lost during the pandemic, the recovery is expected to be robust and relatively fast.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 8.4 million healthcare support jobs expected to exist in 2030, 64.4 percent, or 4.5 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many healthcare support workers will reach retirement age.</b> At least one-sixth of these workers in the United States, regardless of  immigration status, were over the age of 55 in 2019. By 2030, more than 829,000 U.S.-born workers and 370,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> One in five workers under the age of 55 in 2019, or 20.0 percent, were foreign-born.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> Because Gen Z is likely to produce fewer people aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.231}
+]},
+"protective":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":50.0},
+  {"source":3,"target":5,"value":50.0},
+  {"source":0,"target":4,"value":50.0},
+  {"source":4,"target":6,"value":50.0},
+  {"source":1,"target":5,"value":2.6},
+  {"source":2,"target":5,"value":5.8}
+  ],
+"demo":[
+{"name":"All_FB","value":0.083},
+{"name":"Mill_FB","value":0.078},
+{"name":"FiftyFive_FB","value":0.116},
+{"name":"Jobs_2019","value":3616000},
+{"name":"Jobs_2030","value":3703700},
+{"name":"NewJobsNumber","value":1993500},
+{"name":"ExistingJobsNumber","value":1710200},
+{"name":"protective","value":"Protective Service"},
+{"name": "Jobs_2020","value":3417200},
+{"name": "Pandemic","value":-198800},
+{"name": "Recovery","value":198700},
+{"name": "NewJobs","value":87800},
+{"name": "Exiting","value":1707000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in protective service, such as police officer, security guard, and criminal investigator, is expected to reach 3.7 million, a net increase of 87,800 jobs from early 2020, before the pandemic. While many jobs (198,800) were lost during the early stages of the pandemic, all are expected to return in the next couple of years.</p>"},
+{"name": "para#2","value":"<p  class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 3.7 million protective service jobs expected to exist in 2030, 47.2 percent, or 1.7 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.<p  class='descPara'><b>Many protective service workers will reach retirement age.</b> At least one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 566,000 U.S.-born workers and 74,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.084}
+]},
+"foodprep":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":83.2},
+  {"source":3,"target":5,"value":83.2},
+  {"source":0,"target":4,"value":16.8},
+  {"source":4,"target":6,"value":16.8},
+  {"source":1,"target":5,"value":0.5},
+  {"source":2,"target":5,"value":19.1}
+  ],
+"demo":[
+{"name":"All_FB","value":0.209},
+{"name":"Mill_FB","value":0.208},
+{"name":"FiftyFive_FB","value":0.315},
+{"name":"Jobs_2019","value":13761000},
+{"name":"Jobs_2030","value":13820800},
+{"name":"NewJobsNumber","value":11877500},
+{"name":"ExistingJobsNumber","value":1943300},
+{"name":"foodprep","value":"Food Preparation & Serving Related"},
+{"name": "Jobs_2020","value":11553300},
+{"name": "Pandemic","value":-2207700},
+{"name": "Recovery","value":2208000},
+{"name": "NewJobs","value":59500},
+{"name": "Exiting","value":9610000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in food preparation and serving occupations is expected to remain stable at 13.8 million. While many jobs (2.2 million) were lost during the pandemic, the recovery is expected to be robust and relatively fast. On top of this, the U.S. economy is expected to gain additional jobs (59,500)  as waiters/waitresses, cooks, and other serving workers.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 13.8 million food prep and serving jobs expected to exist in 2030, about 69.8 percent, or 9.6 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>Many servers and food prep workers will reach retirement age.</b> Over one million of these workers in the United States, regardless of  immigration status, were over the age of 55 in 2019. By 2030, more than 731,000 U.S.-born workers and 335,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.196}
+]},
+"construction":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":30.4},
+  {"source":3,"target":5,"value":30.4},
+  {"source":0,"target":4,"value":69.6},
+  {"source":4,"target":6,"value":69.6},
+  {"source":1,"target":5,"value":0.3},
+  {"source":2,"target":5,"value":5.4}
+  ],
+"demo":[
+{"name":"All_FB","value":0.277},
+{"name":"Mill_FB","value":0.296},
+{"name":"FiftyFive_FB","value":0.199},
+{"name":"Jobs_2019","value":7349000},
+{"name":"Jobs_2030","value":7371200},
+{"name":"NewJobsNumber","value":2516100},
+{"name":"ExistingJobsNumber","value":4855100},
+{"name":"construction","value":"Construction & Extraction"},
+{"name": "Jobs_2020","value":6971100},
+{"name": "Pandemic","value":-377900},
+{"name": "Recovery","value":378000},
+{"name": "NewJobs","value":22100},
+{"name": "Exiting","value":2116000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in construction and extraction occupations, such as electrician, painter, and carpenter, is expected to reach 7.4 million, a net increase of 22,100 jobs from early 2020, before the pandemic. While many jobs (377,900) were lost during the early stages of the pandemic, the recovery is expected to be robust and relatively fast.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 7.4 million construction and extraction jobs expected to exist in 2030, more than one-third, or 2.5 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, nearly 1.3 million U.S.-born workers in these fields will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: about 21.5 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 13.9 percent of immigrant workers.</p><p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b> In 2019, 29.6 percent of the workforce under the age of 55 in 2019 were foreign-born, compared with 27.7 percent of overall workforce.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.057}
+]},
+"installation":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":32.4},
+  {"source":3,"target":5,"value":32.4},
+  {"source":0,"target":4,"value":67.6},
+  {"source":4,"target":6,"value":67.6},
+  {"source":1,"target":5,"value":1.9},
+  {"source":2,"target":5,"value":4.8}
+  ],
+"demo":[
+{"name":"All_FB","value":0.144},
+{"name":"Mill_FB","value":0.140},
+{"name":"FiftyFive_FB","value":0.155},
+{"name":"Jobs_2019","value":6128000},
+{"name":"Jobs_2030","value":6239800},
+{"name":"NewJobsNumber","value":2287500},
+{"name":"ExistingJobsNumber","value":3952300},
+{"name":"installation","value":"Installation, Maintenance, & Repair"},
+{"name": "Jobs_2020","value":5847300},
+{"name": "Pandemic","value":-280700},
+{"name": "Recovery","value":280700},
+{"name": "NewJobs","value":111800},
+{"name": "Exiting","value":1895000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in installation, maintenance, and repair occupations, such as automotive service technician, mechanic, and HVAC technician, is expected to reach 6.2 million, a net increase of 111,000 jobs from early 2020, before the pandemic. While many jobs (280,700) were lost during the early stages of the pandemic, all of them are expected to come back in the next couple of years.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 6.2 million jobs expected in 2030, 30.9 percent, or 1.9 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many installation, maintenance, & repair workers will reach retirement age.</b> At least one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 1 million U.S.-born workers and 185,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> Almost one in seven workers under the age of 55 in 2019, or 14.0 percent, were foreign-born.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.067}
+]},
+"transportation":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":48.8},
+  {"source":3,"target":5,"value":48.8},
+  {"source":0,"target":4,"value":51.2},
+  {"source":4,"target":6,"value":51.2},
+  {"source":1,"target":5,"value":5.2},
+  {"source":2,"target":5,"value":3.6}
+  ],
+"demo":[
+{"name":"All_FB","value":0.191},
+{"name":"Mill_FB","value":0.195},
+{"name":"FiftyFive_FB","value":0.185},
+{"name":"Jobs_2019","value":13135000},
+{"name":"Jobs_2030","value":13793300},
+{"name":"NewJobsNumber","value":7303100},
+{"name":"ExistingJobsNumber","value":6490200},
+{"name":"transportation","value":"Transportation & Material Moving"},
+{"name": "Jobs_2020","value":12673200},
+{"name": "Pandemic","value":-461800},
+{"name": "Recovery","value":461500},
+{"name": "NewJobs","value":658600},
+{"name": "Exiting","value":6183000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in transportation and material moving occupations, such as truck driver and freight, stock, and material mover, is expected to reach 13.8 million, a net increase of 658,000 jobs from early 2020, before the pandemic. While many jobs (462,000) were lost during the early stages of the pandemic, all are expected to come back in the next couple of years.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 13.8 million transportation and material moving jobs expected to exist in 2030, 47.1 percent, or 6.2 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.<p class='descPara'><b>Many transportation and material moving workers will reach retirement age.</b> Over one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 1.4 million U.S.-born workers and 650,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> Almost one in five transportation and material mover workers under the age of 55 in 2019, or 19.5 percent, were foreign-born.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.088}
+]},
+"business":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+    {"source":0,"target":3,"value":27.3},
+    {"source":3,"target":5,"value":27.3},
+    {"source":0,"target":4,"value":72.7},
+    {"source":4,"target":6,"value":72.7},
+    {"source":1,"target":5,"value":8.0},
+    {"source":2,"target":5,"value":0}
+  ],
+"demo":[
+{"name":"All_FB","value":0.136},
+{"name":"Mill_FB","value":0.145},
+{"name":"FiftyFive_FB","value":0.107},
+{"name":"Jobs_2019","value":9016000},
+{"name":"Jobs_2030","value":10173300},
+{"name":"NewJobsNumber","value":3325800},
+{"name":"ExistingJobsNumber","value":6847500},
+{"name":"business","value":"Business & Financial Operations"},
+{"name": "Jobs_2020","value":9422500},
+{"name": "Pandemic","value":0},
+{"name": "Recovery","value":0},
+{"name": "NewJobs","value":750800},
+{"name": "Exiting","value":2575000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in business and finance operations is expected to reach 10.2 million, an increase of almost 751,000 jobs from 2020. These include positions as human resource specialists, accountants, and management analysts.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 10.2 million business and financial operations jobs expected to exist in 2030, about 28.6 percent, or 2.6 million, will be vacated by people retiring or leaving the labor market.<p class='descPara'><b>U.S.-born workers in the business and finance occupations are more likely to reach retirement age.</b> By 2030, more than 1.8 million U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age by 2030: 24.8 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 18.9 percent of immigrant workers.</p><p class='descPara'><b>While new workers aging into the workforce will fill millions of these open jobs by 2030, demographic trends suggest that the workforce in 2030 will rely on more immigrant workers—either those who are already here or those who will need to come from abroad.</b> Of the current workers not expected to retire or exit the labor force by 2030, 14.5 percent are foreign-born, a higher percentage than the foreign-born share of all workers in 2019, meaning that workers who stay in the workforce in the next decade are more likely to be foreign-born. <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad  to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.080}
+]},
+"computer":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":22.3},
+  {"source":3,"target":5,"value":22.3},
+  {"source":0,"target":4,"value":77.7},
+  {"source":4,"target":6,"value":77.7},
+  {"source":1,"target":5,"value":14.1},
+  {"source":2,"target":5,"value":0}
+  ],
+"demo":[
+{"name":"All_FB","value":0.247},
+{"name":"Mill_FB","value":0.265},
+{"name":"FiftyFive_FB","value":0.157},
+{"name":"Jobs_2019","value":4845000},
+{"name":"Jobs_2030","value":5959900},
+{"name":"NewJobsNumber","value":1901900},
+{"name":"ExistingJobsNumber","value":4058000},
+{"name":"computer","value":"Computer & Mathematical"},
+{"name": "Jobs_2020","value":5225000},
+{"name": "Pandemic","value":0},
+{"name": "Recovery","value":0},
+{"name": "NewJobs","value":734900},
+{"name": "Exiting","value":1167000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in computer and mathematical occupations, such as web developer, computer systems analyst, and IT support specialist, is expected to reach 6.0 million, a net increase of 734,900 jobs from early 2020, before the pandemic.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 6.0 million computer and mathematical jobs expected to exist in 2030, almost one-fourth, or 1.2 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age</b>. By 2030, more than 842,000 U.S.-born workers in computer and math fields will reach retirement age. Immigrant workers, on the other hand are less likely to reach retirement age. About 18.9 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 10.8 percent of immigrant workers.<p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b> In 2019, about 26.5 percent of these workers under the age of 55 were foreign-born, compared to 24.7 percent of the overall workforce.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.141}
+]},
+"sales":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":52.7},
+  {"source":3,"target":5,"value":52.8},
+  {"source":0,"target":4,"value":48.3},
+  {"source":4,"target":6,"value":48.2},
+  {"source":1,"target":5,"value":0},
+  {"source":2,"target":5,"value":0}
+  ],
+"demo":[
+{"name":"All_FB","value":0.132},
+{"name":"Mill_FB","value":0.136},
+{"name":"FiftyFive_FB","value":0.132},
+{"name":"Jobs_2019","value":15525000},
+{"name":"Jobs_2030","value":14190700},
+{"name":"NewJobsNumber","value":7128100},
+{"name":"ExistingJobsNumber","value":7062600},
+{"name":"sales","value":"Sales & Related"},
+{"name": "Jobs_2020","value":14393600},
+{"name": "Pandemic","value":-1131400},
+{"name": "Recovery","value":0},
+{"name": "NewJobs","value":-202900},
+{"name": "Exiting","value":7331000},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in sales and related occupations, such as retail salesperson, sales representative, and cashier, is expected to decline to 14.2 million, a net decrease of 203,000 jobs from early 2020, before the pandemic. Many of these jobs (1.3 million) were lost during the early stages of the pandemic, and most are not expected to come back. The number of sales jobs in 2019 was 15.5 million; by 2030 the projected number of sales jobs is 14.2 million.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>Despite the overall decline in sales occupations, the U.S. will still face the challenge of filling jobs.</b> Of the 14.2 million jobs expected to exist in 2030, 47.2 percent, or 7.3 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many workers in sales and related positions will reach retirement age.</b> Over one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 3.1 million U.S.-born workers and 476,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>Immigrants make up a significant share of the younger workers who won’t reach retirement age.</b> Almost one in seven workers under the age of 55 in 2019, or 13.6 percent, were foreign-born.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":-0.014}
+]},
+"office":{
+  "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+    {"source":0,"target":3,"value":48.7},
+    {"source":3,"target":5,"value":48.8},
+    {"source":0,"target":4,"value":52.3},
+    {"source":4,"target":6,"value":52.2},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":0}
+  ],
+"demo":[
+{"name":"All_FB","value":0.117},
+{"name":"Mill_FB","value":0.123},
+{"name":"FiftyFive_FB","value":0.101},
+{"name":"Jobs_2019","value":20633000},
+{"name":"Jobs_2030","value":19015600},
+{"name":"NewJobsNumber","value":8650900},
+{"name":"ExistingJobsNumber","value":10364700},
+{"name":"office","value":"Office & Administrative Support"},
+{"name": "Jobs_2020","value":19554700},
+{"name": "Pandemic","value":-1078300},
+{"name": "Recovery","value":0},
+{"name": "NewJobs","value":-539100},
+{"name": "Exiting","value":8650900},
+{"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in office and administrative support is expected to decrease to 19.0 million. Many office jobs (1.1 million) were lost during the pandemic, including those as customer service representative, secretary, and bookkeeping clerk.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While there will be a loss of office support jobs, there remains the challenge of filling jobs left by people leaving the workforce.</b> Of the 19.0 million office and administrative jobs expected to exist in 2030, about 44.5 percent, or 9.2 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, more than 4.0 million U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: about 26.8 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 22.6 percent of immigrant workers.</p><p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b> In 2019, about 12.3 percent of these workers who were under the age of 55 were foreign-born, compared to 11.7 percent of the overall workforce in office and administrative support.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":-0.014}
+]},
+"legal":{
+  "nodes":[
+  {"node":0,"name":"WF2020"},
+  {"node":1,"name":"JobCreation"},
+  {"node":2,"name":"Recovery"},
+  {"node":3,"name":"PassOne"},
+  {"node":4,"name":"PassTwo"},
+  {"node":5,"name":"NewWorkforce"},
+  {"node":6,"name":"ExistingWorkforce"}
+  ],
+  "links":[
+  {"source":0,"target":3,"value":28.6},
+  {"source":3,"target":5,"value":28.6},
+  {"source":0,"target":4,"value":71.4},
+  {"source":4,"target":6,"value":71.4},
+  {"source":1,"target":5,"value":8.2},
+  {"source":2,"target":5,"value":0.5}
+  ],
+  "demo":[
+  {"name":"All_FB","value":0.088},
+  {"name":"Mill_FB","value":0.103},
+  {"name":"FiftyFive_FB","value":0.055},
+  {"name":"Jobs_2019","value":1336100},
+  {"name":"Jobs_2030","value":1445200},
+  {"name":"NewJobsNumber","value":496500},
+  {"name":"ExistingJobsNumber","value":948700},
+  {"name":"legal","value":"Legal"},
+  {"name": "Jobs_2020","value":1328700},
+  {"name": "Pandemic","value":-7300},
+  {"name": "Recovery","value":7300},
+  {"name": "NewJobs","value":109600},
+  {"name": "Exiting","value":380000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in the legal profession is expected to reach 1.4 million, an increase of 110,000 jobs from early 2020, before the pandemic. While some jobs (7,000) were lost during the pandemic, the recovery is expected to be robust and relatively fast. On top of this, the U.S. economy is expected to gain an additional 110,000 new jobs in the legal professions, including those as lawyers and paralegals.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 1.4 million jobs expected to exist in the legal professions in 2030, about 28.4 percent, or 380,000, will be vacated by people retiring or leaving the labor market.<p  class='descPara'><b>U.S.-born workers in legal professions are more likely to reach retirement age.</b> By 2030, more than 522,000 U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: 31.8 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 19.2 percent of immigrant workers.</p><p  class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.088}
+  ]},
+  "building":{
+    "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+    ],
+    "links":[
+    {"source":0,"target":3,"value":69.1},
+    {"source":3,"target":5,"value":69.1},
+    {"source":0,"target":4,"value":30.9},
+    {"source":4,"target":6,"value":30.9},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":7.5}
+
+    ],
+  "demo":[
+  {"name":"All_FB","value":0.344},
+  {"name":"Mill_FB","value":0.356},
+  {"name":"FiftyFive_FB","value":0.326},
+  {"name":"Jobs_2019","value":5664000},
+  {"name":"Jobs_2030","value":5555600},
+  {"name":"NewJobsNumber","value":3421800},
+  {"name":"ExistingJobsNumber","value":2133800},
+  {"name":"building","value":"Building & Grounds Cleaning & Maintenance"},
+  {"name": "Jobs_2020","value":5168800},
+  {"name": "Pandemic","value":-495200},
+  {"name": "Recovery","value":386800},
+  {"name": "NewJobs","value":0},
+  {"name": "Exiting","value":3035000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in building and grounds cleaning and maintenance occupations, such as janitor and cleaner, maid and housekeeper, and landscaping worker, is expected to reach 5.6 million, a decrease of 108,400 jobs from early 2020, before the pandemic. While many jobs (495,200) were lost during the early stages of the pandemic, only 386,800 jobs are expected to come back in the next couple of years.</p>"},
+{"name": "para#2","value":"<p class='descPara'><b>Despite the overall decline in these jobs, the United States will still face the challenge of filling jobs.</b> Of the 5.6 million jobs expected to exist in these occopations in 2030, more than two-thirds, or 3.4 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>U.S.-born workers in these fields are more likely to reach retirement age.</b> By 2030, more than 1.1 million U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age. About 29.1 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 26.5 percent of immigrant workers.</p><p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b> About 35.6 percent of the workforce under the age of 55 in 2019 were foreign-born, compared to 34.4 percent of the overall workforce.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+{"name": "percentChange","value":0.075}
+  ]},
+  "personal":{
+    "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+    ],
+    "links":[
+
+    {"source":0,"target":3,"value":69.1},
+    {"source":3,"target":5,"value":69.1},
+    {"source":0,"target":4,"value":30.9},
+    {"source":4,"target":6,"value":30.9},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":21.7}
+
+    ],
+  "demo":[
+  {"name":"All_FB","value":0.196},
+  {"name":"Mill_FB","value":0.191},
+  {"name":"FiftyFive_FB","value":0.236},
+  {"name":"Jobs_2019","value":4724000},
+  {"name":"Jobs_2030","value":4711400},
+  {"name":"NewJobsNumber","value":3516000},
+  {"name":"ExistingJobsNumber","value":1195400},
+  {"name":"personal","value":"Personal Care & Service"},
+  {"name": "Jobs_2020","value":3870400},
+  {"name": "Pandemic","value":-853600},
+  {"name": "Recovery","value":841000},
+  {"name": "NewJobs","value":0},
+  {"name": "Exiting","value":2675000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in personal care services are expected to remain stable at 4.7 million. While many jobs (854,000) were lost during the pandemic, most, if not all, of them are expected to come back in the next couple of years, including jobs in personal and child care, fitness training, and aerobic instruction.</p>"},
+  {"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 4.7 million personal care and service jobs expected to exist in 2030, about 56.6 percent, or 3 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>Many personal care and service workers will reach retirement age.</b> At least one-fifth of the workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 721,000 U.S.-born workers and 222,000 immigrant workers will reach retirement age.<p class='descPara'><b>While new workers aging into the workforce will fill millions of these open jobs by 2030, demographic trends suggest that the workforce in 2030 will rely on more immigrant workers, either who are already here or who will need to come from abroad.</b> Because Gen Z is likely to produce fewer people aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+  {"name": "percentChange","value":0.217}
+  ]},
+  "farming":{
+    "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+    ],
+    "links":[
+    {"source":0,"target":3,"value":42.6},
+    {"source":3,"target":5,"value":42.6},
+    {"source":0,"target":4,"value":57.4},
+    {"source":4,"target":6,"value":57.4},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":2.5}
+    ],
+  "demo":[
+  {"name":"All_FB","value":0.442},
+  {"name":"Mill_FB","value":0.463},
+  {"name":"FiftyFive_FB","value":0.414},
+  {"name":"Jobs_2019","value":1116000},
+  {"name":"Jobs_2030","value":1088400},
+  {"name":"NewJobsNumber","value":478600},
+  {"name":"ExistingJobsNumber","value":609800},
+  {"name":"farming","value":"Farming, Fishing, & Forestry"},
+  {"name": "Jobs_2020","value":1061800},
+  {"name": "Pandemic","value":-54200},
+  {"name": "Recovery","value":26600},
+  {"name": "NewJobs","value":0},
+  {"name": "Exiting","value":452000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in farming, fishing, and forestry is expected to remain stable at 1.1 million. While many jobs (54,200) were lost during the pandemic, about half of those jobs (26,600) are expected to come back in the next couple of years, including those as farm laborer, rancher, and grader and sorter of agricultural products.</p>"},
+  {"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 1.1 million farming, fishing, and forestry jobs expected to exist in 2030, about 40.5 percent, or 452,000, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, more than 126,000 U.S.-born workers in these fields will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age. About 23.9 percent of U.S.-born workers were over the age of 55 in 2019, compared with just 20.4 percent of immigrant workers.</p><p class='descPara'><b>Younger workers who won’t reach retirement age are more likely to be foreign-born.</b> In 2019, about 46.3 percent of the workforce under the age of 55  was foreign-born, compared with 44.2 percent of the overall workforce.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+  {"name": "percentChange","value":0.025}
+  ]},
+  "production":{
+    "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+    ],
+    "links":[
+    {"source":0,"target":3,"value":36.9},
+    {"source":3,"target":5,"value":36.8},
+    {"source":0,"target":4,"value":62.4},
+    {"source":4,"target":6,"value":62.4},
+    {"source":1,"target":5,"value":0},
+    {"source":2,"target":5,"value":0}
+    ],
+  "demo":[
+  {"name":"All_FB","value":0.217},
+  {"name":"Mill_FB","value":0.211},
+  {"name":"FiftyFive_FB","value":0.238},
+  {"name":"Jobs_2019","value":9447000},
+  {"name":"Jobs_2030","value":8727400},
+  {"name":"NewJobsNumber","value":3255900},
+  {"name":"ExistingJobsNumber","value":5471500},
+  {"name":"production","value":"Production"},
+  {"name": "Jobs_2020","value":8766500},
+  {"name": "Pandemic","value":-680500},
+  {"name": "Recovery","value":0},
+  {"name": "NewJobs","value":-39100},
+  {"name": "Exiting","value":3295000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of U.S. jobs in production are expected to decrease to 8.7 million. Many office jobs (680,000) were lost during the pandemic, including those as inspector, tester, team assembler, and others.</p>"},
+  {"name": "para#2","value":"<p class='descPara'><b>While there will be a loss of production jobs, there remains the challenge of filling jobs left by people leaving the workforce.</b> Of the 8.7 million production jobs expected to exist in 2030, about 34.9 percent, or 3.3 million, will be vacated by people retiring or leaving the labor market.</p><p class='descPara'><b>U.S.-born workers are more likely to reach retirement age.</b> By 2030, more than 1.6 million U.S.-born workers will reach retirement age. Immigrant workers, on the other hand, are less likely to reach retirement age: about 26.8 percent of U.S.-born workers in the field were over the age of 55 in 2019, compared with just 22.6 percent of immigrant workers.</p><p class='descPara'><b>Many production workers will reach retirement age.</b> Over one-fifth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 1.6 million U.S.-born workers and 512,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+  {"name": "percentChange","value":-0.004}
+  ]},
+  "community":{
+    "nodes":[
+    {"node":0,"name":"WF2020"},
+    {"node":1,"name":"JobCreation"},
+    {"node":2,"name":"Recovery"},
+    {"node":3,"name":"PassOne"},
+    {"node":4,"name":"PassTwo"},
+    {"node":5,"name":"NewWorkforce"},
+    {"node":6,"name":"ExistingWorkforce"}
+    ],
+    "links":[
+    {"source":0,"target":3,"value":36.1},
+    {"source":3,"target":5,"value":36.1},
+    {"source":0,"target":4,"value":63.9},
+    {"source":4,"target":6,"value":63.9},
+    {"source":1,"target":5,"value":12.4},
+    {"source":2,"target":5,"value":0}
+    ],
+  "demo":[
+  {"name":"All_FB","value":0.107},
+  {"name":"Mill_FB","value":0.106},
+  {"name":"FiftyFive_FB","value":0.110},
+  {"name":"Jobs_2019","value":2798000},
+  {"name":"Jobs_2030","value":3151300},
+  {"name":"NewJobsNumber","value":1359900},
+  {"name":"ExistingJobsNumber","value":1791400},
+  {"name":"production","value":"Community & Social Service"},
+  {"name": "Jobs_2020","value":2804400},
+  {"name": "Pandemic","value":0},
+  {"name": "Recovery","value":0},
+  {"name": "NewJobs","value":346900},
+  {"name": "Exiting","value":1013000},
+  {"name": "para#1","value":"<p  class='descPara'>By 2030, the number of jobs in community and social service occupations, such as mental health counselor, social worker, and health educator, is expected to reach 3.2 million, a net increase of 347,000 jobs from early 2020, before the pandemic.</p>"},
+  {"name": "para#2","value":"<p class='descPara'><b>While this is positive news, the challenge will be filling these jobs.</b> Of the 3.2 million jobs expected to exist in these fields in 2030, over one-third, or 1 million, will be vacated by people retiring or leaving the labor market. These vacated jobs do not include workers who change jobs within the same occupation.</p><p class='descPara'><b>Many community and social service workers will reach retirement age.</b> At least one-fourth of these workers in the United States, regardless of immigration status, were over the age of 55 in 2019. By 2030, more than 655,000 U.S.-born workers and 81,000 immigrant workers will reach retirement age.</p><p class='descPara'><b>While many jobs will be filled by young people aging into the workforce, demographic trends suggest that the workforce in 2030 will need more immigrant workers.</b> <a href='https://www.pewresearch.org/social-trends/2020/05/14/on-the-cusp-of-adulthood-and-facing-an-uncertain-future-what-we-know-about-gen-z-so-far-2/'>Because Gen Z is likely to produce fewer people</a> aging into the workforce than will be leaving it, more workers will need to come from abroad to fill the growing shortage of American workers. Otherwise these positions will go unfilled.</p>"},
+  {"name": "percentChange","value":0.124}
+  ]}
+}

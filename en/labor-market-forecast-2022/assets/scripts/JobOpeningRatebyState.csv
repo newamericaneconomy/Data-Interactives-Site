@@ -1,0 +1,1873 @@
+State,Date,Rate
+Alabama,20190101,4.4
+Alaska,20190101,6.3
+Arizona,20190101,6.3
+Arkansas,20190101,4.2
+California,20190101,4.2
+Colorado,20190101,5.4
+Connecticut,20190101,3.5
+DC,20190101,3.4
+Delaware,20190101,4.9
+Florida,20190101,4.9
+Georgia,20190101,4.7
+Hawaii,20190101,5.6
+Idaho,20190101,5.1
+Illinois,20190101,4.9
+Indiana,20190101,5.3
+Iowa,20190101,4.5
+Kansas,20190101,5.0
+Kentucky,20190101,4.5
+Louisiana,20190101,4.3
+Maine,20190101,4.8
+Maryland,20190101,4.9
+Massachusetts,20190101,4.9
+Michigan,20190101,4.8
+Minnesota,20190101,4.9
+Mississippi,20190101,4.4
+Missouri,20190101,5.1
+Montana,20190101,5.3
+Nebraska,20190101,4.9
+Nevada,20190101,4.5
+New Hampshire,20190101,4.6
+New Jersey,20190101,4.4
+New Mexico,20190101,5.1
+New York,20190101,3.7
+North Carolina,20190101,6.0
+North Dakota,20190101,8.1
+Ohio,20190101,5.3
+Oklahoma,20190101,4.3
+Oregon,20190101,5.3
+Pennsylvania,20190101,4.7
+Rhode Island,20190101,5.3
+South Carolina,20190101,5.4
+South Dakota,20190101,4.8
+Tennessee,20190101,4.8
+Texas,20190101,4.6
+Utah,20190101,5.4
+Vermont,20190101,5.1
+Virginia,20190101,4.9
+Washington,20190101,4.3
+West Virginia,20190101,5.6
+Wisconsin,20190101,5.0
+Wyoming,20190101,5.6
+United States,20190101,4.7
+Alabama,20190201,4.0
+Alaska,20190201,6.8
+Arizona,20190201,5.5
+Arkansas,20190201,4.5
+California,20190201,4.1
+Colorado,20190201,5.1
+Connecticut,20190201,3.6
+DC,20190201,3.9
+Delaware,20190201,4.3
+Florida,20190201,4.0
+Georgia,20190201,4.7
+Hawaii,20190201,4.6
+Idaho,20190201,5.1
+Illinois,20190201,4.6
+Indiana,20190201,4.7
+Iowa,20190201,4.5
+Kansas,20190201,5.1
+Kentucky,20190201,4.7
+Louisiana,20190201,4.1
+Maine,20190201,4.6
+Maryland,20190201,4.7
+Massachusetts,20190201,4.6
+Michigan,20190201,4.4
+Minnesota,20190201,4.7
+Mississippi,20190201,4.4
+Missouri,20190201,5.0
+Montana,20190201,5.3
+Nebraska,20190201,4.6
+Nevada,20190201,4.6
+New Hampshire,20190201,4.3
+New Jersey,20190201,3.9
+New Mexico,20190201,4.7
+New York,20190201,3.7
+North Carolina,20190201,6.0
+North Dakota,20190201,5.2
+Ohio,20190201,4.5
+Oklahoma,20190201,4.3
+Oregon,20190201,4.5
+Pennsylvania,20190201,4.4
+Rhode Island,20190201,4.6
+South Carolina,20190201,5.3
+South Dakota,20190201,5.0
+Tennessee,20190201,4.2
+Texas,20190201,4.5
+Utah,20190201,4.9
+Vermont,20190201,4.8
+Virginia,20190201,5.0
+Washington,20190201,4.7
+West Virginia,20190201,5.1
+Wisconsin,20190201,4.8
+Wyoming,20190201,5.5
+United States,20190201,4.5
+Alabama,20190301,4.3
+Alaska,20190301,6.8
+Arizona,20190301,5.2
+Arkansas,20190301,4.6
+California,20190301,4.2
+Colorado,20190301,5.3
+Connecticut,20190301,3.7
+DC,20190301,3.7
+Delaware,20190301,4.9
+Florida,20190301,4.6
+Georgia,20190301,5.0
+Hawaii,20190301,4.5
+Idaho,20190301,5.1
+Illinois,20190301,4.8
+Indiana,20190301,4.4
+Iowa,20190301,4.7
+Kansas,20190301,5.1
+Kentucky,20190301,4.7
+Louisiana,20190301,4.4
+Maine,20190301,4.8
+Maryland,20190301,5.2
+Massachusetts,20190301,4.8
+Michigan,20190301,5.1
+Minnesota,20190301,4.5
+Mississippi,20190301,4.5
+Missouri,20190301,4.8
+Montana,20190301,5.3
+Nebraska,20190301,4.7
+Nevada,20190301,4.8
+New Hampshire,20190301,4.3
+New Jersey,20190301,4.2
+New Mexico,20190301,5.6
+New York,20190301,3.6
+North Carolina,20190301,6.1
+North Dakota,20190301,5.6
+Ohio,20190301,4.7
+Oklahoma,20190301,5.1
+Oregon,20190301,5.1
+Pennsylvania,20190301,4.5
+Rhode Island,20190301,4.6
+South Carolina,20190301,5.3
+South Dakota,20190301,4.6
+Tennessee,20190301,4.5
+Texas,20190301,4.4
+Utah,20190301,5.4
+Vermont,20190301,4.8
+Virginia,20190301,5.2
+Washington,20190301,4.4
+West Virginia,20190301,5.6
+Wisconsin,20190301,4.9
+Wyoming,20190301,5.2
+United States,20190301,4.7
+Alabama,20190401,4.6
+Alaska,20190401,6.5
+Arizona,20190401,4.9
+Arkansas,20190401,4.5
+California,20190401,4.3
+Colorado,20190401,5.2
+Connecticut,20190401,3.6
+DC,20190401,3.6
+Delaware,20190401,4.7
+Florida,20190401,4.4
+Georgia,20190401,4.9
+Hawaii,20190401,3.7
+Idaho,20190401,4.5
+Illinois,20190401,4.5
+Indiana,20190401,5.0
+Iowa,20190401,4.7
+Kansas,20190401,5.5
+Kentucky,20190401,4.4
+Louisiana,20190401,4.4
+Maine,20190401,4.2
+Maryland,20190401,4.7
+Massachusetts,20190401,4.7
+Michigan,20190401,4.8
+Minnesota,20190401,4.6
+Mississippi,20190401,4.6
+Missouri,20190401,5.5
+Montana,20190401,5.5
+Nebraska,20190401,4.7
+Nevada,20190401,4.7
+New Hampshire,20190401,4.1
+New Jersey,20190401,3.9
+New Mexico,20190401,4.7
+New York,20190401,3.4
+North Carolina,20190401,5.8
+North Dakota,20190401,6.0
+Ohio,20190401,5.1
+Oklahoma,20190401,4.6
+Oregon,20190401,4.9
+Pennsylvania,20190401,4.3
+Rhode Island,20190401,4.4
+South Carolina,20190401,5.2
+South Dakota,20190401,4.8
+Tennessee,20190401,4.3
+Texas,20190401,4.6
+Utah,20190401,5.2
+Vermont,20190401,4.2
+Virginia,20190401,5.0
+Washington,20190401,4.7
+West Virginia,20190401,5.4
+Wisconsin,20190401,5.2
+Wyoming,20190401,5.5
+United States,20190401,4.6
+Alabama,20190501,4.5
+Alaska,20190501,6.5
+Arizona,20190501,5.9
+Arkansas,20190501,4.4
+California,20190501,4.1
+Colorado,20190501,5.1
+Connecticut,20190501,4.0
+DC,20190501,3.8
+Delaware,20190501,4.5
+Florida,20190501,4.6
+Georgia,20190501,4.5
+Hawaii,20190501,4.5
+Idaho,20190501,4.8
+Illinois,20190501,4.1
+Indiana,20190501,4.6
+Iowa,20190501,4.6
+Kansas,20190501,4.8
+Kentucky,20190501,4.4
+Louisiana,20190501,4.3
+Maine,20190501,4.9
+Maryland,20190501,4.6
+Massachusetts,20190501,4.6
+Michigan,20190501,4.8
+Minnesota,20190501,5.3
+Mississippi,20190501,4.6
+Missouri,20190501,5.2
+Montana,20190501,5.6
+Nebraska,20190501,4.6
+Nevada,20190501,4.7
+New Hampshire,20190501,4.6
+New Jersey,20190501,4.1
+New Mexico,20190501,5.1
+New York,20190501,3.8
+North Carolina,20190501,5.6
+North Dakota,20190501,5.6
+Ohio,20190501,4.8
+Oklahoma,20190501,5.2
+Oregon,20190501,4.8
+Pennsylvania,20190501,4.9
+Rhode Island,20190501,4.4
+South Carolina,20190501,4.8
+South Dakota,20190501,5.2
+Tennessee,20190501,4.3
+Texas,20190501,4.5
+Utah,20190501,4.9
+Vermont,20190501,5.4
+Virginia,20190501,5.2
+Washington,20190501,4.3
+West Virginia,20190501,5.2
+Wisconsin,20190501,4.9
+Wyoming,20190501,5.5
+United States,20190501,4.6
+Alabama,20190601,4.5
+Alaska,20190601,6.5
+Arizona,20190601,4.7
+Arkansas,20190601,4.5
+California,20190601,4.5
+Colorado,20190601,5.1
+Connecticut,20190601,3.6
+DC,20190601,3.5
+Delaware,20190601,4.3
+Florida,20190601,4.1
+Georgia,20190601,4.6
+Hawaii,20190601,4.5
+Idaho,20190601,5.0
+Illinois,20190601,4.3
+Indiana,20190601,4.9
+Iowa,20190601,4.8
+Kansas,20190601,4.9
+Kentucky,20190601,4.3
+Louisiana,20190601,4.4
+Maine,20190601,4.8
+Maryland,20190601,4.7
+Massachusetts,20190601,4.4
+Michigan,20190601,4.8
+Minnesota,20190601,4.8
+Mississippi,20190601,4.5
+Missouri,20190601,5.4
+Montana,20190601,5.5
+Nebraska,20190601,4.8
+Nevada,20190601,4.6
+New Hampshire,20190601,4.6
+New Jersey,20190601,4.1
+New Mexico,20190601,4.9
+New York,20190601,4.0
+North Carolina,20190601,5.3
+North Dakota,20190601,5.6
+Ohio,20190601,4.4
+Oklahoma,20190601,4.4
+Oregon,20190601,5.2
+Pennsylvania,20190601,4.4
+Rhode Island,20190601,4.6
+South Carolina,20190601,4.8
+South Dakota,20190601,5.0
+Tennessee,20190601,4.1
+Texas,20190601,4.3
+Utah,20190601,5.1
+Vermont,20190601,5.1
+Virginia,20190601,5.0
+Washington,20190601,4.5
+West Virginia,20190601,5.0
+Wisconsin,20190601,5.1
+Wyoming,20190601,5.5
+United States,20190601,4.5
+Alabama,20190701,4.3
+Alaska,20190701,6.5
+Arizona,20190701,4.8
+Arkansas,20190701,4.7
+California,20190701,4.3
+Colorado,20190701,5.3
+Connecticut,20190701,3.5
+DC,20190701,3.7
+Delaware,20190701,4.9
+Florida,20190701,4.6
+Georgia,20190701,4.7
+Hawaii,20190701,4.6
+Idaho,20190701,5.9
+Illinois,20190701,4.1
+Indiana,20190701,5.0
+Iowa,20190701,4.5
+Kansas,20190701,4.8
+Kentucky,20190701,4.3
+Louisiana,20190701,4.4
+Maine,20190701,4.2
+Maryland,20190701,4.7
+Massachusetts,20190701,3.8
+Michigan,20190701,4.5
+Minnesota,20190701,4.4
+Mississippi,20190701,4.0
+Missouri,20190701,5.8
+Montana,20190701,5.6
+Nebraska,20190701,4.7
+Nevada,20190701,4.4
+New Hampshire,20190701,4.5
+New Jersey,20190701,3.9
+New Mexico,20190701,5.5
+New York,20190701,3.7
+North Carolina,20190701,5.5
+North Dakota,20190701,5.6
+Ohio,20190701,4.9
+Oklahoma,20190701,4.5
+Oregon,20190701,4.8
+Pennsylvania,20190701,3.9
+Rhode Island,20190701,4.2
+South Carolina,20190701,5.1
+South Dakota,20190701,5.0
+Tennessee,20190701,4.0
+Texas,20190701,4.3
+Utah,20190701,5.1
+Vermont,20190701,4.8
+Virginia,20190701,5.3
+Washington,20190701,4.6
+West Virginia,20190701,4.9
+Wisconsin,20190701,5.2
+Wyoming,20190701,5.8
+United States,20190701,4.5
+Alabama,20190801,4.3
+Alaska,20190801,6.5
+Arizona,20190801,4.9
+Arkansas,20190801,4.9
+California,20190801,4.1
+Colorado,20190801,5.0
+Connecticut,20190801,3.6
+DC,20190801,3.9
+Delaware,20190801,4.7
+Florida,20190801,4.5
+Georgia,20190801,4.7
+Hawaii,20190801,4.4
+Idaho,20190801,4.7
+Illinois,20190801,3.9
+Indiana,20190801,4.6
+Iowa,20190801,4.3
+Kansas,20190801,4.9
+Kentucky,20190801,4.3
+Louisiana,20190801,4.8
+Maine,20190801,4.6
+Maryland,20190801,4.6
+Massachusetts,20190801,4.6
+Michigan,20190801,4.4
+Minnesota,20190801,4.4
+Mississippi,20190801,4.2
+Missouri,20190801,4.5
+Montana,20190801,5.4
+Nebraska,20190801,4.4
+Nevada,20190801,4.1
+New Hampshire,20190801,4.6
+New Jersey,20190801,4.3
+New Mexico,20190801,5.4
+New York,20190801,4.4
+North Carolina,20190801,6.1
+North Dakota,20190801,5.4
+Ohio,20190801,4.5
+Oklahoma,20190801,4.5
+Oregon,20190801,4.7
+Pennsylvania,20190801,4.1
+Rhode Island,20190801,4.5
+South Carolina,20190801,4.7
+South Dakota,20190801,4.8
+Tennessee,20190801,4.5
+Texas,20190801,4.4
+Utah,20190801,4.7
+Vermont,20190801,4.8
+Virginia,20190801,5.2
+Washington,20190801,4.7
+West Virginia,20190801,5.1
+Wisconsin,20190801,4.9
+Wyoming,20190801,5.5
+United States,20190801,4.5
+Alabama,20190901,4.6
+Alaska,20190901,6.5
+Arizona,20190901,5.5
+Arkansas,20190901,5.0
+California,20190901,4.2
+Colorado,20190901,5.0
+Connecticut,20190901,3.6
+DC,20190901,4.0
+Delaware,20190901,4.5
+Florida,20190901,4.5
+Georgia,20190901,5.0
+Hawaii,20190901,4.5
+Idaho,20190901,5.1
+Illinois,20190901,4.0
+Indiana,20190901,4.8
+Iowa,20190901,4.5
+Kansas,20190901,4.6
+Kentucky,20190901,4.6
+Louisiana,20190901,4.8
+Maine,20190901,4.9
+Maryland,20190901,4.8
+Massachusetts,20190901,4.2
+Michigan,20190901,4.5
+Minnesota,20190901,4.1
+Mississippi,20190901,4.6
+Missouri,20190901,4.5
+Montana,20190901,5.3
+Nebraska,20190901,4.6
+Nevada,20190901,4.1
+New Hampshire,20190901,4.3
+New Jersey,20190901,4.0
+New Mexico,20190901,5.4
+New York,20190901,3.9
+North Carolina,20190901,5.8
+North Dakota,20190901,5.0
+Ohio,20190901,4.6
+Oklahoma,20190901,4.5
+Oregon,20190901,4.9
+Pennsylvania,20190901,4.1
+Rhode Island,20190901,4.5
+South Carolina,20190901,4.8
+South Dakota,20190901,4.5
+Tennessee,20190901,4.8
+Texas,20190901,4.2
+Utah,20190901,4.5
+Vermont,20190901,4.8
+Virginia,20190901,5.0
+Washington,20190901,4.3
+West Virginia,20190901,5.5
+Wisconsin,20190901,4.9
+Wyoming,20190901,5.8
+United States,20190901,4.5
+Alabama,20191001,4.9
+Alaska,20191001,6.5
+Arizona,20191001,4.4
+Arkansas,20191001,5.1
+California,20191001,4.4
+Colorado,20191001,4.5
+Connecticut,20191001,4.3
+DC,20191001,4.4
+Delaware,20191001,5.5
+Florida,20191001,4.5
+Georgia,20191001,5.0
+Hawaii,20191001,4.5
+Idaho,20191001,5.0
+Illinois,20191001,4.4
+Indiana,20191001,5.3
+Iowa,20191001,4.6
+Kansas,20191001,4.6
+Kentucky,20191001,4.7
+Louisiana,20191001,4.6
+Maine,20191001,4.8
+Maryland,20191001,5.5
+Massachusetts,20191001,4.1
+Michigan,20191001,5.1
+Minnesota,20191001,3.9
+Mississippi,20191001,4.2
+Missouri,20191001,4.3
+Montana,20191001,5.1
+Nebraska,20191001,4.7
+Nevada,20191001,4.2
+New Hampshire,20191001,4.3
+New Jersey,20191001,4.2
+New Mexico,20191001,5.2
+New York,20191001,4.1
+North Carolina,20191001,6.6
+North Dakota,20191001,5.8
+Ohio,20191001,4.7
+Oklahoma,20191001,5.0
+Oregon,20191001,5.2
+Pennsylvania,20191001,4.3
+Rhode Island,20191001,4.9
+South Carolina,20191001,5.1
+South Dakota,20191001,4.9
+Tennessee,20191001,4.4
+Texas,20191001,4.0
+Utah,20191001,4.4
+Vermont,20191001,5.1
+Virginia,20191001,5.9
+Washington,20191001,4.0
+West Virginia,20191001,5.8
+Wisconsin,20191001,5.1
+Wyoming,20191001,5.5
+United States,20191001,4.6
+Alabama,20191101,4.4
+Alaska,20191101,6.3
+Arizona,20191101,4.9
+Arkansas,20191101,4.7
+California,20191101,4.2
+Colorado,20191101,4.6
+Connecticut,20191101,3.7
+DC,20191101,4.0
+Delaware,20191101,4.5
+Florida,20191101,4.4
+Georgia,20191101,4.9
+Hawaii,20191101,4.2
+Idaho,20191101,4.9
+Illinois,20191101,4.0
+Indiana,20191101,4.4
+Iowa,20191101,4.4
+Kansas,20191101,4.4
+Kentucky,20191101,4.5
+Louisiana,20191101,4.5
+Maine,20191101,4.5
+Maryland,20191101,4.4
+Massachusetts,20191101,4.0
+Michigan,20191101,4.6
+Minnesota,20191101,4.0
+Mississippi,20191101,4.1
+Missouri,20191101,4.2
+Montana,20191101,5.1
+Nebraska,20191101,4.5
+Nevada,20191101,4.4
+New Hampshire,20191101,4.3
+New Jersey,20191101,4.6
+New Mexico,20191101,5.0
+New York,20191101,3.6
+North Carolina,20191101,5.5
+North Dakota,20191101,4.5
+Ohio,20191101,4.5
+Oklahoma,20191101,4.3
+Oregon,20191101,4.8
+Pennsylvania,20191101,4.4
+Rhode Island,20191101,4.4
+South Carolina,20191101,4.4
+South Dakota,20191101,4.5
+Tennessee,20191101,4.2
+Texas,20191101,4.0
+Utah,20191101,4.5
+Vermont,20191101,4.8
+Virginia,20191101,5.0
+Washington,20191101,4.5
+West Virginia,20191101,5.5
+Wisconsin,20191101,4.5
+Wyoming,20191101,5.5
+United States,20191101,4.4
+Alabama,20191201,3.9
+Alaska,20191201,6.5
+Arizona,20191201,4.8
+Arkansas,20191201,4.6
+California,20191201,4.1
+Colorado,20191201,4.4
+Connecticut,20191201,3.8
+DC,20191201,3.6
+Delaware,20191201,3.9
+Florida,20191201,4.4
+Georgia,20191201,4.9
+Hawaii,20191201,4.1
+Idaho,20191201,5.0
+Illinois,20191201,4.2
+Indiana,20191201,3.8
+Iowa,20191201,4.2
+Kansas,20191201,4.0
+Kentucky,20191201,4.0
+Louisiana,20191201,4.1
+Maine,20191201,4.6
+Maryland,20191201,4.9
+Massachusetts,20191201,3.8
+Michigan,20191201,4.3
+Minnesota,20191201,3.8
+Mississippi,20191201,3.8
+Missouri,20191201,3.7
+Montana,20191201,5.4
+Nebraska,20191201,4.3
+Nevada,20191201,4.5
+New Hampshire,20191201,4.7
+New Jersey,20191201,4.3
+New Mexico,20191201,5.1
+New York,20191201,3.9
+North Carolina,20191201,5.3
+North Dakota,20191201,4.5
+Ohio,20191201,4.3
+Oklahoma,20191201,4.0
+Oregon,20191201,5.6
+Pennsylvania,20191201,4.0
+Rhode Island,20191201,4.2
+South Carolina,20191201,4.1
+South Dakota,20191201,4.3
+Tennessee,20191201,3.5
+Texas,20191201,3.7
+Utah,20191201,4.6
+Vermont,20191201,4.5
+Virginia,20191201,5.0
+Washington,20191201,4.6
+West Virginia,20191201,5.0
+Wisconsin,20191201,4.2
+Wyoming,20191201,5.8
+United States,20191201,4.2
+Alabama,20200101,4.5
+Alaska,20200101,6.5
+Arizona,20200101,4.9
+Arkansas,20200101,4.7
+California,20200101,4.4
+Colorado,20200101,4.3
+Connecticut,20200101,3.8
+DC,20200101,3.5
+Delaware,20200101,4.5
+Florida,20200101,4.6
+Georgia,20200101,4.8
+Hawaii,20200101,4.3
+Idaho,20200101,4.8
+Illinois,20200101,4.1
+Indiana,20200101,4.7
+Iowa,20200101,4.7
+Kansas,20200101,4.5
+Kentucky,20200101,4.7
+Louisiana,20200101,4.3
+Maine,20200101,4.6
+Maryland,20200101,5.6
+Massachusetts,20200101,4.2
+Michigan,20200101,4.7
+Minnesota,20200101,4.3
+Mississippi,20200101,4.3
+Missouri,20200101,4.1
+Montana,20200101,5.4
+Nebraska,20200101,4.6
+Nevada,20200101,4.9
+New Hampshire,20200101,4.7
+New Jersey,20200101,4.4
+New Mexico,20200101,5.4
+New York,20200101,4.2
+North Carolina,20200101,4.8
+North Dakota,20200101,4.8
+Ohio,20200101,4.3
+Oklahoma,20200101,4.6
+Oregon,20200101,5.2
+Pennsylvania,20200101,4.4
+Rhode Island,20200101,4.5
+South Carolina,20200101,4.7
+South Dakota,20200101,4.9
+Tennessee,20200101,4.2
+Texas,20200101,3.9
+Utah,20200101,4.6
+Vermont,20200101,5.1
+Virginia,20200101,5.1
+Washington,20200101,5.4
+West Virginia,20200101,6.5
+Wisconsin,20200101,5.0
+Wyoming,20200101,5.9
+United States,20200101,4.5
+Alabama,20200201,4.5
+Alaska,20200201,6.5
+Arizona,20200201,5.0
+Arkansas,20200201,4.4
+California,20200201,4.2
+Colorado,20200201,4.2
+Connecticut,20200201,4.0
+DC,20200201,4.1
+Delaware,20200201,4.7
+Florida,20200201,4.4
+Georgia,20200201,4.6
+Hawaii,20200201,4.1
+Idaho,20200201,4.9
+Illinois,20200201,4.2
+Indiana,20200201,4.5
+Iowa,20200201,4.4
+Kansas,20200201,4.7
+Kentucky,20200201,4.3
+Louisiana,20200201,4.7
+Maine,20200201,4.8
+Maryland,20200201,5.3
+Massachusetts,20200201,4.7
+Michigan,20200201,4.6
+Minnesota,20200201,3.9
+Mississippi,20200201,4.4
+Missouri,20200201,4.1
+Montana,20200201,5.2
+Nebraska,20200201,4.5
+Nevada,20200201,4.1
+New Hampshire,20200201,5.1
+New Jersey,20200201,4.4
+New Mexico,20200201,4.5
+New York,20200201,3.8
+North Carolina,20200201,4.7
+North Dakota,20200201,5.0
+Ohio,20200201,4.4
+Oklahoma,20200201,4.5
+Oregon,20200201,5.5
+Pennsylvania,20200201,4.1
+Rhode Island,20200201,4.3
+South Carolina,20200201,4.6
+South Dakota,20200201,4.5
+Tennessee,20200201,4.9
+Texas,20200201,4.0
+Utah,20200201,4.7
+Vermont,20200201,4.8
+Virginia,20200201,5.0
+Washington,20200201,4.5
+West Virginia,20200201,5.8
+Wisconsin,20200201,4.7
+Wyoming,20200201,5.6
+United States,20200201,4.4
+Alabama,20200301,3.3
+Alaska,20200301,5.7
+Arizona,20200301,4.2
+Arkansas,20200301,4.1
+California,20200301,3.5
+Colorado,20200301,3.5
+Connecticut,20200301,3.5
+DC,20200301,3.2
+Delaware,20200301,3.9
+Florida,20200301,4.0
+Georgia,20200301,3.2
+Hawaii,20200301,3.5
+Idaho,20200301,4.5
+Illinois,20200301,3.6
+Indiana,20200301,3.5
+Iowa,20200301,3.3
+Kansas,20200301,3.7
+Kentucky,20200301,4.4
+Louisiana,20200301,3.4
+Maine,20200301,3.8
+Maryland,20200301,4.6
+Massachusetts,20200301,3.6
+Michigan,20200301,3.0
+Minnesota,20200301,3.5
+Mississippi,20200301,3.7
+Missouri,20200301,3.5
+Montana,20200301,4.9
+Nebraska,20200301,3.9
+Nevada,20200301,4.1
+New Hampshire,20200301,4.6
+New Jersey,20200301,3.6
+New Mexico,20200301,4.2
+New York,20200301,3.3
+North Carolina,20200301,3.7
+North Dakota,20200301,4.2
+Ohio,20200301,3.5
+Oklahoma,20200301,4.3
+Oregon,20200301,4.8
+Pennsylvania,20200301,3.6
+Rhode Island,20200301,3.8
+South Carolina,20200301,4.1
+South Dakota,20200301,3.5
+Tennessee,20200301,4.4
+Texas,20200301,3.2
+Utah,20200301,3.9
+Vermont,20200301,4.0
+Virginia,20200301,4.7
+Washington,20200301,3.5
+West Virginia,20200301,5.2
+Wisconsin,20200301,4.0
+Wyoming,20200301,4.6
+United States,20200301,3.7
+Alabama,20200401,3.4
+Alaska,20200401,4.7
+Arizona,20200401,4.0
+Arkansas,20200401,4.1
+California,20200401,2.9
+Colorado,20200401,3.9
+Connecticut,20200401,3.3
+DC,20200401,3.9
+Delaware,20200401,4.1
+Florida,20200401,3.3
+Georgia,20200401,3.4
+Hawaii,20200401,3.0
+Idaho,20200401,4.9
+Illinois,20200401,3.0
+Indiana,20200401,3.2
+Iowa,20200401,3.4
+Kansas,20200401,4.1
+Kentucky,20200401,4.2
+Louisiana,20200401,3.4
+Maine,20200401,4.2
+Maryland,20200401,4.0
+Massachusetts,20200401,3.9
+Michigan,20200401,2.8
+Minnesota,20200401,3.3
+Mississippi,20200401,3.3
+Missouri,20200401,3.2
+Montana,20200401,4.3
+Nebraska,20200401,4.1
+Nevada,20200401,3.1
+New Hampshire,20200401,4.5
+New Jersey,20200401,4.0
+New Mexico,20200401,4.5
+New York,20200401,3.0
+North Carolina,20200401,3.5
+North Dakota,20200401,4.0
+Ohio,20200401,3.6
+Oklahoma,20200401,4.8
+Oregon,20200401,4.1
+Pennsylvania,20200401,4.2
+Rhode Island,20200401,4.1
+South Carolina,20200401,4.5
+South Dakota,20200401,3.9
+Tennessee,20200401,3.7
+Texas,20200401,2.6
+Utah,20200401,4.5
+Vermont,20200401,5.3
+Virginia,20200401,4.2
+Washington,20200401,2.5
+West Virginia,20200401,5.5
+Wisconsin,20200401,3.8
+Wyoming,20200401,4.7
+United States,20200401,3.4
+Alabama,20200501,4.6
+Alaska,20200501,1.7
+Arizona,20200501,4.7
+Arkansas,20200501,3.6
+California,20200501,3.7
+Colorado,20200501,3.9
+Connecticut,20200501,3.9
+DC,20200501,2.6
+Delaware,20200501,4.3
+Florida,20200501,3.8
+Georgia,20200501,4.9
+Hawaii,20200501,4.5
+Idaho,20200501,4.6
+Illinois,20200501,3.4
+Indiana,20200501,4.3
+Iowa,20200501,3.6
+Kansas,20200501,4.1
+Kentucky,20200501,4.8
+Louisiana,20200501,4.5
+Maine,20200501,4.1
+Maryland,20200501,4.4
+Massachusetts,20200501,3.9
+Michigan,20200501,3.6
+Minnesota,20200501,3.5
+Mississippi,20200501,4.6
+Missouri,20200501,3.6
+Montana,20200501,4.9
+Nebraska,20200501,3.2
+Nevada,20200501,4.5
+New Hampshire,20200501,4.8
+New Jersey,20200501,4.1
+New Mexico,20200501,4.3
+New York,20200501,3.6
+North Carolina,20200501,4.2
+North Dakota,20200501,4.1
+Ohio,20200501,4.3
+Oklahoma,20200501,4.7
+Oregon,20200501,3.9
+Pennsylvania,20200501,4.3
+Rhode Island,20200501,4.8
+South Carolina,20200501,4.6
+South Dakota,20200501,2.9
+Tennessee,20200501,4.6
+Texas,20200501,3.3
+Utah,20200501,4.3
+Vermont,20200501,5.0
+Virginia,20200501,4.0
+Washington,20200501,3.6
+West Virginia,20200501,5.5
+Wisconsin,20200501,4.2
+Wyoming,20200501,3.0
+United States,20200501,3.9
+Alabama,20200601,4.0
+Alaska,20200601,3.1
+Arizona,20200601,4.6
+Arkansas,20200601,3.5
+California,20200601,3.9
+Colorado,20200601,3.7
+Connecticut,20200601,3.8
+DC,20200601,3.6
+Delaware,20200601,4.9
+Florida,20200601,4.0
+Georgia,20200601,5.1
+Hawaii,20200601,4.2
+Idaho,20200601,4.1
+Illinois,20200601,4.0
+Indiana,20200601,4.3
+Iowa,20200601,3.9
+Kansas,20200601,4.2
+Kentucky,20200601,5.2
+Louisiana,20200601,4.4
+Maine,20200601,4.1
+Maryland,20200601,5.1
+Massachusetts,20200601,4.5
+Michigan,20200601,5.4
+Minnesota,20200601,3.8
+Mississippi,20200601,4.7
+Missouri,20200601,4.1
+Montana,20200601,4.0
+Nebraska,20200601,4.1
+Nevada,20200601,5.9
+New Hampshire,20200601,5.0
+New Jersey,20200601,5.1
+New Mexico,20200601,4.1
+New York,20200601,4.0
+North Carolina,20200601,4.4
+North Dakota,20200601,4.1
+Ohio,20200601,4.5
+Oklahoma,20200601,4.4
+Oregon,20200601,4.3
+Pennsylvania,20200601,4.7
+Rhode Island,20200601,6.0
+South Carolina,20200601,4.9
+South Dakota,20200601,3.1
+Tennessee,20200601,4.6
+Texas,20200601,3.6
+Utah,20200601,4.0
+Vermont,20200601,4.5
+Virginia,20200601,4.8
+Washington,20200601,3.8
+West Virginia,20200601,5.8
+Wisconsin,20200601,4.4
+Wyoming,20200601,2.6
+United States,20200601,4.2
+Alabama,20200701,5.0
+Alaska,20200701,6.2
+Arizona,20200701,4.7
+Arkansas,20200701,4.4
+California,20200701,4.5
+Colorado,20200701,4.0
+Connecticut,20200701,3.7
+DC,20200701,4.7
+Delaware,20200701,4.8
+Florida,20200701,4.4
+Georgia,20200701,5.4
+Hawaii,20200701,4.5
+Idaho,20200701,4.8
+Illinois,20200701,4.4
+Indiana,20200701,4.8
+Iowa,20200701,4.6
+Kansas,20200701,4.7
+Kentucky,20200701,5.2
+Louisiana,20200701,4.8
+Maine,20200701,4.3
+Maryland,20200701,5.8
+Massachusetts,20200701,4.6
+Michigan,20200701,5.6
+Minnesota,20200701,4.6
+Mississippi,20200701,4.9
+Missouri,20200701,4.9
+Montana,20200701,4.9
+Nebraska,20200701,5.0
+Nevada,20200701,6.2
+New Hampshire,20200701,4.9
+New Jersey,20200701,4.9
+New Mexico,20200701,4.4
+New York,20200701,4.6
+North Carolina,20200701,4.8
+North Dakota,20200701,4.3
+Ohio,20200701,4.4
+Oklahoma,20200701,4.9
+Oregon,20200701,5.0
+Pennsylvania,20200701,4.6
+Rhode Island,20200701,4.5
+South Carolina,20200701,4.8
+South Dakota,20200701,4.6
+Tennessee,20200701,4.7
+Texas,20200701,3.7
+Utah,20200701,4.0
+Vermont,20200701,2.5
+Virginia,20200701,4.9
+Washington,20200701,3.5
+West Virginia,20200701,6.7
+Wisconsin,20200701,5.9
+Wyoming,20200701,4.7
+United States,20200701,4.6
+Alabama,20200801,5.1
+Alaska,20200801,6.7
+Arizona,20200801,5.3
+Arkansas,20200801,4.4
+California,20200801,4.1
+Colorado,20200801,3.9
+Connecticut,20200801,3.5
+DC,20200801,4.1
+Delaware,20200801,5.0
+Florida,20200801,4.3
+Georgia,20200801,5.6
+Hawaii,20200801,3.7
+Idaho,20200801,4.6
+Illinois,20200801,3.9
+Indiana,20200801,4.4
+Iowa,20200801,4.1
+Kansas,20200801,4.4
+Kentucky,20200801,5.0
+Louisiana,20200801,5.3
+Maine,20200801,4.1
+Maryland,20200801,5.1
+Massachusetts,20200801,4.0
+Michigan,20200801,5.2
+Minnesota,20200801,3.9
+Mississippi,20200801,5.5
+Missouri,20200801,4.1
+Montana,20200801,4.9
+Nebraska,20200801,4.3
+Nevada,20200801,5.2
+New Hampshire,20200801,4.5
+New Jersey,20200801,4.1
+New Mexico,20200801,4.4
+New York,20200801,3.9
+North Carolina,20200801,4.6
+North Dakota,20200801,4.2
+Ohio,20200801,4.4
+Oklahoma,20200801,4.9
+Oregon,20200801,5.3
+Pennsylvania,20200801,4.3
+Rhode Island,20200801,4.0
+South Carolina,20200801,5.3
+South Dakota,20200801,3.8
+Tennessee,20200801,4.4
+Texas,20200801,4.1
+Utah,20200801,4.4
+Vermont,20200801,4.4
+Virginia,20200801,5.3
+Washington,20200801,3.8
+West Virginia,20200801,6.5
+Wisconsin,20200801,4.2
+Wyoming,20200801,5.0
+United States,20200801,4.4
+Alabama,20200901,4.9
+Alaska,20200901,6.9
+Arizona,20200901,5.1
+Arkansas,20200901,4.5
+California,20200901,4.1
+Colorado,20200901,3.9
+Connecticut,20200901,3.6
+DC,20200901,3.3
+Delaware,20200901,4.9
+Florida,20200901,4.4
+Georgia,20200901,5.3
+Hawaii,20200901,3.0
+Idaho,20200901,4.4
+Illinois,20200901,4.1
+Indiana,20200901,4.8
+Iowa,20200901,4.4
+Kansas,20200901,4.2
+Kentucky,20200901,4.7
+Louisiana,20200901,4.9
+Maine,20200901,5.4
+Maryland,20200901,5.2
+Massachusetts,20200901,4.1
+Michigan,20200901,4.9
+Minnesota,20200901,3.7
+Mississippi,20200901,5.1
+Missouri,20200901,3.8
+Montana,20200901,5.2
+Nebraska,20200901,4.4
+Nevada,20200901,5.5
+New Hampshire,20200901,4.6
+New Jersey,20200901,4.9
+New Mexico,20200901,5.1
+New York,20200901,3.6
+North Carolina,20200901,4.9
+North Dakota,20200901,4.2
+Ohio,20200901,4.5
+Oklahoma,20200901,4.3
+Oregon,20200901,5.2
+Pennsylvania,20200901,4.4
+Rhode Island,20200901,4.1
+South Carolina,20200901,5.6
+South Dakota,20200901,4.9
+Tennessee,20200901,4.5
+Texas,20200901,4.8
+Utah,20200901,4.3
+Vermont,20200901,5.3
+Virginia,20200901,4.8
+Washington,20200901,3.7
+West Virginia,20200901,6.3
+Wisconsin,20200901,4.3
+Wyoming,20200901,4.9
+United States,20200901,4.5
+Alabama,20201001,5.1
+Alaska,20201001,6.5
+Arizona,20201001,5.3
+Arkansas,20201001,4.4
+California,20201001,4.2
+Colorado,20201001,4.1
+Connecticut,20201001,4.0
+DC,20201001,3.8
+Delaware,20201001,4.9
+Florida,20201001,4.5
+Georgia,20201001,5.4
+Hawaii,20201001,5.4
+Idaho,20201001,4.8
+Illinois,20201001,4.3
+Indiana,20201001,4.8
+Iowa,20201001,4.6
+Kansas,20201001,4.6
+Kentucky,20201001,5.0
+Louisiana,20201001,5.5
+Maine,20201001,4.8
+Maryland,20201001,5.4
+Massachusetts,20201001,4.5
+Michigan,20201001,4.7
+Minnesota,20201001,4.2
+Mississippi,20201001,5.1
+Missouri,20201001,4.4
+Montana,20201001,5.2
+Nebraska,20201001,4.5
+Nevada,20201001,5.7
+New Hampshire,20201001,4.9
+New Jersey,20201001,5.3
+New Mexico,20201001,4.9
+New York,20201001,3.7
+North Carolina,20201001,5.3
+North Dakota,20201001,4.4
+Ohio,20201001,4.6
+Oklahoma,20201001,5.0
+Oregon,20201001,5.0
+Pennsylvania,20201001,4.9
+Rhode Island,20201001,5.3
+South Carolina,20201001,5.6
+South Dakota,20201001,5.1
+Tennessee,20201001,4.6
+Texas,20201001,4.5
+Utah,20201001,4.3
+Vermont,20201001,5.0
+Virginia,20201001,5.1
+Washington,20201001,3.9
+West Virginia,20201001,6.5
+Wisconsin,20201001,4.2
+Wyoming,20201001,5.2
+United States,20201001,4.6
+Alabama,20201101,4.9
+Alaska,20201101,6.7
+Arizona,20201101,4.9
+Arkansas,20201101,4.6
+California,20201101,4.2
+Colorado,20201101,4.1
+Connecticut,20201101,4.0
+DC,20201101,4.1
+Delaware,20201101,4.1
+Florida,20201101,4.4
+Georgia,20201101,5.5
+Hawaii,20201101,5.5
+Idaho,20201101,5.0
+Illinois,20201101,4.1
+Indiana,20201101,4.9
+Iowa,20201101,4.5
+Kansas,20201101,4.6
+Kentucky,20201101,4.8
+Louisiana,20201101,5.0
+Maine,20201101,4.6
+Maryland,20201101,5.0
+Massachusetts,20201101,4.6
+Michigan,20201101,4.9
+Minnesota,20201101,4.0
+Mississippi,20201101,4.9
+Missouri,20201101,4.5
+Montana,20201101,5.4
+Nebraska,20201101,4.9
+Nevada,20201101,4.8
+New Hampshire,20201101,5.0
+New Jersey,20201101,5.3
+New Mexico,20201101,4.8
+New York,20201101,3.9
+North Carolina,20201101,4.5
+North Dakota,20201101,4.5
+Ohio,20201101,4.5
+Oklahoma,20201101,4.9
+Oregon,20201101,5.5
+Pennsylvania,20201101,4.6
+Rhode Island,20201101,4.7
+South Carolina,20201101,5.4
+South Dakota,20201101,4.9
+Tennessee,20201101,4.6
+Texas,20201101,4.4
+Utah,20201101,4.5
+Vermont,20201101,4.6
+Virginia,20201101,5.1
+Washington,20201101,4.3
+West Virginia,20201101,6.4
+Wisconsin,20201101,4.2
+Wyoming,20201101,5.2
+United States,20201101,4.5
+Alabama,20201201,5.0
+Alaska,20201201,6.7
+Arizona,20201201,5.4
+Arkansas,20201201,4.6
+California,20201201,4.0
+Colorado,20201201,4.4
+Connecticut,20201201,4.1
+DC,20201201,3.7
+Delaware,20201201,4.1
+Florida,20201201,4.4
+Georgia,20201201,5.8
+Hawaii,20201201,5.1
+Idaho,20201201,5.1
+Illinois,20201201,4.5
+Indiana,20201201,4.6
+Iowa,20201201,4.5
+Kansas,20201201,4.8
+Kentucky,20201201,4.7
+Louisiana,20201201,4.6
+Maine,20201201,4.6
+Maryland,20201201,4.8
+Massachusetts,20201201,4.2
+Michigan,20201201,5.1
+Minnesota,20201201,3.8
+Mississippi,20201201,5.0
+Missouri,20201201,4.6
+Montana,20201201,5.6
+Nebraska,20201201,4.7
+Nevada,20201201,4.6
+New Hampshire,20201201,5.0
+New Jersey,20201201,5.4
+New Mexico,20201201,4.9
+New York,20201201,3.8
+North Carolina,20201201,5.1
+North Dakota,20201201,4.5
+Ohio,20201201,4.5
+Oklahoma,20201201,4.8
+Oregon,20201201,4.9
+Pennsylvania,20201201,4.5
+Rhode Island,20201201,4.8
+South Carolina,20201201,5.7
+South Dakota,20201201,5.1
+Tennessee,20201201,4.5
+Texas,20201201,4.3
+Utah,20201201,4.9
+Vermont,20201201,5.0
+Virginia,20201201,5.1
+Washington,20201201,4.3
+West Virginia,20201201,6.4
+Wisconsin,20201201,4.0
+Wyoming,20201201,5.8
+United States,20201201,4.5
+Alabama,20210101,5.2
+Alaska,20210101,7.0
+Arizona,20210101,5.2
+Arkansas,20210101,5.1
+California,20210101,4.2
+Colorado,20210101,4.9
+Connecticut,20210101,4.1
+DC,20210101,4.1
+Delaware,20210101,5.1
+Florida,20210101,4.6
+Georgia,20210101,6.5
+Hawaii,20210101,4.7
+Idaho,20210101,5.1
+Illinois,20210101,4.4
+Indiana,20210101,4.7
+Iowa,20210101,4.6
+Kansas,20210101,4.9
+Kentucky,20210101,5.4
+Louisiana,20210101,5.3
+Maine,20210101,4.6
+Maryland,20210101,5.1
+Massachusetts,20210101,4.2
+Michigan,20210101,5.7
+Minnesota,20210101,3.9
+Mississippi,20210101,5.3
+Missouri,20210101,4.6
+Montana,20210101,5.5
+Nebraska,20210101,4.8
+Nevada,20210101,5.5
+New Hampshire,20210101,4.7
+New Jersey,20210101,5.1
+New Mexico,20210101,5.4
+New York,20210101,3.9
+North Carolina,20210101,6.2
+North Dakota,20210101,4.6
+Ohio,20210101,4.6
+Oklahoma,20210101,5.2
+Oregon,20210101,5.4
+Pennsylvania,20210101,4.8
+Rhode Island,20210101,4.9
+South Carolina,20210101,5.9
+South Dakota,20210101,5.3
+Tennessee,20210101,4.8
+Texas,20210101,4.3
+Utah,20210101,4.5
+Vermont,20210101,5.0
+Virginia,20210101,5.0
+Washington,20210101,4.7
+West Virginia,20210101,6.9
+Wisconsin,20210101,4.2
+Wyoming,20210101,5.5
+United States,20210101,4.7
+Alabama,20210201,5.5
+Alaska,20210201,7.3
+Arizona,20210201,5.7
+Arkansas,20210201,5.0
+California,20210201,4.3
+Colorado,20210201,5.0
+Connecticut,20210201,4.6
+DC,20210201,3.9
+Delaware,20210201,4.9
+Florida,20210201,5.0
+Georgia,20210201,5.9
+Hawaii,20210201,4.4
+Idaho,20210201,5.2
+Illinois,20210201,4.2
+Indiana,20210201,4.8
+Iowa,20210201,4.8
+Kansas,20210201,5.2
+Kentucky,20210201,5.6
+Louisiana,20210201,5.4
+Maine,20210201,5.3
+Maryland,20210201,5.8
+Massachusetts,20210201,4.8
+Michigan,20210201,5.8
+Minnesota,20210201,4.5
+Mississippi,20210201,5.6
+Missouri,20210201,4.9
+Montana,20210201,5.9
+Nebraska,20210201,5.2
+Nevada,20210201,5.8
+New Hampshire,20210201,6.0
+New Jersey,20210201,5.6
+New Mexico,20210201,5.5
+New York,20210201,4.3
+North Carolina,20210201,5.9
+North Dakota,20210201,4.8
+Ohio,20210201,5.0
+Oklahoma,20210201,5.3
+Oregon,20210201,5.9
+Pennsylvania,20210201,5.1
+Rhode Island,20210201,5.3
+South Carolina,20210201,5.8
+South Dakota,20210201,5.3
+Tennessee,20210201,5.0
+Texas,20210201,4.7
+Utah,20210201,5.1
+Vermont,20210201,5.3
+Virginia,20210201,5.9
+Washington,20210201,4.8
+West Virginia,20210201,6.6
+Wisconsin,20210201,4.4
+Wyoming,20210201,6.2
+United States,20210201,5.0
+Alabama,20210301,5.2
+Alaska,20210301,7.8
+Arizona,20210301,5.9
+Arkansas,20210301,5.9
+California,20210301,4.6
+Colorado,20210301,5.3
+Connecticut,20210301,5.4
+DC,20210301,3.9
+Delaware,20210301,5.1
+Florida,20210301,4.7
+Georgia,20210301,6.1
+Hawaii,20210301,4.7
+Idaho,20210301,6.6
+Illinois,20210301,5.2
+Indiana,20210301,5.5
+Iowa,20210301,5.3
+Kansas,20210301,5.6
+Kentucky,20210301,5.7
+Louisiana,20210301,5.4
+Maine,20210301,6.3
+Maryland,20210301,7.1
+Massachusetts,20210301,5.9
+Michigan,20210301,5.9
+Minnesota,20210301,4.4
+Mississippi,20210301,6.4
+Missouri,20210301,5.4
+Montana,20210301,6.8
+Nebraska,20210301,5.6
+Nevada,20210301,7.1
+New Hampshire,20210301,6.7
+New Jersey,20210301,7.0
+New Mexico,20210301,6.2
+New York,20210301,4.4
+North Carolina,20210301,6.2
+North Dakota,20210301,5.2
+Ohio,20210301,5.1
+Oklahoma,20210301,6.0
+Oregon,20210301,6.4
+Pennsylvania,20210301,6.4
+Rhode Island,20210301,5.8
+South Carolina,20210301,6.1
+South Dakota,20210301,5.6
+Tennessee,20210301,5.9
+Texas,20210301,5.4
+Utah,20210301,5.0
+Vermont,20210301,6.2
+Virginia,20210301,5.4
+Washington,20210301,5.2
+West Virginia,20210301,6.8
+Wisconsin,20210301,5.9
+Wyoming,20210301,6.5
+United States,20210301,5.4
+Alabama,20210401,5.9
+Alaska,20210401,7.3
+Arizona,20210401,6.2
+Arkansas,20210401,7.3
+California,20210401,5.0
+Colorado,20210401,6.8
+Connecticut,20210401,6.2
+DC,20210401,5.1
+Delaware,20210401,6.7
+Florida,20210401,5.2
+Georgia,20210401,6.9
+Hawaii,20210401,4.6
+Idaho,20210401,8.2
+Illinois,20210401,5.6
+Indiana,20210401,6.5
+Iowa,20210401,6.2
+Kansas,20210401,6.2
+Kentucky,20210401,7.0
+Louisiana,20210401,5.5
+Maine,20210401,6.7
+Maryland,20210401,7.5
+Massachusetts,20210401,5.7
+Michigan,20210401,7.4
+Minnesota,20210401,5.8
+Mississippi,20210401,5.8
+Missouri,20210401,5.9
+Montana,20210401,7.3
+Nebraska,20210401,6.5
+Nevada,20210401,5.8
+New Hampshire,20210401,6.8
+New Jersey,20210401,6.3
+New Mexico,20210401,6.3
+New York,20210401,5.6
+North Carolina,20210401,6.4
+North Dakota,20210401,6.3
+Ohio,20210401,5.4
+Oklahoma,20210401,7.2
+Oregon,20210401,6.1
+Pennsylvania,20210401,6.5
+Rhode Island,20210401,6.4
+South Carolina,20210401,7.1
+South Dakota,20210401,7.4
+Tennessee,20210401,6.1
+Texas,20210401,5.8
+Utah,20210401,7.0
+Vermont,20210401,8.2
+Virginia,20210401,6.4
+Washington,20210401,4.7
+West Virginia,20210401,7.1
+Wisconsin,20210401,6.9
+Wyoming,20210401,6.8
+United States,20210401,6.0
+Alabama,20210501,6.4
+Alaska,20210501,5.6
+Arizona,20210501,6.9
+Arkansas,20210501,5.7
+California,20210501,5.4
+Colorado,20210501,7.6
+Connecticut,20210501,6.1
+DC,20210501,3.8
+Delaware,20210501,6.5
+Florida,20210501,5.8
+Georgia,20210501,7.3
+Hawaii,20210501,6.6
+Idaho,20210501,6.7
+Illinois,20210501,5.4
+Indiana,20210501,7.1
+Iowa,20210501,5.4
+Kansas,20210501,5.5
+Kentucky,20210501,7.0
+Louisiana,20210501,5.7
+Maine,20210501,6.4
+Maryland,20210501,6.7
+Massachusetts,20210501,6.2
+Michigan,20210501,8.7
+Minnesota,20210501,5.8
+Mississippi,20210501,6.9
+Missouri,20210501,5.4
+Montana,20210501,7.9
+Nebraska,20210501,5.2
+Nevada,20210501,8.2
+New Hampshire,20210501,7.7
+New Jersey,20210501,6.1
+New Mexico,20210501,6.0
+New York,20210501,5.3
+North Carolina,20210501,6.0
+North Dakota,20210501,6.5
+Ohio,20210501,5.6
+Oklahoma,20210501,6.0
+Oregon,20210501,6.5
+Pennsylvania,20210501,7.4
+Rhode Island,20210501,6.9
+South Carolina,20210501,7.7
+South Dakota,20210501,5.0
+Tennessee,20210501,6.2
+Texas,20210501,6.2
+Utah,20210501,6.1
+Vermont,20210501,7.6
+Virginia,20210501,6.1
+Washington,20210501,5.2
+West Virginia,20210501,7.6
+Wisconsin,20210501,6.2
+Wyoming,20210501,5.2
+United States,20210501,6.1
+Alabama,20210601,6.3
+Alaska,20210601,7.1
+Arizona,20210601,6.3
+Arkansas,20210601,5.9
+California,20210601,6.0
+Colorado,20210601,7.7
+Connecticut,20210601,6.1
+DC,20210601,5.0
+Delaware,20210601,7.3
+Florida,20210601,6.2
+Georgia,20210601,7.4
+Hawaii,20210601,6.1
+Idaho,20210601,7.1
+Illinois,20210601,6.5
+Indiana,20210601,7.1
+Iowa,20210601,5.6
+Kansas,20210601,5.2
+Kentucky,20210601,8.9
+Louisiana,20210601,6.4
+Maine,20210601,6.5
+Maryland,20210601,7.0
+Massachusetts,20210601,6.1
+Michigan,20210601,9.5
+Minnesota,20210601,6.0
+Mississippi,20210601,6.8
+Missouri,20210601,5.6
+Montana,20210601,7.1
+Nebraska,20210601,5.5
+Nevada,20210601,10.6
+New Hampshire,20210601,7.9
+New Jersey,20210601,6.7
+New Mexico,20210601,6.7
+New York,20210601,5.7
+North Carolina,20210601,7.3
+North Dakota,20210601,5.9
+Ohio,20210601,5.9
+Oklahoma,20210601,6.6
+Oregon,20210601,6.9
+Pennsylvania,20210601,7.0
+Rhode Island,20210601,8.9
+South Carolina,20210601,7.1
+South Dakota,20210601,5.0
+Tennessee,20210601,6.2
+Texas,20210601,6.7
+Utah,20210601,6.2
+Vermont,20210601,7.2
+Virginia,20210601,6.5
+Washington,20210601,6.3
+West Virginia,20210601,8.0
+Wisconsin,20210601,6.8
+Wyoming,20210601,5.5
+United States,20210601,6.5
+Alabama,20210701,6.5
+Alaska,20210701,10.6
+Arizona,20210701,6.9
+Arkansas,20210701,6.5
+California,20210701,6.0
+Colorado,20210701,7.7
+Connecticut,20210701,6.2
+DC,20210701,5.8
+Delaware,20210701,7.2
+Florida,20210701,7.5
+Georgia,20210701,7.7
+Hawaii,20210701,7.3
+Idaho,20210701,7.8
+Illinois,20210701,6.9
+Indiana,20210701,6.9
+Iowa,20210701,6.3
+Kansas,20210701,5.9
+Kentucky,20210701,8.4
+Louisiana,20210701,6.7
+Maine,20210701,8.3
+Maryland,20210701,7.9
+Massachusetts,20210701,7.6
+Michigan,20210701,8.3
+Minnesota,20210701,6.7
+Mississippi,20210701,6.9
+Missouri,20210701,6.6
+Montana,20210701,7.6
+Nebraska,20210701,6.5
+Nevada,20210701,10.4
+New Hampshire,20210701,8.3
+New Jersey,20210701,7.5
+New Mexico,20210701,7.0
+New York,20210701,7.2
+North Carolina,20210701,7.2
+North Dakota,20210701,6.1
+Ohio,20210701,7.1
+Oklahoma,20210701,6.2
+Oregon,20210701,8.7
+Pennsylvania,20210701,7.2
+Rhode Island,20210701,7.4
+South Carolina,20210701,7.8
+South Dakota,20210701,6.4
+Tennessee,20210701,6.7
+Texas,20210701,6.8
+Utah,20210701,7.5
+Vermont,20210701,6.5
+Virginia,20210701,7.6
+Washington,20210701,6.4
+West Virginia,20210701,9.1
+Wisconsin,20210701,7.4
+Wyoming,20210701,8.1
+United States,20210701,7.0
+Alabama,20210901,6.5
+Alaska,20210901,8.9
+Arizona,20210901,6.7
+Arkansas,20210901,7
+California,20210901,6.5
+Colorado,20210901,6.5
+Connecticut,20210901,5.8
+Delaware,20210901,6.4
+DC,20210901,4.9
+Florida,20210901,6.9
+Georgia,20210901,8.3
+Hawaii,20210901,4.5
+Idaho,20210901,6.4
+Illinois,20210901,7
+Indiana,20210901,7
+Iowa,20210901,6.8
+Kansas,20210901,5.8
+Kentucky,20210901,7.2
+Louisiana,20210901,7
+Maine,20210901,7.5
+Maryland,20210901,7.3
+Massachusetts,20210901,7.4
+Michigan,20210901,8
+Minnesota,20210901,6.3
+Mississippi,20210901,6.9
+Missouri,20210901,6.7
+Montana,20210901,7.3
+Nebraska,20210901,6.5
+Nevada,20210901,7.5
+New Hampshire,20210901,7.5
+New Jersey,20210901,6.8
+New Mexico,20210901,7.5
+New York,20210901,5.8
+North Carolina,20210901,6.8
+North Dakota,20210901,7.1
+Ohio,20210901,6.6
+Oklahoma,20210901,6.9
+Oregon,20210901,7
+Pennsylvania,20210901,6.7
+Rhode Island,20210901,7.3
+South Carolina,20210901,7.8
+South Dakota,20210901,7.2
+Tennessee,20210901,6.8
+Texas,20210901,6.1
+Utah,20210901,6.4
+Vermont,20210901,7.8
+Virginia,20210901,7.9
+Washington,20210901,6.1
+West Virginia,20210901,8
+Wisconsin,20210901,7.1
+Wyoming,20210901,6.8
+United States,20210901,6.8
+Alabama,20211001,7.1
+Alaska,20211001,8.5
+Arizona,20211001,7.1
+Arkansas,20211001,6.6
+California,20211001,6.5
+Colorado,20211001,7.2
+Connecticut,20211001,6
+Delaware,20211001,6.4
+DC,20211001,5
+Florida,20211001,7.4
+Georgia,20211001,8.2
+Hawaii,20211001,8.4
+Idaho,20211001,7.3
+Illinois,20211001,6.8
+Indiana,20211001,7.4
+Iowa,20211001,7.1
+Kansas,20211001,6.6
+Kentucky,20211001,7.3
+Louisiana,20211001,7.8
+Maine,20211001,6.4
+Maryland,20211001,7.7
+Massachusetts,20211001,7.9
+Michigan,20211001,8.6
+Minnesota,20211001,8.1
+Mississippi,20211001,7.1
+Missouri,20211001,7.9
+Montana,20211001,8.2
+Nebraska,20211001,6.8
+Nevada,20211001,7.6
+New Hampshire,20211001,7.1
+New Jersey,20211001,6.9
+New Mexico,20211001,7.7
+New York,20211001,5.9
+North Carolina,20211001,7
+North Dakota,20211001,7.3
+Ohio,20211001,7.3
+Oklahoma,20211001,7
+Oregon,20211001,7.1
+Pennsylvania,20211001,6.7
+Rhode Island,20211001,7.7
+South Carolina,20211001,7.8
+South Dakota,20211001,7.8
+Tennessee,20211001,7.2
+Texas,20211001,6.5
+Utah,20211001,7.1
+Vermont,20211001,7.5
+Virginia,20211001,6.8
+Washington,20211001,6.2
+West Virginia,20211001,7.6
+Wisconsin,20211001,7
+Wyoming,20211001,7.4
+United States,20211001,7
+Alabama,20211101,7.0
+Alaska,20211101,8.8
+Arizona,20211101,6.9
+Arkansas,20211101,6.2
+California,20211101,6.5
+Colorado,20211101,7.3
+Connecticut,20211101,6.6
+Delaware,20211101,6
+DC,20211101,5.1
+Florida,20211101,6.5
+Georgia,20211101,8.3
+Hawaii,20211101,8.4
+Idaho,20211101,7.1
+Illinois,20211101,6.3
+Indiana,20211101,7.2
+Iowa,20211101,6.9
+Kansas,20211101,6.4
+Kentucky,20211101,6.8
+Louisiana,20211101,6.5
+Maine,20211101,6.7
+Maryland,20211101,7.1
+Massachusetts,20211101,7.5
+Michigan,20211101,7.5
+Minnesota,20211101,6.3
+Mississippi,20211101,6.5
+Missouri,20211101,7.3
+Montana,20211101,7.8
+Nebraska,20211101,6.7
+Nevada,20211101,7.4
+New Hampshire,20211101,8.3
+New Jersey,20211101,6.4
+New Mexico,20211101,7.1
+New York,20211101,6.6
+North Carolina,20211101,7.3
+North Dakota,20211101,7.1
+Ohio,20211101,7.3
+Oklahoma,20211101,6.6
+Oregon,20211101,6.8
+Pennsylvania,20211101,6.8
+Rhode Island,20211101,7.3
+South Carolina,20211101,7.4
+South Dakota,20211101,6.6
+Tennessee,20211101,6.9
+Texas,20211101,6.3
+Utah,20211101,6.6
+Vermont,20211101,7.8
+Virginia,20211101,6.9
+Washington,20211101,6.1
+West Virginia,20211101,7.2
+Wisconsin,20211101,7
+Wyoming,20211101,7.1
+United States,20211101,6.8
+Alabama,20211201,6.9
+Alaska,20211201,9.7
+Arizona,20211201,7.4
+Arkansas,20211201,6.6
+California,20211201,6.8
+Colorado,20211201,7.8
+Connecticut,20211201,6
+Delaware,20211201,6.8
+DC,20211201,5.2
+Florida,20211201,7
+Georgia,20211201,8.2
+Hawaii,20211201,9
+Idaho,20211201,7.9
+Illinois,20211201,7
+Indiana,20211201,7.8
+Iowa,20211201,7.4
+Kansas,20211201,6.6
+Kentucky,20211201,8
+Louisiana,20211201,7.2
+Maine,20211201,7
+Maryland,20211201,7.7
+Massachusetts,20211201,7.1
+Michigan,20211201,7.6
+Minnesota,20211201,7.4
+Mississippi,20211201,7.2
+Missouri,20211201,7.6
+Montana,20211201,9.1
+Nebraska,20211201,7.1
+Nevada,20211201,7.3
+New Hampshire,20211201,8.4
+New Jersey,20211201,6.6
+New Mexico,20211201,7.5
+New York,20211201,6
+North Carolina,20211201,8.4
+North Dakota,20211201,7.4
+Ohio,20211201,7.1
+Oklahoma,20211201,7.1
+Oregon,20211201,7.5
+Pennsylvania,20211201,7.7
+Rhode Island,20211201,7
+South Carolina,20211201,8.4
+South Dakota,20211201,7.1
+Tennessee,20211201,6.9
+Texas,20211201,6.6
+Utah,20211201,7.6
+Vermont,20211201,8
+Virginia,20211201,7.3
+Washington,20211201,6.1
+West Virginia,20211201,7.6
+Wisconsin,20211201,7
+Wyoming,20211201,9.3
+United States,20211201,7.1
+Alabama,20220101,6.4
+Alaska,20220101,8.7
+Arizona,20220101,7.4
+Arkansas,20220101,6.4
+California,20220101,6.3
+Colorado,20220101,7.6
+Connecticut,20220101,6.7
+Delaware,20220101,7.9
+DC,20220101,5.3
+Florida,20220101,7.3
+Georgia,20220101,7.5
+Hawaii,20220101,6.9
+Idaho,20220101,7.2
+Illinois,20220101,7.6
+Indiana,20220101,7.4
+Iowa,20220101,7.2
+Kansas,20220101,6.4
+Kentucky,20220101,8.0
+Louisiana,20220101,6.8
+Maine,20220101,8.8
+Maryland,20220101,7.5
+Massachusetts,20220101,7.1
+Michigan,20220101,7.8
+Minnesota,20220101,8.1
+Mississippi,20220101,6.4
+Missouri,20220101,7.5
+Montana,20220101,7.5
+Nebraska,20220101,7.8
+Nevada,20220101,6.7
+New Hampshire,20220101,8.8
+New Jersey,20220101,6.7
+New Mexico,20220101,7.7
+New York,20220101,5.9
+North Carolina,20220101,7.2
+North Dakota,20220101,7.6
+Ohio,20220101,7.0
+Oklahoma,20220101,6.6
+Oregon,20220101,7.0
+Pennsylvania,20220101,8.3
+Rhode Island,20220101,7.6
+South Carolina,20220101,7.7
+South Dakota,20220101,6.9
+Tennessee,20220101,7.6
+Texas,20220101,6.3
+Utah,20220101,7.3
+Vermont,20220101,8.0
+Virginia,20220101,7.2
+Washington,20220101,5.8
+West Virginia,20220101,7.1
+Wisconsin,20220101,7.0
+Wyoming,20220101,7.2
+United States,20220101,7.0
