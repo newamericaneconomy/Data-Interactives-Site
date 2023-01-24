@@ -223,12 +223,20 @@
   }
 }
 
+.site-title {
+  position: relative;
+  left: 18px;
+  font-size: 2rem;
+  font-weight: 600;
+  font-family: Foundersgrotesktext, sans-serif;
+}
+
 .intro-text {
   position: relative;
   left: 18px;
   max-width: 360px;
   color: black;
-  top: 18px;
+  top: 0px;
   font-size: 16px;
   font-family: Foundersgrotesktext, sans-serif;
   font-weight: 400;
