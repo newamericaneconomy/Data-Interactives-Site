@@ -913,7 +913,7 @@ label:hover {
   }
 
   #map {
-    top: 450px;
+    top: 634px;
     bottom: 0;
     left: 0px;
     position: absolute;
@@ -1066,6 +1066,8 @@ label:hover {
     padding-right: 0px;
     padding-left: 0px;
     padding-top: 40px;
+    top: 59px;
+    left: 0px;
   }
 
   .suggestions-wrapper {
@@ -1087,13 +1089,13 @@ label:hover {
   }
 
   .mti_tooltip_text_cont {
-    top: 220px !important;
+    top: 312px !important;
     padding-top: 1em !important;
     padding-left: 0.5em !important;
     padding-right: 0.5em !important;
     padding-bottom: 1em !important;
     margin-bottom: 1em !important;
-    height: 200px;
+    height: 296px;
     background-color: #000;
     font-family: Foundersgrotesktext, Helvetica, Arial, sans-serif;
     font-size: 0.78em !important;
@@ -1248,6 +1250,12 @@ label:hover {
   font-weight: 600;
   color: #000;
   width: 300px;
+}
+
+@media (max-width: 550px) {
+  .methodology {
+    top: 281px;
+  }
 }
 
 .methodology a {
