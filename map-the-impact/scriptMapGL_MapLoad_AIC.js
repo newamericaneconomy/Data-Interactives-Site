@@ -169,7 +169,7 @@ var projectionMerc = d3.geoMercator();
 // var R = 6378137.0 // radius of Earth in meters
 // var scaleEq= 2.65*Math.log10(window.innerWidth/50)
 var projection = d3.geoAlbersUsa().translate([0, 0]).scale(57);
-var stateData = d3.csv("acs_data/stateData_2019.csv");
+var stateData = d3.csv("acs_data/stateData_2021.csv");
 var countyData = d3.csv("acs_data/County_Data_2018.csv");
 var districtData = d3.csv("acs_data/districtData_2017.csv");
 var msaData = d3.csv("acs_data/msaData_2019.csv");
@@ -1401,7 +1401,7 @@ function initNation(data) {
       "<div class='w-layout-grid grid_data'>" +
       "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
       "<div class='grid_stat stat1'>" +
-      "44,788,044" +
+      "45,289,690" +
       "<br>‍</div>" +
       "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
       "<div class='grid_stat'>" +
@@ -1409,21 +1409,21 @@ function initNation(data) {
       "</div>" +
       "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
       "<div class='grid_stat stat1'>" +
-      "$492.4B" +
+      "$524.7B" +
       "</div>" +
       "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
       "<div class='grid_stat'>" +
-      "$1.3T" +
+      "$1.4T" +
       "</div>" +
       "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
       "<div class='grid_stat stat1' class='vertalign'>" +
-      "3,242,085" +
+      "3,471,810" +
       "</div>" +
       "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
       "<div class='grid_stat'>" +
-      "22,070,327" +
+      "23,053,019" +
       "<br>‍</div></div>" +
-      "<div class='source-line' id='nationSource'>Source: 1-year 2019 American Community Survey</div>" +
+      "<div class='source-line' id='nationSource'>Source: 1-year 2021 American Community Survey</div>" +
       "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
       "<div class='see_more_button'>More " +
       "United States" +
@@ -1530,7 +1530,7 @@ function nationMap(data) {
       "<div class='w-layout-grid grid_data'>" +
       "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
       "<div class='grid_stat stat1'>" +
-      "44,788,044" +
+      "45,289,690" +
       "<br>‍</div>" +
       "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
       "<div class='grid_stat'>" +
@@ -1538,21 +1538,21 @@ function nationMap(data) {
       "</div>" +
       "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
       "<div class='grid_stat stat1'>" +
-      "$492.4B" +
+      "$524.7B" +
       "</div>" +
       "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
       "<div class='grid_stat'>" +
-      "$1.3T" +
+      "$1.4T" +
       "</div>" +
       "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
       "<div class='grid_stat stat1' class='vertalign'>" +
-      "3,242,085" +
+      "3,471,810" +
       "</div>" +
       "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
       "<div class='grid_stat'>" +
-      "22,070,327" +
+      "23,053,019" +
       "<br></div></div>" +
-      "<div class='source-line'>Source: 1-year 2019 American Community Survey</div>" +
+      "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
       "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
       "<div class='see_more_button'>More " +
       "United States" +
@@ -1787,7 +1787,7 @@ function stateMap(data) {
         "<div class='grid_stat'>" +
         numberWithCommas(state_feat.voter) +
         "<br>‍</div></div>" +
-        "<div class='source-line'>Source: 1-year 2019 American Community Survey</div>" +
+        "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
         "<a href='https://www.newamericaneconomy.org/locations/" +
         state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
@@ -3390,7 +3390,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2019 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
@@ -3732,7 +3732,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2019 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
