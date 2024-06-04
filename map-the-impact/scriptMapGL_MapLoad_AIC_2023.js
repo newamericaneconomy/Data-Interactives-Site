@@ -169,7 +169,7 @@ var projectionMerc = d3.geoMercator();
 // var R = 6378137.0 // radius of Earth in meters
 // var scaleEq= 2.65*Math.log10(window.innerWidth/50)
 var projection = d3.geoAlbersUsa().translate([0, 0]).scale(57);
-var stateData = d3.csv("acs_data/stateData_2022.csv");
+var stateData = d3.csv("acs_data/stateData_2021.csv");
 var countyData = d3.csv("acs_data/County_Data_2018.csv");
 var districtData = d3.csv("acs_data/districtData_2017.csv");
 var msaData = d3.csv("acs_data/msaData_2019.csv");
@@ -1393,27 +1393,41 @@ function initNation(data) {
     //
     // });
 
-sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" + "United States" + " Data</a></h1>" +
-        "<div class='w-layout-grid grid_data'>" +
-        "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
-        "<div class='grid_stat stat1'>" + "46,118,600" + "<br>‍</div>" +
-        "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
-        "<div class='grid_stat'>" + "13.8%" + "</div>" +
-        "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
-        "<div class='grid_stat stat1'>" + "$579.1B" + "</div>" +
-        "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
-        "<div class='grid_stat'>" + "$1.6T" + "</div>" +
-        "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
-        "<div class='grid_stat stat1' class='vertalign'>" + "3,688,100" + "</div>" +
-        "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
-        "<div class='grid_stat'>" + "23,419,100" + "<br>‍</div></div>" +
-        "<div class='source-line' id='nationSource'>Source: 1-year 2022 American Community Survey</div>"+
-        "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
-        "<div class='see_more_button'>More " +
-        "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
-
-
+    sidebarSummary.innerHTML =
+      "<div class='mti_tooltip_text_cont'>" +
+      "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" +
+      "United States" +
+      " Data</a></h1>" +
+      "<div class='w-layout-grid grid_data'>" +
+      "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
+      "<div class='grid_stat stat1'>" +
+      "45,289,690" +
+      "<br>‍</div>" +
+      "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
+      "<div class='grid_stat'>" +
+      "13.6%" +
+      "</div>" +
+      "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
+      "<div class='grid_stat stat1'>" +
+      "$524.7B" +
+      "</div>" +
+      "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
+      "<div class='grid_stat'>" +
+      "$1.4T" +
+      "</div>" +
+      "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
+      "<div class='grid_stat stat1' class='vertalign'>" +
+      "3,471,810" +
+      "</div>" +
+      "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
+      "<div class='grid_stat'>" +
+      "23,053,019" +
+      "<br>‍</div></div>" +
+      "<div class='source-line' id='nationSource'>Source: 1-year 2021 American Community Survey</div>" +
+      "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
+      "<div class='see_more_button'>More " +
+      "United States" +
+      " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
   });
 }
 
@@ -1508,27 +1522,41 @@ function nationMap(data) {
       map.getCanvas().style.cursor = "";
     });
 
-sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" + "United States" + " Data</a></h1>" +
-        "<div class='w-layout-grid grid_data'>" +
-        "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
-        "<div class='grid_stat stat1'>" + "46,118,600" + "<br>‍</div>" +
-        "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
-        "<div class='grid_stat'>" + "13.8%" + "</div>" +
-        "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
-        "<div class='grid_stat stat1'>" + "$579.1B" + "</div>" +
-        "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
-        "<div class='grid_stat'>" + "$1.6T" + "</div>" +
-        "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
-        "<div class='grid_stat stat1' class='vertalign'>" + "3,688,100" + "</div>" +
-        "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
-        "<div class='grid_stat'>" + "23,419,100" + "<br>‍</div></div>" +
-        "<div class='source-line' id='nationSource'>Source: 1-year 2022 American Community Survey</div>"+
-        "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
-        "<div class='see_more_button'>More " +
-        "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
-
-
+    sidebarSummary.innerHTML =
+      "<div class='mti_tooltip_text_cont'>" +
+      "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" +
+      "United States" +
+      " Data</a></h1>" +
+      "<div class='w-layout-grid grid_data'>" +
+      "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
+      "<div class='grid_stat stat1'>" +
+      "45,289,690" +
+      "<br>‍</div>" +
+      "<div class='grid_stat_descr'>Immigrant Share of Population:</div>" +
+      "<div class='grid_stat'>" +
+      "13.6%" +
+      "</div>" +
+      "<div class='grid_stat_descr stat1'>Immigrant Taxes Paid:</div>" +
+      "<div class='grid_stat stat1'>" +
+      "$524.7B" +
+      "</div>" +
+      "<div class='grid_stat_descr'>Immigrant Spending Power:</div>" +
+      "<div class='grid_stat'>" +
+      "$1.4T" +
+      "</div>" +
+      "<div class='grid_stat_descr stat1'>Number of Immigrant Entrepreneurs:</div>" +
+      "<div class='grid_stat stat1' class='vertalign'>" +
+      "3,471,810" +
+      "</div>" +
+      "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
+      "<div class='grid_stat'>" +
+      "23,053,019" +
+      "<br></div></div>" +
+      "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
+      "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
+      "<div class='see_more_button'>More " +
+      "United States" +
+      " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
   });
 }
 
@@ -1759,7 +1787,7 @@ function stateMap(data) {
         "<div class='grid_stat'>" +
         numberWithCommas(state_feat.voter) +
         "<br>‍</div></div>" +
-        "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+        "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
         "<a href='https://www.newamericaneconomy.org/locations/" +
         state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
@@ -3362,7 +3390,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
@@ -3704,7 +3732,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2021 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
