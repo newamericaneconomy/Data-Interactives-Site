@@ -1408,7 +1408,7 @@ sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
         "<div class='grid_stat stat1' class='vertalign'>" + "3,855,100" + "</div>" +
         "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
         "<div class='grid_stat'>" + "22,805,400" + "<br>‍</div></div>" +
-        "<div class='source-line' id='nationSource'>Source: 1-year 2022 American Community Survey</div>"+
+        "<div class='source-line' id='nationSource'>Source: 1-year 2023 American Community Survey</div>"+
         "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
         "<div class='see_more_button'>More " +
         "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
@@ -1523,7 +1523,7 @@ sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
         "<div class='grid_stat stat1' class='vertalign'>" + "3,855,100" + "</div>" +
         "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
         "<div class='grid_stat'>" + "22,805,400" + "<br>‍</div></div>" +
-        "<div class='source-line' id='nationSource'>Source: 1-year 2022 American Community Survey</div>"+
+        "<div class='source-line' id='nationSource'>Source: 1-year 2023 American Community Survey</div>"+
         "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
         "<div class='see_more_button'>More " +
         "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
@@ -1759,7 +1759,7 @@ function stateMap(data) {
         "<div class='grid_stat'>" +
         numberWithCommas(state_feat.voter) +
         "<br>‍</div></div>" +
-        "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+        "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
         "<a href='https://www.newamericaneconomy.org/locations/" +
         state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
@@ -3362,7 +3362,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
@@ -3704,7 +3704,7 @@ function stateGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
-    "<div class='source-line'>Source: 1-year 2022 American Community Survey</div>" +
+    "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
     "<a href='https://www.newamericaneconomy.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
