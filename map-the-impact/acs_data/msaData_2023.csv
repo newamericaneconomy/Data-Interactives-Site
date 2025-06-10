@@ -1,0 +1,101 @@
+CBSAFP,Account Name,Year,Source,Immigrant Residents,Immigrant Share of Population,Immigrant Entrepreneurs,Immigrants eligible to vote,tottaxMSA,sppowerMSA 
+10580,Albany Metro Area,2023,2023 American Community Survey,"75,508",8.3%, - ,"38,269",1030.5,2365.7
+10740,Albuquerque Metro Area,2023,2023 American Community Survey,"85,599",9.3%, - ,"35,787",778.9,2280.4
+10900,Allentown Metro Area,2023,2023 American Community Survey,"96,312",11.0%, - ,"54,718",1145,3113
+12060,Atlanta Metro Area,2023,2023 American Community Survey,"998,762",15.8%,"99,258","473,030",13409.4,36768.4
+12420,Austin Metro Area,2023,2023 American Community Survey,"387,132",15.7%,"36,527","152,317",6819.7,18364.3
+12540,Bakersfield Metro Area,2023,2023 American Community Survey,"177,417",19.4%,"15,422","59,359",1734.1,5091.6
+12580,Baltimore Metro Area,2023,2023 American Community Survey,"345,688",12.2%,"26,237","196,231",4921.6,12408.2
+12940,Baton Rouge Metro Area,2023,2023 American Community Survey,"48,810",5.6%, - ,"15,869",432.4,1235.2
+13820,Birmingham Metro Area,2023,2023 American Community Survey,"56,978",4.8%, - ,"18,774",695.6,2008.3
+14260,Boise Metro Area,2023,2023 American Community Survey,"55,233",6.7%, - ,"26,024",483.9,1558.6
+14460,Boston Metro Area,2023,2023 American Community Survey,"989,751",20.1%,"71,526","507,066",16869.8,42159.7
+15380,Buffalo Metro Area,2023,2023 American Community Survey,"79,361",6.9%, - ,"44,845",925.5,2225.1
+15980,Cape Coral Metro Area,2023,2023 American Community Survey,"156,594",18.8%,"17,576","68,086",1208.5,4009.9
+16700,Charleston Metro Area,2023,2023 American Community Survey,"55,759",6.6%, - ,"22,056",686.5,1918.3
+16740,Charlotte Metro Area,2023,2023 American Community Survey,"330,254",11.8%,"27,231","132,244",4072.7,11656.7
+16980,Chicago Metro Area,2023,2023 American Community Survey,"1,751,455",18.9%,"139,372","827,765",25814.5,64497.5
+17140,Cincinnati Metro Area,2023,2023 American Community Survey,"131,764",5.8%,"9,458","54,451",1858.4,4906.7
+17410,Cleveland Metro Area,2023,2023 American Community Survey,"124,854",5.8%,"8,545","74,837",1704.6,4567
+17900,Columbia Metro Area,2023,2023 American Community Survey,"47,708",5.5%, - ,"17,939",541.8,1566.4
+18140,Columbus Metro Area,2023,2023 American Community Survey,"203,575",9.3%,"13,183","97,658",2316.9,6515
+19100,Dallas-Fort Worth Metro Area,2023,2023 American Community Survey,"1,612,754",19.9%,"137,722","585,038",18725.2,55847.4
+19660,Daytona Beach Metro Area,2023,2023 American Community Survey,"69,026",9.6%,"5,989","40,634",665.7,2130
+19740,Denver Metro Area,2023,2023 American Community Survey,"372,174",12.4%,"28,423","155,458",5410.1,14750.3
+19820,Detroit Metro Area,2023,2023 American Community Survey,"482,231",11.1%,"29,810","280,017",5758.1,16488.4
+20500,Durham Metro Area,2023,2023 American Community Survey,"83,548",13.7%,"5,587","32,295",1037.6,2932
+21340,El Paso Metro Area,2023,2023 American Community Survey,"198,586",22.7%,"13,578","80,496",1443.3,4945.5
+22220,"Fayetteville, AR Metro Area",2023,2023 American Community Survey,"70,534",11.9%, - ,"19,346",812.1,2380.6
+23420,Fresno Metro Area,2023,2023 American Community Survey,"233,226",19.8%,"17,804","95,326",1987.8,6143.7
+24340,Grand Rapids Metro Area,2023,2023 American Community Survey,"75,654",6.5%, - ,"29,626",567,1854
+24660,Greensboro Metro Area,2023,2023 American Community Survey,"77,725",9.8%, - ,"33,887",798.1,2421.1
+24860,Greenville Metro Area,2023,2023 American Community Survey,"61,518",6.3%,"5,633","25,163",650.9,1953.1
+26420,Houston Metro Area,2023,2023 American Community Survey,"1,850,190",24.6%,"166,546","702,625",20479.5,61504.8
+26900,Indianapolis Metro Area,2023,2023 American Community Survey,"200,672",9.4%,"10,571","69,075",2130.1,6254.9
+27260,Jacksonville Metro Area,2023,2023 American Community Survey,"168,104",9.8%,"15,056","98,918",2079.1,6212.5
+28140,Kansas City Metro Area,2023,2023 American Community Survey,"167,895",7.6%,"11,372","73,289",1817.1,5260.5
+28880,Poughkeepsie Metro Area,2023,2023 American Community Survey,"102,936",14.6%,"5,398","54,325",1407.2,3260.8
+28940,Knoxville Metro Area,2023,2023 American Community Survey,"43,839",4.6%, - ,"16,498",381.9,1230.5
+29460,Lakeland Metro Area,2023,2023 American Community Survey,"101,409",12.4%,"8,443","45,245",752.6,2603.1
+29820,Las Vegas Metro Area,2023,2023 American Community Survey,"514,866",22.0%,"34,322","252,220",4818.4,15802.7
+31080,Los Angeles Metro Area,2023,2023 American Community Survey,"4,210,337",32.9%,"425,380","2,177,348",56537.2,145013.1
+31140,Louisville Metro Area,2023,2023 American Community Survey,"89,057",6.5%,"7,197","38,217",843.7,2482.7
+31540,Madison Metro Area,2023,2023 American Community Survey,"61,634",8.9%, - ,"17,757",629.5,1743.7
+32580,McAllen Metro Area,2023,2023 American Community Survey,"233,040",25.9%,"30,595","52,521",1365.9,5030.1
+32820,Memphis Metro Area,2023,2023 American Community Survey,"84,676",6.3%,"6,020","26,324",900.2,2728.1
+33100,Miami Metro Area,2023,2023 American Community Survey,"2,631,967",42.6%,"300,587","1,488,684",26859.9,84845.6
+33340,Milwaukee Metro Area,2023,2023 American Community Survey,"129,185",8.3%, - ,"54,447",1510.8,4378.9
+33460,Twin Cities Metro Area,2023,2023 American Community Survey,"387,839",10.4%,"23,493","213,931",5346.4,14505.8
+34980,Nashville Metro Area,2023,2023 American Community Survey,"207,322",9.9%,"12,839","77,292",2469.7,7656.8
+35380,New Orleans Metro Area,2023,2023 American Community Survey,"93,819",9.8%,"10,486","37,719",940.1,2571.1
+35620,New York Metro Area,2023,2023 American Community Survey,"5,943,248",30.5%,"422,308","3,337,040",103254.4,227952.4
+35840,North Port Metro Area,2023,2023 American Community Survey,"137,774",15.1%,"12,653","69,489",1685.8,4986
+36420,Oklahoma City Metro Area,2023,2023 American Community Survey,"109,759",7.4%,"11,105","38,548",1150.3,3426.9
+36540,Omaha Metro Area,2023,2023 American Community Survey,"83,928",8.5%, - ,"28,193",1093,2969.9
+36740,Orlando Metro Area,2023,2023 American Community Survey,"613,747",21.8%,"60,622","314,889",6051.3,19592.3
+37100,Oxnard Metro Area,2023,2023 American Community Survey,"194,012",23.4%,"15,507","87,081",2619.1,6713.6
+37340,Palm Bay Metro Area,2023,2023 American Community Survey,"63,857",9.9%, - ,"42,667",635,1965.6
+37980,Philadelphia Metro Area,2023,2023 American Community Survey,"761,500",12.2%,"56,821","389,933",10880.5,28531.4
+38060,Phoenix Metro Area,2023,2023 American Community Survey,"722,971",14.3%,"58,644","292,022",8642.6,25534.7
+38300,Pittsburgh Metro Area,2023,2023 American Community Survey,"102,288",4.2%,"5,663","51,122",1808.9,4439.3
+38900,"Portland, OR-WA Metro Area",2023,2023 American Community Survey,"307,285",12.3%,"25,154","155,074",4960.7,12372.5
+39300,Providence Metro Area,2023,2023 American Community Survey,"243,529",14.5%,"15,556","128,731",2651.3,7667.1
+39340,Provo Metro Area,2023,2023 American Community Survey,"60,610",8.3%, - ,"20,311",689.8,1978.1
+39580,Raleigh Metro Area,2023,2023 American Community Survey,"217,065",14.4%,"16,266","91,322",3422.9,9415.2
+39900,Reno Metro Area,2023,2023 American Community Survey,"78,281",13.9%, - ,"31,285",843.7,2694.1
+40060,Richmond Metro Area,2023,2023 American Community Survey,"131,369",9.7%,"6,342","58,992",1922.2,4953.1
+40140,Inland Empire Metro Area,2023,2023 American Community Survey,"1,050,038",22.4%,"90,623","488,056",11767.8,32776.3
+40380,Rochester Metro Area,2023,2023 American Community Survey,"69,414",6.6%, - ,"41,542",872.8,1984
+40900,Sacramento Metro Area,2023,2023 American Community Survey,"468,947",19.4%,"38,261","256,268",6016.2,15602.9
+41180,St. Louis Metro Area,2023,2023 American Community Survey,"165,995",5.9%,"11,655","74,841",1976.4,5692.8
+41620,Salt Lake City Metro Area,2023,2023 American Community Survey,"166,242",13.1%,"9,600","60,616",1694.6,4967.7
+41700,San Antonio Metro Area,2023,2023 American Community Survey,"344,111",12.7%,"31,218","128,780",2997,9560.6
+41740,San Diego Metro Area,2023,2023 American Community Survey,"755,081",23.1%,"53,128","394,423",11900.7,28508
+41860,San Francisco Metro Area,2023,2023 American Community Survey,"1,502,870",32.9%,"103,989","804,428",36073.9,76283.7
+41940,San Jose Metro Area,2023,2023 American Community Survey,"812,521",41.8%,"40,204","399,543",26575.6,52255.4
+42660,Seattle Metro Area,2023,2023 American Community Survey,"864,767",21.4%,"58,821","403,004",18936.6,47023.2
+44700,Stockton Metro Area,2023,2023 American Community Survey,"213,264",26.6%,"11,075","97,550",2453.5,6641.6
+45060,Syracuse Metro Area,2023,2023 American Community Survey,"44,480",6.8%, - ,"23,613",590.4,1315.4
+45300,Tampa Metro Area,2023,2023 American Community Survey,"540,436",16.2%,"51,337","286,422",5339,16880.1
+46060,Tucson Metro Area,2023,2023 American Community Survey,"130,630",12.3%,"12,974","64,877",1362.5,4102
+46140,Tulsa Metro Area,2023,2023 American Community Survey,"80,316",7.7%,"6,126","27,199",765.2,2318
+46520,Honololu Metro Area,2023,2023 American Community Survey,"190,941",19.3%,"14,101","124,623",2756.4,6257.8
+47260,Virginia Beach Metro Area,2023,2023 American Community Survey,"123,155",6.9%,"7,949","73,642",1553,4176.9
+47900,"Washington, D.C. Metro Area",2023,2023 American Community Survey,"1,532,992",24.3%,"125,738","823,048",26638.9,65165.8
+49340,Worcester Metro Area,2023,2023 American Community Survey,"128,556",14.8%,"10,115","64,244",1974.8,5130
+10420,Akron Metro Area,2023,pooled 2021-2023 American Community Survey,"39,036",5.6%,"2,488","21,237",468,1246.9
+12260,Augusta Metro Area,2023,pooled 2021-2023 American Community Survey,"28,663",4.6%,"2,285","13,603",296.9,861.1
+16860,Chattanooga Metro Area,2023,pooled 2021-2023 American Community Survey,"24,509",4.3%,"2,508","8,920",194.3,628.5
+17820,Colorado Springs Metro Area,2023,pooled 2021-2023 American Community Survey,"51,666",6.7%,"3,922","28,701",535.2,1585.4
+19430,Dayton Metro Area,2023,pooled 2021-2023 American Community Survey,"38,108",4.7%,"2,655","20,479",405.5,1141.3
+19780,Des Moines Metro Area,2023,pooled 2021-2023 American Community Survey,"65,845",9.1%, - ,"27,545",667.7,1926.6
+25420,Harrisburg Metro Area,2023,pooled 2021-2023 American Community Survey,"48,281",8.0%, - ,"25,116",660.3,1766.1
+27140,Jackson Metro Area,2023,pooled 2021-2023 American Community Survey,"15,375",2.5%,"1,559","4,752",127.4,380.2
+30780,Little Rock Metro Area,2023,pooled 2021-2023 American Community Survey,"32,093",4.2%,"2,641","11,218",360.8,1025.1
+36260,Ogden Metro Area,2023,pooled 2021-2023 American Community Survey,"37,943",5.8%,"2,960","16,564",367.5,1081.2
+38860,"Portland, ME Metro Area",2023,pooled 2021-2023 American Community Survey,"28,765",5.1%, - ,"14,173",354.2,881.4
+42540,Scranton Metro Area,2023,pooled 2021-2023 American Community Survey,"43,913",7.7%,"1,823","19,686",340.5,1046.9
+44060,Spokane Metro Area,2023,pooled 2021-2023 American Community Survey,"33,297",5.6%,"2,577","17,383",318.4,912.5
+45780,Toledo Metro Area,2023,pooled 2021-2023 American Community Survey,"22,854",3.8%, - ,"12,503",351,878.2
+48620,Wichita Metro Area,2023,pooled 2021-2023 American Community Survey,"48,482",7.5%,"2,580","17,889",423.3,1231.8
+49180,Winston-Salem Metro Area,2023,pooled 2021-2023 American Community Survey,"52,124",7.6%,"3,942","17,815",397.8,1326.1

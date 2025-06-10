@@ -173,7 +173,7 @@ var projection = d3.geoAlbersUsa().translate([0, 0]).scale(57);
 var stateData = d3.csv("acs_data/stateData_2023.csv");
 var countyData = d3.csv("acs_data/County_Data_2018.csv");
 var districtData = d3.csv("acs_data/districtData_2017.csv");
-var msaData = d3.csv("acs_data/msaData_2019.csv");
+var msaData = d3.csv("acs_data/msaData_2023.csv");
 var centers = d3.csv("acs_data/Congressional_Centers.csv");
 var nationDataLoad;
 var stateDataLoad;
@@ -2600,7 +2600,7 @@ function msaMap(data) {
 
   map = new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/nae/clatv57m3002a17p8dc3c8eei",
+    style: 'mapbox://styles/nae/cmb817w7h00vr01sdbx97cty5',
     zoom: 2.65 * Math.log10(window.innerWidth / 50),
     center: [9.5, 0],
     maxZoom: 9,
@@ -2616,7 +2616,7 @@ function msaMap(data) {
   if (window.innerWidth < 550) {
     map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/nae/clatv57m3002a17p8dc3c8eei",
+      style: 'mapbox://styles/nae/cmb817w7h00vr01sdbx97cty5',
       zoom: Math.log10(window.innerWidth / 50),
       center: [9.5, 0],
       maxZoom: 11,
