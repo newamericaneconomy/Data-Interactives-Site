@@ -1221,9 +1221,9 @@ function countyStart() {
     ".intro-text {color: #000;} " +
     ".share-text {color: #000}" +
     ".site-title {color: #000;} " +
-    ".share-icon--twitter {background-image: url('https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/share-icon--twitter-hover.svg');}" +
-    ".share-icon--facebook {background-image: url('https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/share-icon--facebook-hover.svg');}" +
-    ".share-icon--email {background-image: url('https://www.newamericaneconomy.org/wp-content/themes/nae-wp-theme/static/img/share-icon--email-hover.svg');}" +
+    ".share-icon--twitter {background-image: url('https://map.americanimmigrationcouncil.org/wp-content/themes/nae-wp-theme/static/img/share-icon--twitter-hover.svg');}" +
+    ".share-icon--facebook {background-image: url('https://map.americanimmigrationcouncil.org/wp-content/themes/nae-wp-theme/static/img/share-icon--facebook-hover.svg');}" +
+    ".share-icon--email {background-image: url('https://map.americanimmigrationcouncil.org/wp-content/themes/nae-wp-theme/static/img/share-icon--email-hover.svg');}" +
     ".mti_tooltip_text_cont {background-color: #87d9f7;} " +
     ".grid_stat_descr.stat1 {background-color: #C0EAF1;}" +
     ".grid_stat.stat1 {background-color: #C0EAF1;} " +
@@ -1395,7 +1395,7 @@ function initNation(data) {
     // });
 
 sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" + "United States" + " Data</a></h1>" +
+        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://map.americanimmigrationcouncil.org/locations/national/'>" + "United States" + " Data</a></h1>" +
         "<div class='w-layout-grid grid_data'>" +
         "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
         "<div class='grid_stat stat1'>" + "47,805,500" + "<br>‍</div>" +
@@ -1410,7 +1410,7 @@ sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
         "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
         "<div class='grid_stat'>" + "22,805,400" + "<br>‍</div></div>" +
         "<div class='source-line' id='nationSource'>Source: 1-year 2023 American Community Survey</div>"+
-        "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
+        "<a href='https://map.americanimmigrationcouncil.org/locations/national/'>" +
         "<div class='see_more_button'>More " +
         "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
 
@@ -1510,7 +1510,7 @@ function nationMap(data) {
     });
 
 sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://www.newamericaneconomy.org/locations/national/'>" + "United States" + " Data</a></h1>" +
+        "<h1 class='mti_tooltip_hed'><a class='nationLink' href='https://map.americanimmigrationcouncil.org/locations/national/'>" + "United States" + " Data</a></h1>" +
         "<div class='w-layout-grid grid_data'>" +
         "<div class='grid_stat_descr stat1 first_stat'>Number of Immigrants:</div>" +
         "<div class='grid_stat stat1'>" + "47,805,500" + "<br>‍</div>" +
@@ -1525,7 +1525,7 @@ sidebarSummary.innerHTML = "<div class='mti_tooltip_text_cont'>" +
         "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
         "<div class='grid_stat'>" + "22,805,400" + "<br>‍</div></div>" +
         "<div class='source-line' id='nationSource'>Source: 1-year 2023 American Community Survey</div>"+
-        "<a href='https://www.newamericaneconomy.org/locations/national/'>" +
+        "<a href='https://map.americanimmigrationcouncil.org/locations/national/'>" +
         "<div class='see_more_button'>More " +
         "United States"+ " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
 
@@ -1730,7 +1730,7 @@ function stateMap(data) {
       // state_prop = state_feat.properties;
       sidebarSummary.innerHTML =
         "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
         state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         state_feat.StateName +
@@ -1761,7 +1761,7 @@ function stateMap(data) {
         numberWithCommas(state_feat.voter) +
         "<br>‍</div></div>" +
         "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
-        "<a href='https://www.newamericaneconomy.org/locations/" +
+        "<a href='https://map.americanimmigrationcouncil.org/locations/" +
         state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         "<div class='see_more_button'>More " +
@@ -1788,7 +1788,7 @@ function stateMap(data) {
     //             "<div class='grid_stat stat1'>" + numberWithCommas(state_feat.entrp) + "</div>" +
     //             "<div class='grid_stat_descr'>Number of Eligible Immigrant Voters:</div>" +
     //             "<div class='grid_stat'>" + numberWithCommas(state_feat.voter) + "<br>‍</div></div>" +
-    //             "<a href='https://www.newamericaneconomy.org/locations/" + state_feat.StateName.toLowerCase().replace(/\s+/g, '-') + "/'>" +
+    //             "<a href='https://map.americanimmigrationcouncil.org/locations/" + state_feat.StateName.toLowerCase().replace(/\s+/g, '-') + "/'>" +
     //             "<div class='see_more_button'>More " +
     //             state_feat.StateName + " Data <i class='fa fa-long-arrow-right fa-adjust'></i></div></a>";
     //
@@ -2077,7 +2077,7 @@ function countyMap(data) {
           "The data is not available due to a small sample size for the immigrant population in this county. For more information, see link below." +
           "</div>" +
           "<div class='see_more_button'>" +
-          "<a href='https://www.newamericaneconomy.org/locations/" +
+          "<a href='https://map.americanimmigrationcouncil.org/locations/" +
           county_feat.stateName.toLowerCase().replace(/\s+/g, "-") +
           "/'>" +
           "More " +
@@ -2409,7 +2409,7 @@ function districtMap(data) {
 
       sidebarSummary.innerHTML =
         "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         district_feat.districtName +
@@ -2443,7 +2443,7 @@ function districtMap(data) {
         "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
         // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
         // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
-        "<a href='https://www.newamericaneconomy.org/locations/" +
+        "<a href='https://map.americanimmigrationcouncil.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         "<div class='see_more_button'>More " +
@@ -2785,7 +2785,7 @@ function msaMap(data) {
       if (msa_feat.immigrantMSAPop != undefined) {
         sidebarSummary.innerHTML =
           "<div class='mti_tooltip_text_cont'>" +
-          "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/city/" +
+          "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/city/" +
           msa_feat.msaName
             .toLowerCase()
             .replace(/\s+/g, "-")
@@ -2821,7 +2821,7 @@ function msaMap(data) {
           "<div class='source-line' class='stateSource'>Source: " +
           msa_feat.immiSource +
           "</div>" +
-          "<a href='https://www.newamericaneconomy.org/city/" +
+          "<a href='https://map.americanimmigrationcouncil.org/city/" +
           msa_feat.msaName
             .toLowerCase()
             .replace(/\s+/g, "-")
@@ -3203,7 +3203,7 @@ function countyGetLatLon(e) {
       "The data is not available due to a small sample size for the immigrant population in this county. For more information, see link below." +
       "</div>" +
       "<div class='see_more_button'>" +
-      "<a href='https://www.newamericaneconomy.org/locations/" +
+      "<a href='https://map.americanimmigrationcouncil.org/locations/" +
       displayFeat.state.stateName.toLowerCase().replace(/\s+/g, "-") +
       "/'>" +
       "More " +
@@ -3254,7 +3254,7 @@ function districtGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     district_feat.districtName +
@@ -3288,7 +3288,7 @@ function districtGetLatLon(e) {
     "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
     // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
     // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
@@ -3334,7 +3334,7 @@ function stateGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     state_feat.StateName +
@@ -3365,7 +3365,7 @@ function stateGetLatLon(e) {
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
     "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
@@ -3415,7 +3415,7 @@ function msaGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/city/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
       .replace(/\s+/g, "-")
@@ -3449,7 +3449,7 @@ function msaGetLatLon(e) {
     numberWithCommas(msa_feat.immiMSAVote) +
     "<br>‍</div></div>" +
     "<div class='source-line' class='stateSource'>Source: 5-year 2018 American Community Survey</div>" +
-    "<a href='https://www.newamericaneconomy.org/city/" +
+    "<a href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
       .replace(/\s+/g, "-")
@@ -3543,7 +3543,7 @@ function countyGetLatLon(e) {
       "The data is not available due to a small sample size for the immigrant population in this county. For more information, see link below." +
       "</div>" +
       "<div class='see_more_button'>" +
-      "<a href='https://www.newamericaneconomy.org/locations/" +
+      "<a href='https://map.americanimmigrationcouncil.org/locations/" +
       displayFeat.state.stateName.toLowerCase().replace(/\s+/g, "-") +
       "/'>" +
       "More " +
@@ -3594,7 +3594,7 @@ function districtGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     district_feat.districtName +
@@ -3630,7 +3630,7 @@ function districtGetLatLon(e) {
     "</div>" +
     // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
     // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
@@ -3676,7 +3676,7 @@ function stateGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     state_feat.StateName +
@@ -3707,7 +3707,7 @@ function stateGetLatLon(e) {
     numberWithCommas(state_feat.voter) +
     "<br>‍</div></div>" +
     "<div class='source-line'>Source: 1-year 2023 American Community Survey</div>" +
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     state_feat.StateName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
@@ -3757,7 +3757,7 @@ function msaGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/city/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
       .replace(/\s+/g, "-")
@@ -3791,7 +3791,7 @@ function msaGetLatLon(e) {
     numberWithCommas(msa_feat.immiMSAVote) +
     "<br>‍</div></div>" +
     "<div class='source-line' class='stateSource'>Source: 5-year 2018 American Community Survey</div>" +
-    "<a href='https://www.newamericaneconomy.org/city/" +
+    "<a href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
       .replace(/\s+/g, "-")
