@@ -2778,10 +2778,12 @@ function msaMap(data) {
 
     var longLat = null;
 
+
     map.on("click", "msa-fills", function (e) {
       msa_feat = e.features[0].state;
 
       if (msa_feat.immigrantMSAPop != undefined) {
+        console.log(dollars(msa_feat.immiMSASpend));
         sidebarSummary.innerHTML =
           "<div class='mti_tooltip_text_cont'>" +
           "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/city/" +
