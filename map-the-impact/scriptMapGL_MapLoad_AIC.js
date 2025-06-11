@@ -2443,7 +2443,7 @@ function districtMap(data) {
         "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
         // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
         // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
-        "<a href='https://map.americanimmigrationcouncil.org/locations/" +
+        "<a href='https://map.newamericaneconomy.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         "<div class='see_more_button'>More " +
