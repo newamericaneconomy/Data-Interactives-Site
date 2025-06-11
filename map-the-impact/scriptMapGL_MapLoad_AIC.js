@@ -3448,7 +3448,9 @@ function msaGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(msa_feat.immiMSAVote) +
     "<br>‍</div></div>" +
-    "<div class='source-line' class='stateSource'>Source: 5-year 2018 American Community Survey</div>" +
+    "<div class='source-line' class='stateSource'>Source: " +
+          msa_feat.immiSource +
+          "</div>" +
     "<a href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
@@ -3790,7 +3792,9 @@ function msaGetLatLon(e) {
     "<div class='grid_stat'>" +
     numberWithCommas(msa_feat.immiMSAVote) +
     "<br>‍</div></div>" +
-    "<div class='source-line' class='stateSource'>Source: 5-year 2018 American Community Survey</div>" +
+    "<div class='source-line' class='stateSource'>Source: " +
+          msa_feat.immiSource +
+          "</div>"+
     "<a href='https://map.americanimmigrationcouncil.org/city/" +
     msa_feat.msaName
       .toLowerCase()
