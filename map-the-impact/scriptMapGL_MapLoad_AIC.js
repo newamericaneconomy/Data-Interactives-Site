@@ -172,7 +172,7 @@ var projection = d3.geoAlbersUsa().translate([0, 0]).scale(57);
 // var stateData = d3.csv("https://immcouncil-data.s3.us-east-2.amazonaws.com/MapTheImpact/stateData_2023.csv");
 var stateData = d3.csv("acs_data/stateData_2023.csv");
 var countyData = d3.csv("acs_data/County_Data_2018.csv");
-var districtData = d3.csv("acs_data/CD_data2024_119Cong"); //"https://aic-data-interactives.s3.us-east-2.amazonaws.com/map_the_impact/MTI_congDist119_2024_MapDataFinal.csv"
+var districtData = d3.csv("acs_data/CD_data2024_119Cong.csv"); //"https://aic-data-interactives.s3.us-east-2.amazonaws.com/map_the_impact/MTI_congDist119_2024_MapDataFinal.csv"
 var msaData = d3.csv("acs_data/msaData_2023.csv");
 var centers = d3.csv("acs_data/Congressional_Centers.csv");
 var nationDataLoad;
