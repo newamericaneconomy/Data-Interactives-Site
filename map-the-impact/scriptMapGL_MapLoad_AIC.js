@@ -2282,7 +2282,7 @@ function districtMap(data) {
           immCDTaxes: row["Immigrant Taxes Paid"],
           immCDSpend: row["Immigrant Spending Power"],
           immCDEntr: row["Immigrant Entrepreneurs"],
-          immCDVote: row["Eligible Immigrant Voters"],
+          immCDVote: row["Immigrants eligible to vote"],
           immCDWork: row["Foreign-Born, 25-64"],
          immCDSource: row["Source"],
          immCDNote: row["District_Note"]
@@ -2404,6 +2404,7 @@ function districtMap(data) {
     });
 
     var longLat = null;
+    console.log(district_feat.immCDVote)
 
     map.on("click", "district-fills", function (e) {
       district_feat = e.features[0].state;
