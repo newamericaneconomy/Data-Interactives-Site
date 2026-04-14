@@ -2410,6 +2410,8 @@ function districtMap(data) {
       district_feat = e.features[0].state;
       // state_prop = state_feat.properties;
 
+      console.log(district_feat.immCDVote)
+
       sidebarSummary.innerHTML =
         "<div class='mti_tooltip_text_cont'>" +
         "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
