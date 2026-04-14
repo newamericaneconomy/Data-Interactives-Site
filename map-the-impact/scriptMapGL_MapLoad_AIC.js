@@ -2404,7 +2404,7 @@ function districtMap(data) {
     });
 
     var longLat = null;
-    console.log(district_feat.immCDVote)
+
 
     map.on("click", "district-fills", function (e) {
       district_feat = e.features[0].state;
