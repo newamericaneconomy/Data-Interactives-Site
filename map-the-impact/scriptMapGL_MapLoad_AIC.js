@@ -172,7 +172,7 @@ var projection = d3.geoAlbersUsa().translate([0, 0]).scale(57);
 // var stateData = d3.csv("https://immcouncil-data.s3.us-east-2.amazonaws.com/MapTheImpact/stateData_2023.csv");
 var stateData = d3.csv("acs_data/stateData_2023.csv");
 var countyData = d3.csv("acs_data/County_Data_2018.csv");
-var districtData = d3.csv("acs_data/districtData_2017.csv");
+var districtData = d3.csv("https://aic-data-interactives.s3.us-east-2.amazonaws.com/map_the_impact/MTI_congDist119_2024_MapDataFinal.csv"); //"https://aic-data-interactives.s3.us-east-2.amazonaws.com/map_the_impact/MTI_congDist119_2024_MapDataFinal.csv"
 var msaData = d3.csv("acs_data/msaData_2023.csv");
 var centers = d3.csv("acs_data/Congressional_Centers.csv");
 var nationDataLoad;
@@ -2236,7 +2236,7 @@ function districtMap(data) {
 
   map = new mapboxgl.Map({
     container: "map",
-    style: "mapbox://styles/nae/ckienwrzj3cfz1ep7gnc9fzt3",
+    style: "mapbox://styles/nae/cmm0skx2d000l01s6cw0haufp", //mapbox://styles/nae/cmm0skx2d000l01s6cw0haufp
     zoom: 2.65 * Math.log10(window.innerWidth / 50),
     center: [9.5, 0],
     maxZoom: 9,
@@ -2252,7 +2252,7 @@ function districtMap(data) {
   if (window.innerWidth < 550) {
     map = new mapboxgl.Map({
       container: "map",
-      style: "mapbox://styles/nae/ckienwrzj3cfz1ep7gnc9fzt3",
+      style: "mapbox://styles/nae/cmm0skx2d000l01s6cw0haufp", //mapbox://styles/nae/cmm0skx2d000l01s6cw0haufp
       zoom: Math.log10(window.innerWidth / 50),
       center: [9.5, 0],
       maxZoom: 11,
@@ -2284,6 +2284,8 @@ function districtMap(data) {
           immCDEntr: row["Immigrant Entrepreneurs"],
           immCDVote: row["Eligible Immigrant Voters"],
           immCDWork: row["Foreign-Born, 25-64"],
+         immCDSource: row["Source"],
+         immCDNote: row["District_Note"]
         }
       );
     });
@@ -2440,9 +2442,10 @@ function districtMap(data) {
         numberWithCommas(district_feat.immCDVote) +
         "</div>" +
         "</div>" +
-        "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
-        // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
-        // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
+        // "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
+        "<div class='source-line'>Source: "+district_feat.immCDSource+"</div>"+
+        "<div class='source-line'>" + district_feat.immCDNote + "</div>"+
+
         "<a href='https://www.newamericaneconomy.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
@@ -3285,9 +3288,9 @@ function districtGetLatLon(e) {
     numberWithCommas(district_feat.immCDVote) +
     "</div>" +
     "</div>" +
-    "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
-    // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
-    // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
+    // "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
+        "<div class='source-line'>Source: "+district_feat.immCDSource+"</div>"+
+        "<div class='source-line'>" + district_feat.immCDNote + "</div>"+
     "<a href='https://www.newamericaneconomy.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
