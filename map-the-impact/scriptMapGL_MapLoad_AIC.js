@@ -2410,11 +2410,11 @@ function districtMap(data) {
       district_feat = e.features[0].state;
       // state_prop = state_feat.properties;
 
-      console.log(district_feat.immCDVote)
+ 
 
       sidebarSummary.innerHTML =
         "<div class='mti_tooltip_text_cont'>" +
-        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+        "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         district_feat.districtName +
@@ -2449,7 +2449,7 @@ function districtMap(data) {
         "<div class='source-line'>Source: "+district_feat.immCDSource+"</div>"+
         "<div class='source-line'>" + district_feat.immCDNote + "</div>"+
 
-        "<a href='https://www.newamericaneconomy.org/locations/" +
+        "<a href='https://map.americanimmigrationcouncil.org/locations/" +
         district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
         "/'>" +
         "<div class='see_more_button'>More " +
@@ -3260,7 +3260,7 @@ function districtGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     district_feat.districtName +
@@ -3294,7 +3294,7 @@ function districtGetLatLon(e) {
     // "<div class='source-line'>Source: 5-year 2017 American Community Survey</div>" +
         "<div class='source-line'>Source: "+district_feat.immCDSource+"</div>"+
         "<div class='source-line'>" + district_feat.immCDNote + "</div>"+
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
@@ -3602,7 +3602,7 @@ function districtGetLatLon(e) {
 
   sidebarSummary.innerHTML =
     "<div class='mti_tooltip_text_cont'>" +
-    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://www.newamericaneconomy.org/locations/" +
+    "<h1 class='mti_tooltip_hed'><a class='titleLink' href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     district_feat.districtName +
@@ -3638,7 +3638,7 @@ function districtGetLatLon(e) {
     "</div>" +
     // "<div class='grid_stat_descr stat1'>Share of Foreign Born Pop. Working Age (16 - 64):</div>" +
     // "<div class='grid_stat stat1'>" + district_feat.immCDWork.replace("*","") + "<br>‍</div></div>" +
-    "<a href='https://www.newamericaneconomy.org/locations/" +
+    "<a href='https://map.americanimmigrationcouncil.org/locations/" +
     district_feat.districtName.toLowerCase().replace(/\s+/g, "-") +
     "/'>" +
     "<div class='see_more_button'>More " +
