@@ -1,4 +1,4 @@
-mapboxgl.accessToken = 'pk.eyJ1IjoibmFlIiwiYSI6ImNpemV0cDY4YTAwMXoyd3FraWhkcXRnMTIifQ.IZeLcFQVdkGbEwQYnOb5qQ'
+mapboxgl.accessToken = 'pk.eyJ1IjoibmFlIiwiYSI6ImNtcGNyY2JtbjAzc2Uyc3B2eXVob3UyczYifQ._MhZb1_Lo0wwph5O9Ye48g'
 
 
 
